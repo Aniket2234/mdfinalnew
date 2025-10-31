@@ -743,8 +743,15 @@ document.addEventListener('DOMContentLoaded', function() {
                 <span class="sub-title-two" style="background: #e5bd3a; color: #fff; padding: 10px 30px; border-radius: 50px; display: inline-block; font-weight: 600; font-size: 14px; letter-spacing: 1px;">Why Choose Malay Damania</span>
             </div>
             <h2 style="font-size: 32px; margin-bottom: 0;">
-                <span style="color: #e5bd3a;">Empowering Entrepreneurs</span> To <span style="color: #00796b;">Transform Businesses</span><br>& <span style="color: #000;">Scale New Heights</span>
+                <span style="color: #e5bd3a; position: relative;">Empowering Entrepreneurs</span> To <span style="color: #00796b; position: relative;">Transform Businesses</span><br>& <span style="color: #000; position: relative;">Scale New Heights</span>
             </h2>
+            <style>
+                .section-title h2 span::before,
+                .section-title h2 span::after {
+                    display: none !important;
+                    content: none !important;
+                }
+            </style>
         </div>
         <div class="row justify-content-center mb-40" style="align-items: stretch;">
             <div class="col-lg-3 col-sm-6 mb-3" style="display: flex;">
@@ -831,8 +838,8 @@ document.addEventListener('DOMContentLoaded', function() {
         <div class="row align-items-center">
             <div class="col-lg-6" style="padding: 0 30px;">
                 <div class="growth-content">
-                    <span style="background: #e5bd3a; color: #2c3e50; padding: 8px 24px; border-radius: 50px; display: inline-block; font-weight: 600; font-size: 13px; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 20px;">Why Choose Malay Damania</span>
-                    <h2 style="font-size: 34px; font-weight: 700; line-height: 1.3; color: #2c3e50; margin-bottom: 20px;">Comprehensive Business Growth Programs & Solutions</h2>
+                    <span style="background: #e5bd3a; color: #fff; padding: 8px 24px; border-radius: 50px; display: inline-block; font-weight: 600; font-size: 13px; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 20px;">Why Choose Malay Damania</span>
+                    <h2 style="font-size: 34px; font-weight: 700; line-height: 1.3; color: #000; margin-bottom: 20px;">Comprehensive Business Growth Programs & Solutions</h2>
                     <p style="font-size: 16px; line-height: 1.7; color: #666; margin-bottom: 30px;">Unlock your business potential with proven frameworks, expert coaching, and actionable insights. Malay Damania's holistic approach combines finance, strategy, and team building to help business owners transition from working in their business to working on their business through structured coaching and practical tools.</p>
                     
                     <div class="row mb-4">
@@ -840,7 +847,7 @@ document.addEventListener('DOMContentLoaded', function() {
                             <div style="display: flex; align-items: start;">
                                 <i class="fas fa-users" style="font-size: 24px; color: #00796b; margin-right: 12px; margin-top: 4px;"></i>
                                 <div>
-                                    <h5 style="font-size: 16px; font-weight: 700; color: #2c3e50; margin-bottom: 5px;">Specialized Programs</h5>
+                                    <h5 style="font-size: 16px; font-weight: 700; color: #000; margin-bottom: 5px;">Specialized Programs</h5>
                                     <p style="font-size: 14px; color: #666; margin: 0;">CA Scale-Up Program, Finance for Non-Finance, Business Mastery Program - tailored solutions for diverse business needs</p>
                                 </div>
                             </div>
@@ -849,7 +856,7 @@ document.addEventListener('DOMContentLoaded', function() {
                             <div style="display: flex; align-items: start;">
                                 <i class="fas fa-utensils" style="font-size: 24px; color: #00796b; margin-right: 12px; margin-top: 4px;"></i>
                                 <div>
-                                    <h5 style="font-size: 16px; font-weight: 700; color: #2c3e50; margin-bottom: 5px;">Restaurant Expertise</h5>
+                                    <h5 style="font-size: 16px; font-weight: 700; color: #000; margin-bottom: 5px;">Restaurant Expertise</h5>
                                     <p style="font-size: 14px; color: #666; margin: 0;">Specialized restaurant courses from menu strategy (₹127) to complete growth framework (₹1,799) for hospitality businesses</p>
                                 </div>
                             </div>
@@ -857,9 +864,21 @@ document.addEventListener('DOMContentLoaded', function() {
                     </div>
                     
                     <div style="display: flex; gap: 15px; flex-wrap: wrap;">
-                        <a href="course-grid.html" style="background: #00796b; color: #fff; padding: 12px 30px; border-radius: 50px; text-decoration: none; font-weight: 600; font-size: 14px; display: inline-block; transition: all 0.3s; text-transform: uppercase;">VIEW PROGRAMS →</a>
-                        <a href="course-details5.html" style="color: #00796b; padding: 12px 30px; border: 2px solid #00796b; border-radius: 50px; text-decoration: none; font-weight: 600; font-size: 14px; display: inline-block; transition: all 0.3s; text-transform: uppercase;">RESTAURANT COURSES →</a>
+                        <a href="course-grid.html" class="growth-btn-primary" style="background: #00796b; color: #fff; padding: 12px 30px; border-radius: 50px; text-decoration: none; font-weight: 600; font-size: 14px; display: inline-block; transition: all 0.3s; text-transform: uppercase;">VIEW PROGRAMS →</a>
+                        <a href="course-details5.html" class="growth-btn-secondary" style="color: #00796b; background: #fff; padding: 12px 30px; border: 2px solid #00796b; border-radius: 50px; text-decoration: none; font-weight: 600; font-size: 14px; display: inline-block; transition: all 0.3s; text-transform: uppercase;">RESTAURANT COURSES →</a>
                     </div>
+                    
+                    <style>
+                        .growth-btn-primary:hover {
+                            background: #e5bd3a !important;
+                            color: #fff !important;
+                        }
+                        .growth-btn-secondary:hover {
+                            background: #e5bd3a !important;
+                            color: #fff !important;
+                            border-color: #e5bd3a !important;
+                        }
+                    </style>
                 </div>
             </div>
             <div class="col-lg-6" style="padding: 0 30px;">
