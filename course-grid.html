@@ -160,13 +160,13 @@
             <div class="container" style="max-width: 1400px; margin: 0 auto;">
                 
                 <!-- Page Title -->
-                <div style="text-align: center; margin-bottom: 40px;">
-                    <h1 style="font-size: 2.5rem; font-weight: 700; color: #111; margin-bottom: 10px; font-family: 'Oswald', sans-serif;">What I Offer</h1>
-                    <p style="font-size: 1.1rem; color: #666;">Transform your business with proven coaching programs</p>
+                <div class="wow fadeInUp" data-wow-delay="0.2s" style="text-align: center; margin-bottom: 40px;">
+                    <h1 style="font-size: 2rem; font-weight: 800; color: #00796b; margin-bottom: 15px; font-family: 'Oswald', sans-serif; text-transform: uppercase; letter-spacing: 1px;">EMPOWER YOUR BUSINESS JOURNEY</h1>
+                    <p style="font-size: 1.15rem; color: #555; font-family: 'Mulish', sans-serif; line-height: 1.6;">Discover courses designed to help you scale, lead, and succeed in today's competitive market</p>
                 </div>
 
                 <!-- Search Bar -->
-                <div style="max-width: 600px; margin: 0 auto 50px; position: relative;">
+                <div class="wow fadeInUp" data-wow-delay="0.3s" style="max-width: 900px; margin: 0 auto 50px; position: relative;">
                     <input type="text" id="searchInput" placeholder="Search courses by name or category..."
                         style="width: 100%; padding: 18px 55px 18px 25px; border-radius: 50px; border: 2px solid #e0e0e0; background: #fff; font-size: 16px; color: #333; transition: all 0.3s ease; outline: none; box-shadow: 0 4px 15px rgba(0,0,0,0.08);"
                         onfocus="this.style.borderColor='#00796b'; this.style.boxShadow='0 4px 20px rgba(0,121,107,0.2)';"
@@ -175,7 +175,7 @@
                 </div>
 
                 <!-- Course Count and View Toggle -->
-                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 30px; flex-wrap: wrap; gap: 15px;">
+                <div class="wow fadeInUp" data-wow-delay="0.4s" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 30px; flex-wrap: wrap; gap: 15px;">
                     <div style="font-size: 1.1rem; color: #555;">
                         Showing <strong id="courseCount" style="color: #00796b;">0</strong> Courses
                     </div>
@@ -215,16 +215,18 @@
 
             function renderCourses(data) {
                 container.innerHTML = "";
+                let delay = 0.5;
                 data.forEach(c => {
                     const starDisplay = "★".repeat(Math.floor(c.rating)) + (c.rating % 1 >= 0.5 ? "☆" : "");
                     const card = document.createElement("div");
-                    card.className = "course-card";
+                    card.className = "course-card wow fadeInUp";
+                    card.setAttribute('data-wow-delay', delay + 's');
                     card.innerHTML = `
                         <div style="background: #fff; border-radius: 16px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.08); transition: all 0.3s ease; height: 100%; display: flex; flex-direction: column;"
                             onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 8px 30px rgba(0,121,107,0.15)';"
                             onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 20px rgba(0,0,0,0.08)';">
                             
-                            <div style="position: relative; overflow: hidden; height: 220px;">
+                            <div style="position: relative; overflow: hidden; height: 300px;">
                                 <img src="${c.img}" alt="${c.title}" 
                                     style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;"
                                     onmouseover="this.style.transform='scale(1.1)';"
@@ -244,14 +246,8 @@
                                 
                                 <p style="font-size: 0.95rem; color: #666; line-height: 1.6; margin-bottom: 20px; flex: 1;">${c.desc}</p>
                                 
-                                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; padding-top: 15px; border-top: 1px solid #e8e8e8;">
-                                    <div>
-                                        <div style="font-size: 1.65rem; font-weight: 800; color: #00796b;">₹${c.price.toLocaleString()}</div>
-                                    </div>
-                                    <div style="text-align: right;">
-                                        <div style="font-size: 0.85rem; color: #999; margin-bottom: 3px;">Reviews</div>
-                                        <div style="font-size: 1rem; font-weight: 700; color: #555;">${c.reviews}</div>
-                                    </div>
+                                <div style="margin-bottom: 20px;">
+                                    <div style="font-size: 1.8rem; font-weight: 800; color: #00796b;">₹${c.price.toLocaleString()}</div>
                                 </div>
                                 
                                 <a href="${c.link}" 
@@ -264,8 +260,14 @@
                         </div>
                     `;
                     container.appendChild(card);
+                    delay += 0.1;
                 });
                 countDisplay.textContent = data.length;
+                
+                // Reinitialize WOW.js for dynamically added elements
+                if (typeof WOW !== 'undefined') {
+                    new WOW().init();
+                }
             }
 
             function filterCourses() {
@@ -339,11 +341,31 @@
             }
 
             @media (max-width: 480px) {
-                h1[style*="font-size: 2.5rem"] {
-                    font-size: 1.75rem !important;
+                h1[style*="font-size: 2rem"] {
+                    font-size: 1.5rem !important;
+                }
+                
+                div[style*="height: 300px"] {
+                    height: 220px !important;
                 }
             }
         </style>
+        
+        <!-- Initialize WOW.js for animations -->
+        <script>
+            // WOW.js is already loaded from the main script files
+            document.addEventListener('DOMContentLoaded', function() {
+                if (typeof WOW !== 'undefined') {
+                    new WOW({
+                        boxClass: 'wow',
+                        animateClass: 'animated',
+                        offset: 0,
+                        mobile: true,
+                        live: true
+                    }).init();
+                }
+            });
+        </script>
 
 <!-- Footer Area Start -->
 <footer class="main-footer bg-blue text-white" style="padding: 30px 0 0;">
