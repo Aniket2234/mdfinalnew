@@ -677,7 +677,7 @@
     <div class="slide-inner">
       <div class="slide-text">
         <span class="sub-title">Business Coaching & Mentorship for CA's</span>
-        <h1>Struggling to Grow Beyond Compliance?</h1>
+        <h1>Struggling to <span style="color: #d4a029;">Grow Beyond</span> Compliance?</h1>
         <p>Learn how to build, lead & scale your business for consistent growth and leadership success.</p>
         <a href="course-grid.html" class="theme-btn">
           Start Your Growth Journey
@@ -691,7 +691,7 @@
     <div class="slide-inner">
       <div class="slide-text">
         <span class="sub-title">Coaching & Mentorship for Entrepreneurs</span>
-        <h1>Your Business Has Potential. But No Plan?</h1>
+        <h1>Your <span style="color: #d4a029;">Business</span> Has <span style="color: #d4a029;">Potential.</span> But No Plan?</h1>
         <p>Turn your vision into scalable growth with proven frameworks and hands-on mentorship.</p>
         <a href="about.html" class="theme-btn">
           Start Your Growth Journey
@@ -766,10 +766,10 @@
 }
 
 .sub-title {
-  background: #fff;
-  color: #d4a029;
+  background: #d4a029;
+  color: #fff;
   padding: 8px 20px;
-  border-radius: 25px;
+  border-radius: 50px;
   font-weight: 600;
   font-size: 14px;
   display: inline-block;
@@ -873,7 +873,20 @@
   transition: all 0.3s ease;
 }
 
-.slider-dots .dot.active {
+.slider-dots .dot:first-child {
+  background: #d4a029;
+}
+
+.slider-dots .dot:first-child.active {
+  background: #d4a029;
+  width: 40px;
+}
+
+.slider-dots .dot:last-child {
+  background: rgba(0, 121, 107, 0.7);
+}
+
+.slider-dots .dot:last-child.active {
   background: #00796b;
   width: 40px;
 }
