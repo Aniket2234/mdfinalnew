@@ -1177,14 +1177,14 @@
           </div>
         </div>
 
-        <div style="background:#fff; border-radius:10px; padding:12px 15px; display:flex; align-items:center; gap:12px; box-shadow:0 2px 8px rgba(229,189,58,0.12); border-left:3px solid #e5bd3a; transition:all 0.3s ease; cursor:pointer;"
-             onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 4px 12px rgba(229,189,58,0.25)';"
-             onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 8px rgba(229,189,58,0.12)';">
-          <div style="background-color:#e5bd3a; color:#fff; padding:10px; border-radius:8px; font-size:18px;">
+        <div style="background:#fff; border-radius:10px; padding:12px 15px; display:flex; align-items:center; gap:12px; box-shadow:0 2px 8px rgba(0,121,107,0.12); border-left:3px solid #00796b; transition:all 0.3s ease; cursor:pointer;"
+             onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 4px 12px rgba(0,121,107,0.25)';"
+             onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 8px rgba(0,121,107,0.12)';">
+          <div style="background-color:#00796b; color:#fff; padding:10px; border-radius:8px; font-size:18px;">
             <i class="fas fa-feather-alt"></i>
           </div>
           <div>
-            <h4 style="font-size:15px; font-weight:700; color:#e5bd3a; margin:0 0 4px 0;">Author & Podcast Host</h4>
+            <h4 style="font-size:15px; font-weight:700; color:#00796b; margin:0 0 4px 0;">Author & Podcast Host</h4>
             <p style="font-size:13px; color:#666; margin:0;">Creator of “Business Champ” and host of “Business Veda.”</p>
           </div>
         </div>
@@ -1201,14 +1201,14 @@
           </div>
         </div>
 
-        <div style="background:#fff; border-radius:10px; padding:12px 15px; display:flex; align-items:center; gap:12px; box-shadow:0 2px 8px rgba(229,189,58,0.12); border-left:3px solid #e5bd3a; transition:all 0.3s ease; cursor:pointer;"
-             onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 4px 12px rgba(229,189,58,0.25)';"
-             onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 8px rgba(229,189,58,0.12)';">
-          <div style="background-color:#e5bd3a; color:#fff; padding:10px; border-radius:8px; font-size:18px;">
+        <div style="background:#fff; border-radius:10px; padding:12px 15px; display:flex; align-items:center; gap:12px; box-shadow:0 2px 8px rgba(0,121,107,0.12); border-left:3px solid #00796b; transition:all 0.3s ease; cursor:pointer;"
+             onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 4px 12px rgba(0,121,107,0.25)';"
+             onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 8px rgba(0,121,107,0.12)';">
+          <div style="background-color:#00796b; color:#fff; padding:10px; border-radius:8px; font-size:18px;">
             <i class="fas fa-users"></i>
           </div>
           <div>
-            <h4 style="font-size:15px; font-weight:700; color:#e5bd3a; margin:0 0 4px 0;">Leadership Team</h4>
+            <h4 style="font-size:15px; font-weight:700; color:#00796b; margin:0 0 4px 0;">Leadership Team</h4>
             <p style="font-size:13px; color:#666; margin:0;">Backed by a 70+ member team driving growth across industries.</p>
           </div>
         </div>
@@ -1918,9 +1918,11 @@
     <!-- Heading -->
     <div class="row" style="display:flex; justify-content:center; margin-bottom:40px;">
       <div class="col" style="text-align:center;">
-        <h2 style="font-size:40px; font-weight:700; color:#111; margin-bottom:20px; font-family:'Mulish', sans-serif;">What Are Our Offerings</h2>
-        <p style="font-size:18px; color:#333; font-weight:500;">
-          Empowering Entrepreneurs to Transform Businesses & Scale New Heights With Proven Courses Like -
+        <h2 style="font-size:36px; line-height:1.3; font-weight:700; color:#111; margin-bottom:15px;">
+          <span style="color:#e5bd3a;">What Are Our</span> <span style="color:#00796b;">Offerings</span>
+        </h2>
+        <p style="font-size:18px; color:#444; line-height:1.6; margin-bottom:30px;">
+          Empowering <strong style="color:#00796b;">Entrepreneurs</strong> to Transform <strong style="color:#e5bd3a;">Businesses</strong> & Scale New Heights With Proven Courses Like -
         </p>
       </div>
     </div>
@@ -1947,29 +1949,23 @@
       }
 
       /* Button Effects */
-      .btn-outline, .btn-fill {
-        padding: 8px 16px;
+      .btn-outline {
+        padding: 12px 60px;
         border-radius: 8px;
         font-weight: 600;
         text-decoration: none;
         transition: all 0.3s ease;
-      }
-      .btn-outline {
-        border: 2px solid #00796b;
-        color: #00796b;
+        background: #00796b;
+        color: #fff;
+        border: none;
+        display: inline-block;
+        width: 100%;
+        text-align: center;
       }
       .btn-outline:hover {
-        background: #00796b;
+        background: #e5bd3a;
         color: #fff;
-        box-shadow: 0 0 8px rgba(0,121,107,0.6);
-      }
-      .btn-fill {
-        background: #00796b;
-        color: #fff;
-      }
-      .btn-fill:hover {
-        background: #00695c;
-        box-shadow: 0 0 10px rgba(0,121,107,0.6);
+        box-shadow: 0 0 10px rgba(229,189,58,0.6);
       }
     </style>
 
@@ -1988,13 +1984,12 @@
         <div style="padding:20px;">
           <h3 style="font-size:20px; font-weight:700; color:#222; margin-bottom:8px;">Business Coaching</h3>
           <p style="font-size:15px; color:#555; margin-bottom:15px;">Unlock your business potential with proven frameworks & expert guidance.</p>
-          <ul style="list-style:none; padding:0; margin:0 0 20px 0; display:flex; justify-content:space-between; color:#00796b; font-size:14px;">
+          <ul style="list-style:none; padding:0; margin:0 0 20px 0; display:flex; justify-content:center; color:#00796b; font-size:14px;">
             <li><i class="far fa-file-alt"></i> Actionable Insights</li>
             <li><i class="far fa-user"></i> Entrepreneurs</li>
           </ul>
-          <div style="display:flex; justify-content:space-between;">
+          <div style="display:flex; justify-content:center;">
             <a href="course-grid.html" class="btn-outline">Know More</a>
-            <a href="course-grid.html" class="btn-fill">Register Now →</a>
           </div>
         </div>
       </div>
@@ -2011,13 +2006,12 @@
         <div style="padding:20px;">
           <h3 style="font-size:20px; font-weight:700; color:#222; margin-bottom:8px;">CA Scale-Up Program</h3>
           <p style="font-size:15px; color:#555; margin-bottom:15px;">Designed for Chartered Accountants & Company Secretaries to scale their practice.</p>
-          <ul style="list-style:none; padding:0; margin:0 0 20px 0; display:flex; justify-content:space-between; color:#00796b; font-size:14px;">
+          <ul style="list-style:none; padding:0; margin:0 0 20px 0; display:flex; justify-content:center; color:#00796b; font-size:14px;">
             <li><i class="far fa-file-alt"></i> Growth Frameworks</li>
             <li><i class="far fa-user"></i> CAs & CSs</li>
           </ul>
-          <div style="display:flex; justify-content:space-between;">
+          <div style="display:flex; justify-content:center;">
             <a href="course-grid.html" class="btn-outline">Know More</a>
-            <a href="course-grid.html" class="btn-fill">Register Now →</a>
           </div>
         </div>
       </div>
@@ -2034,13 +2028,12 @@
         <div style="padding:20px;">
           <h3 style="font-size:20px; font-weight:700; color:#222; margin-bottom:8px;">Finance for Non-Finance</h3>
           <p style="font-size:15px; color:#555; margin-bottom:15px;">Simplified financial literacy program for entrepreneurs without finance background.</p>
-          <ul style="list-style:none; padding:0; margin:0 0 20px 0; display:flex; justify-content:space-between; color:#00796b; font-size:14px;">
+          <ul style="list-style:none; padding:0; margin:0 0 20px 0; display:flex; justify-content:center; color:#00796b; font-size:14px;">
             <li><i class="far fa-file-alt"></i> Hands-on Templates</li>
             <li><i class="far fa-user"></i> Entrepreneurs</li>
           </ul>
-          <div style="display:flex; justify-content:space-between;">
+          <div style="display:flex; justify-content:center;">
             <a href="course-grid.html" class="btn-outline">Know More</a>
-            <a href="course-grid.html" class="btn-fill">Register Now →</a>
           </div>
         </div>
       </div>
@@ -2057,13 +2050,12 @@
         <div style="padding:20px;">
           <h3 style="font-size:20px; font-weight:700; color:#222; margin-bottom:8px;">Business Mastery</h3>
           <p style="font-size:15px; color:#555; margin-bottom:15px;">Complete business audit & growth strategies for SMEs facing stagnation.</p>
-          <ul style="list-style:none; padding:0; margin:0 0 20px 0; display:flex; justify-content:space-between; color:#00796b; font-size:14px;">
+          <ul style="list-style:none; padding:0; margin:0 0 20px 0; display:flex; justify-content:center; color:#00796b; font-size:14px;">
             <li><i class="far fa-file-alt"></i> Audit + Systems</li>
             <li><i class="far fa-user"></i> SME Owners</li>
           </ul>
-          <div style="display:flex; justify-content:space-between;">
+          <div style="display:flex; justify-content:center;">
             <a href="course-grid.html" class="btn-outline">Know More</a>
-            <a href="course-grid.html" class="btn-fill">Register Now →</a>
           </div>
         </div>
       </div>
@@ -2072,21 +2064,20 @@
       <div class="card" style="width:340px; background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 4px 15px rgba(0,0,0,0.1);">
         <div style="position:relative;">
           <img src="assets/images/coachs/coach5.jpg" alt="Coach" style="width:100%; height:200px; object-fit:cover;">
-          <div class="rating" style="position:absolute; top:10px; right:10px; background:rgba(0,0,0,0.7); padding:8px 12px; border-radius:8px; text-align:center;">
-            <div style="color:#FFD700; font-size:18px; margin-bottom:4px;">★★★★★</div>
-            <div style="color:#fff; font-size:14px; font-weight:600;"><i class="fas fa-eye"></i> 1000+</div>
+          <div class="rating" style="position:absolute; top:10px; right:10px; background:rgba(0,0,0,0.7); padding:6px 10px; border-radius:8px; text-align:center;">
+            <div style="color:#FFD700; font-size:14px; margin-bottom:4px;">★★★★★</div>
+            <div style="color:#fff; font-size:12px; font-weight:600;"><i class="fas fa-eye"></i> 1000+</div>
           </div>
         </div>
         <div style="padding:20px;">
           <h3 style="font-size:20px; font-weight:700; color:#222; margin-bottom:8px;">Restaurant Business</h3>
           <p style="font-size:15px; color:#555; margin-bottom:15px;">Specialized Restaurant Courses: Menu Design & Growth Strategies.</p>
-          <ul style="list-style:none; padding:0; margin:0 0 20px 0; display:flex; justify-content:space-between; color:#00796b; font-size:14px;">
+          <ul style="list-style:none; padding:0; margin:0 0 20px 0; display:flex; justify-content:center; color:#00796b; font-size:14px;">
             <li><i class="far fa-file-alt"></i> Menu & Growth</li>
             <li><i class="far fa-user"></i> Restaurant Owners</li>
           </ul>
-          <div style="display:flex; justify-content:space-between;">
+          <div style="display:flex; justify-content:center;">
             <a href="course-grid.html" class="btn-outline">Know More</a>
-            <a href="course-grid.html" class="btn-fill">Register Now →</a>
           </div>
         </div>
       </div>
@@ -2095,21 +2086,20 @@
       <div class="card" style="width:340px; background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 4px 15px rgba(0,0,0,0.1);">
         <div style="position:relative;">
           <img src="assets/images/coachs/coach6.jpg" alt="Coach" style="width:100%; height:200px; object-fit:cover;">
-          <div class="rating" style="position:absolute; top:10px; right:10px; background:rgba(0,0,0,0.7); padding:8px 12px; border-radius:8px; text-align:center;">
-            <div style="color:#FFD700; font-size:18px; margin-bottom:4px;">★★★★★</div>
-            <div style="color:#fff; font-size:14px; font-weight:600;"><i class="fas fa-eye"></i> 1000+</div>
+          <div class="rating" style="position:absolute; top:10px; right:10px; background:rgba(0,0,0,0.7); padding:6px 10px; border-radius:8px; text-align:center;">
+            <div style="color:#FFD700; font-size:14px; margin-bottom:4px;">★★★★★</div>
+            <div style="color:#fff; font-size:12px; font-weight:600;"><i class="fas fa-eye"></i> 1000+</div>
           </div>
         </div>
         <div style="padding:20px;">
           <h3 style="font-size:20px; font-weight:700; color:#222; margin-bottom:8px;">Book & Podcast</h3>
           <p style="font-size:15px; color:#555; margin-bottom:15px;">Learn from Malay’s bestselling book “Business Champ” & Business Veda Podcast.</p>
-          <ul style="list-style:none; padding:0; margin:0 0 20px 0; display:flex; justify-content:space-between; color:#00796b; font-size:14px;">
+          <ul style="list-style:none; padding:0; margin:0 0 20px 0; display:flex; justify-content:center; color:#00796b; font-size:14px;">
             <li><i class="far fa-file-alt"></i> Book & Podcast</li>
             <li><i class="far fa-user"></i> Entrepreneurs</li>
           </ul>
-          <div style="display:flex; justify-content:space-between;">
+          <div style="display:flex; justify-content:center;">
             <a href="course-grid.html" class="btn-outline">Know More</a>
-            <a href="course-grid.html" class="btn-fill">Register Now →</a>
           </div>
         </div>
       </div>
@@ -2624,15 +2614,15 @@
             <div class="col-lg-12">
                 <div class="engagement-content rel z-2 pb-115 rpb-85 wow fadeInRight delay-0-2s">
                     <div class="section-title mb-15 text-center">
-                        <span class="sub-title mb-25">OUR ENGAGEMENT MODELS</span>
-                        <h2 style="font-size: 3em; font-weight: 800; color: #1a1a1a; margin-bottom: 20px;">
-                            Solutions For Every Stage
+                        <span class="sub-title mb-25" style="color:#e5bd3a; font-weight:700;">OUR ENGAGEMENT MODELS</span>
+                        <h2 style="font-size:36px; line-height:1.3; font-weight:700; color:#111; margin-bottom:15px;">
+                            <span style="color:#00796b;">Solutions For</span> <span style="color:#e5bd3a;">Every Stage</span>
                         </h2>
                     </div>
 
                     <div class="intro-text mb-40 text-center">
-                        <p>
-                            We understand that every business is unique and at different stages of growth.
+                        <p style="font-size:18px; color:#444; line-height:1.6;">
+                            We understand that every <strong style="color:#00796b;">business</strong> is unique and at different <strong style="color:#e5bd3a;">stages of growth</strong>.
                             Our tailored engagement models are designed to meet you exactly where you are
                             and take you where you want to be - from startup to scale-up and beyond.
                         </p>
@@ -2642,19 +2632,24 @@
                         <!-- Accordion Item 1 -->
                         <div class="accordion-item">
                             <div class="accordion-header">
-                                <a href="https://youtube.com" target="_blank" class="youtube-icon"
-                                    title="Watch on YouTube">
-                                    <i class="fab fa-youtube"></i>
-                                </a>
+                                <div class="element-icon" style="background:#00796b; color:#fff; width:40px; height:40px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:18px;">
+                                    <i class="fas fa-rocket"></i>
+                                </div>
                                 <span class="accordion-title">Pre-launch looking to launch</span>
                                 <div class="accordion-toggle"><i class="fas fa-plus"></i></div>
                             </div>
                             <div class="accordion-content">
                                 <div class="content-inner">
-                                    <p class="content-description">
-                                        You have an innovative idea and you're ready to turn it into a successful
-                                        business venture.
-                                    </p>
+                                    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:15px;">
+                                        <p class="content-description" style="margin:0; flex:1;">
+                                            You have an innovative idea and you're ready to turn it into a successful
+                                            business venture.
+                                        </p>
+                                        <a href="https://youtube.com" target="_blank" class="youtube-icon"
+                                            title="Watch on YouTube" style="margin-left:20px;">
+                                            <i class="fab fa-youtube"></i>
+                                        </a>
+                                    </div>
                                     <div class="services-title">Our Services for you:</div>
                                     <div class="engagement-features">
                                         <div class="feature-item">
@@ -2679,21 +2674,17 @@
                                 </div>
                             </div>
                         </div>
-
-                        <!-- Accordion Item 2 -->
-                        <div class="accordion-item">
-                            <div class="accordion-header">
-                                <a href="https://youtube.com" target="_blank" class="youtube-icon"
-                                    title="Watch on YouTube">
-                                    <i class="fab fa-youtube"></i>
-                                </a>
-                                <span class="accordion-title">Homegrown businesses looking to scale</span>
-                                <div class="accordion-toggle"><i class="fas fa-plus"></i></div>
                             </div>
                             <div class="accordion-content">
                                 <div class="content-inner">
                                     <p class="content-description">
                                         Your business is stable and the next growth phase needs business expansion.
+                                        </p>
+                                        <a href="https://youtube.com" target="_blank" class="youtube-icon"
+                                            title="Watch on YouTube" style="margin-left:20px;">
+                                            <i class="fab fa-youtube"></i>
+                                        </a>
+                                    </div>
                                     </p>
                                     <div class="services-title">Our Services for you:</div>
                                     <div class="engagement-features">
