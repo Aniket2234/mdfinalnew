@@ -2632,10 +2632,9 @@
                         <!-- Accordion Item 1: Pre-launch looking to launch -->
                         <div class="accordion-item">
                             <div class="accordion-header">
-                                <a href="https://youtube.com" target="_blank" class="youtube-icon"
-                                    title="Watch on YouTube">
-                                    <i class="fab fa-youtube"></i>
-                                </a>
+                                <div class="stage-icon">
+                                    <i class="fas fa-rocket"></i>
+                                </div>
                                 <span class="accordion-title">Pre-launch looking to launch</span>
                                 <div class="accordion-toggle"><i class="fas fa-plus"></i></div>
                             </div>
@@ -2679,10 +2678,9 @@
                         <!-- Accordion Item 2: Homegrown businesses looking to scale -->
                         <div class="accordion-item">
                             <div class="accordion-header">
-                                <a href="https://youtube.com" target="_blank" class="youtube-icon"
-                                    title="Watch on YouTube">
-                                    <i class="fab fa-youtube"></i>
-                                </a>
+                                <div class="stage-icon">
+                                    <i class="fas fa-seedling"></i>
+                                </div>
                                 <span class="accordion-title">Homegrown businesses looking to scale</span>
                                 <div class="accordion-toggle"><i class="fas fa-plus"></i></div>
                             </div>
@@ -2743,10 +2741,9 @@
                         <!-- Accordion Item 3: Funded startups with ready MVP geared to launch -->
                         <div class="accordion-item">
                             <div class="accordion-header">
-                                <a href="https://youtube.com" target="_blank" class="youtube-icon"
-                                    title="Watch on YouTube">
-                                    <i class="fab fa-youtube"></i>
-                                </a>
+                                <div class="stage-icon">
+                                    <i class="fas fa-coins"></i>
+                                </div>
                                 <span class="accordion-title">Funded startups with ready MVP geared to launch</span>
                                 <div class="accordion-toggle"><i class="fas fa-plus"></i></div>
                             </div>
@@ -2790,10 +2787,9 @@
                         <!-- Accordion Item 4: Growing & established businesses looking to increase Marketing ROI -->
                         <div class="accordion-item">
                             <div class="accordion-header">
-                                <a href="https://youtube.com" target="_blank" class="youtube-icon"
-                                    title="Watch on YouTube">
-                                    <i class="fab fa-youtube"></i>
-                                </a>
+                                <div class="stage-icon">
+                                    <i class="fas fa-chart-line"></i>
+                                </div>
                                 <span class="accordion-title">Growing & established businesses looking to increase Marketing ROI</span>
                                 <div class="accordion-toggle"><i class="fas fa-plus"></i></div>
                             </div>
@@ -2837,10 +2833,9 @@
                         <!-- Accordion Item 5: Businesses with multiple brands needing portfolio growth -->
                         <div class="accordion-item">
                             <div class="accordion-header">
-                                <a href="https://youtube.com" target="_blank" class="youtube-icon"
-                                    title="Watch on YouTube">
-                                    <i class="fab fa-youtube"></i>
-                                </a>
+                                <div class="stage-icon">
+                                    <i class="fas fa-sitemap"></i>
+                                </div>
                                 <span class="accordion-title">Businesses with multiple brands needing portfolio growth</span>
                                 <div class="accordion-toggle"><i class="fas fa-plus"></i></div>
                             </div>
@@ -2934,10 +2929,13 @@
         font-weight: 600;
     }
 
-    .accordion-header .youtube-icon {
-        color: #ff0000;
+    .accordion-header .stage-icon {
+        color: #00796b;
         margin-right: 12px;
         font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .youtube-icon-inside {
@@ -3004,7 +3002,7 @@
         const accordionHeaders = document.querySelectorAll('.accordion-header');
         accordionHeaders.forEach(header => {
             header.addEventListener('click', function (e) {
-                if (e.target.closest('.youtube-icon')) return;
+                if (e.target.closest('.youtube-icon-inside')) return;
                 const item = header.parentElement;
                 const open = item.classList.contains('active');
                 document.querySelectorAll('.accordion-item').forEach(i => i.classList.remove('active'));
