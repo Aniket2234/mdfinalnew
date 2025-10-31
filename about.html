@@ -565,7 +565,7 @@
 <section class="about-page-section" style="padding: 50px 0 40px; background: #fff;">
     <div class="container" style="max-width: 1200px;">
         <div class="text-center mb-3">
-            <span style="background: #e5bd3a; color: #2c3e50; padding: 12px 36px; border-radius: 50px; display: inline-block; font-weight: 700; font-size: 16px; letter-spacing: 1.5px; text-transform: uppercase;">About Malay Damania</span>
+            <span style="background: #e5bd3a; color: #fff; padding: 12px 36px; border-radius: 50px; display: inline-block; font-weight: 700; font-size: 16px; letter-spacing: 1.5px; text-transform: uppercase;">About Malay Damania</span>
         </div>
         
         <!-- Top Row: Text Left, Image Right -->
@@ -573,9 +573,11 @@
             <!-- Left Column: Text Content -->
             <div class="col-lg-6" style="padding: 0 30px;">
                 <div class="about-content">
-                    <h2 style="font-size: 32px; font-weight: 700; line-height: 1.25; color: #2c3e50; margin-bottom: 18px;">Transforming Businesses Through Strategic Coaching & Financial Expertise</h2>
-                    <p style="font-size: 15px; line-height: 1.65; color: #666; margin-bottom: 15px;">With over three decades as a Chartered Accountant and Business Transformation Coach, Malay Damania has empowered thousands of businesses from startups to established enterprises, helping them transition from working in their business to working on their business.</p>
-                    <p style="font-size: 15px; line-height: 1.65; color: #2c3e50; font-weight: 600; margin-bottom: 0;">Leading a team of 70+ professionals, Malay delivers practical, no-fluff business strategies with real implementation support across services, manufacturing, and hospitality industries.</p>
+                    <h2 style="font-size: 32px; font-weight: 700; line-height: 1.25; margin-bottom: 18px;">
+                        <span style="color: #e5bd3a;">Transforming Businesses</span> Through <span style="color: #00796b;">Strategic Coaching</span> & <span style="color: #000;">Financial Expertise</span>
+                    </h2>
+                    <p style="font-size: 15px; line-height: 1.65; color: #666; margin-bottom: 15px;">With over three decades as a <strong style="color: #00796b;">Chartered Accountant</strong> and <strong style="color: #e5bd3a;">Business Transformation Coach</strong>, Malay Damania has empowered thousands of businesses from startups to established enterprises, helping them transition from working <strong style="color: #000;">in their business</strong> to working <strong style="color: #000;">on their business</strong>.</p>
+                    <p style="font-size: 15px; line-height: 1.65; color: #000; font-weight: 600; margin-bottom: 0;">Leading a team of <strong style="color: #00796b;">70+ professionals</strong>, Malay delivers practical, no-fluff business strategies with real implementation support across <strong style="color: #e5bd3a;">services, manufacturing, and hospitality</strong> industries.</p>
                 </div>
             </div>
             
@@ -619,8 +621,8 @@
         <div class="row">
             <div class="col-12">
                 <div class="about-buttons" style="display: flex; gap: 18px; flex-wrap: wrap; justify-content: center; margin-top: 20px;">
-                    <a href="contact.html" style="background: #00796b; color: #fff; padding: 13px 35px; border-radius: 50px; text-decoration: none; font-weight: 600; font-size: 14px; display: inline-block; transition: all 0.3s; text-transform: uppercase;">LEARN MORE →</a>
-                    <a href="course-details7.html" style="color: #00796b; padding: 13px 35px; border: 2px solid #00796b; border-radius: 50px; text-decoration: none; font-weight: 600; font-size: 14px; display: inline-block; transition: all 0.3s; text-transform: uppercase;">BUSINESS VEDA PODCAST →</a>
+                    <a href="contact.html" class="btn-about-primary" style="background: #00796b; color: #fff; padding: 13px 35px; border-radius: 50px; text-decoration: none; font-weight: 600; font-size: 14px; display: inline-block; transition: all 0.3s; text-transform: uppercase;">LEARN MORE →</a>
+                    <a href="course-details7.html" class="btn-about-secondary" style="color: #00796b; padding: 13px 35px; border: 2px solid #00796b; border-radius: 50px; text-decoration: none; font-weight: 600; font-size: 14px; display: inline-block; transition: all 0.3s; text-transform: uppercase;">BUSINESS VEDA PODCAST →</a>
                 </div>
             </div>
         </div>
@@ -676,6 +678,22 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 
 <style>
+/* Button Hover Effects */
+.btn-about-primary:hover {
+    background: #e5bd3a !important;
+    color: #fff !important;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(229, 189, 58, 0.3);
+}
+
+.btn-about-secondary:hover {
+    background: #e5bd3a !important;
+    color: #fff !important;
+    border-color: #e5bd3a !important;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(229, 189, 58, 0.3);
+}
+
 @media (max-width: 991px) {
     .about-page-section .col-lg-6 {
         margin-bottom: 30px;
