@@ -1165,39 +1165,39 @@
           </div>
         </div>
 
-        <div style="background:#fff; border-radius:10px; padding:12px 15px; display:flex; align-items:center; gap:12px; box-shadow:0 2px 8px rgba(0,0,0,0.08); transition:all 0.3s ease; cursor:pointer;"
-             onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.15)';"
-             onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 8px rgba(0,0,0,0.08)';">
-          <div style="background-color:#00796b; color:#fff; padding:10px; border-radius:8px; font-size:18px;">
-            <i class="fas fa-book-open"></i>
+        <div style="background:#fff; border-radius:12px; padding:18px; display:flex; align-items:center; gap:15px; box-shadow:0 4px 12px rgba(0,0,0,0.1); transition:all 0.3s ease; cursor:pointer;"
+             onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 8px 20px rgba(0,0,0,0.2)';"
+             onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)';">
+          <div style="background-color:#00796b; color:#fff; padding:14px; border-radius:10px; font-size:20px;">
+            <i class="fas fa-feather-alt"></i>
           </div>
           <div>
-            <h4 style="font-size:15px; font-weight:700; color:#111; margin:0 0 4px 0;">Author & Podcast Host</h4>
-            <p style="font-size:13px; color:#666; margin:0;">Creator of “Business Champ” and host of “Business Veda.”</p>
+            <h4 style="font-size:16px; font-weight:700; color:#111; margin:0 0 6px 0;">Author & Podcast Host –</h4>
+            <p style="font-size:14px; color:#555; margin:0;">Creator of “Business Champ” and host of “Business Veda.”</p>
           </div>
         </div>
 
-        <div style="background:#fff; border-radius:10px; padding:12px 15px; display:flex; align-items:center; gap:12px; box-shadow:0 2px 8px rgba(0,0,0,0.08); transition:all 0.3s ease; cursor:pointer;"
-             onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.15)';"
-             onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 8px rgba(0,0,0,0.08)';">
-          <div style="background-color:#00796b; color:#fff; padding:10px; border-radius:8px; font-size:18px;">
-            <i class="fas fa-lightbulb"></i>
+        <div style="background:#fff; border-radius:12px; padding:18px; display:flex; align-items:center; gap:15px; box-shadow:0 4px 12px rgba(0,0,0,0.1); transition:all 0.3s ease; cursor:pointer;"
+             onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 8px 20px rgba(0,0,0,0.2)';"
+             onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)';">
+          <div style="background-color:#00796b; color:#fff; padding:14px; border-radius:10px; font-size:20px;">
+            <i class="fas fa-microphone"></i>
           </div>
           <div>
-            <h4 style="font-size:15px; font-weight:700; color:#111; margin:0 0 4px 0;">Industry Voice</h4>
-            <p style="font-size:13px; color:#666; margin:0;">Practical frameworks driving business transformation</p>
+            <h4 style="font-size:16px; font-weight:700; color:#111; margin:0 0 6px 0;">Industry Voice –</h4>
+            <p style="font-size:14px; color:#555; margin:0;">Known for practical frameworks that drive real business transformation.</p>
           </div>
         </div>
 
-        <div style="background:#fff; border-radius:10px; padding:12px 15px; display:flex; align-items:center; gap:12px; box-shadow:0 2px 8px rgba(0,0,0,0.08); transition:all 0.3s ease; cursor:pointer;"
-             onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.15)';"
-             onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 8px rgba(0,0,0,0.08)';">
-          <div style="background-color:#00796b; color:#fff; padding:10px; border-radius:8px; font-size:18px;">
-            <i class="fas fa-user-tie"></i>
+        <div style="background:#fff; border-radius:12px; padding:18px; display:flex; align-items:center; gap:15px; box-shadow:0 4px 12px rgba(0,0,0,0.1); transition:all 0.3s ease; cursor:pointer;"
+             onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 8px 20px rgba(0,0,0,0.2)';"
+             onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)';">
+          <div style="background-color:#00796b; color:#fff; padding:14px; border-radius:10px; font-size:20px;">
+            <i class="fas fa-users"></i>
           </div>
           <div>
-            <h4 style="font-size:15px; font-weight:700; color:#111; margin:0 0 4px 0;">Leadership Team</h4>
-            <p style="font-size:13px; color:#666; margin:0;">70+ team members driving growth across industries.</p>
+            <h4 style="font-size:16px; font-weight:700; color:#111; margin:0 0 6px 0;">Leadership Team –</h4>
+            <p style="font-size:14px; color:#555; margin:0;">Backed by a 70+ member team driving growth across industries.</p>
           </div>
         </div>
       </div>
@@ -1988,9 +1988,9 @@
       <div class="card" style="width:340px; background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 4px 15px rgba(0,0,0,0.1);">
         <div style="position:relative;">
           <img src="assets/images/coachs/coach1.jpg" alt="Coach" style="width:100%; height:200px; object-fit:cover;">
-          <div class="rating" style="position:absolute; top:10px; right:10px; background:rgba(0,0,0,0.7); padding:6px 10px; border-radius:8px; text-align:center;">
-            <div style="color:#FFD700; font-size:14px; margin-bottom:2px;">★★★★★</div>
-            <div style="color:#fff; font-size:12px; font-weight:600;"><i class="fas fa-eye"></i> 1000+</div>
+          <div class="rating" style="position:absolute; top:10px; right:10px; background:rgba(0,0,0,0.7); padding:8px 12px; border-radius:8px; text-align:center;">
+            <div style="color:#FFD700; font-size:18px; margin-bottom:4px;">★★★★★</div>
+            <div style="color:#fff; font-size:14px; font-weight:600;"><i class="fas fa-eye"></i> 1000+</div>
           </div>
         </div>
         <div style="padding:20px;">
@@ -2011,9 +2011,9 @@
       <div class="card" style="width:340px; background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 4px 15px rgba(0,0,0,0.1);">
         <div style="position:relative;">
           <img src="assets/images/coachs/coach2.jpg" alt="Coach" style="width:100%; height:200px; object-fit:cover;">
-          <div class="rating" style="position:absolute; top:10px; right:10px; background:rgba(0,0,0,0.7); padding:6px 10px; border-radius:8px; text-align:center;">
-            <div style="color:#FFD700; font-size:14px; margin-bottom:2px;">★★★★★</div>
-            <div style="color:#fff; font-size:12px; font-weight:600;"><i class="fas fa-eye"></i> 1000+</div>
+          <div class="rating" style="position:absolute; top:10px; right:10px; background:rgba(0,0,0,0.7); padding:8px 12px; border-radius:8px; text-align:center;">
+            <div style="color:#FFD700; font-size:18px; margin-bottom:4px;">★★★★★</div>
+            <div style="color:#fff; font-size:14px; font-weight:600;"><i class="fas fa-eye"></i> 1000+</div>
           </div>
         </div>
         <div style="padding:20px;">
@@ -2034,9 +2034,9 @@
       <div class="card" style="width:340px; background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 4px 15px rgba(0,0,0,0.1);">
         <div style="position:relative;">
           <img src="assets/images/coachs/coach3.jpg" alt="Coach" style="width:100%; height:200px; object-fit:cover;">
-          <div class="rating" style="position:absolute; top:10px; right:10px; background:rgba(0,0,0,0.7); padding:6px 10px; border-radius:8px; text-align:center;">
-            <div style="color:#FFD700; font-size:14px; margin-bottom:2px;">★★★★★</div>
-            <div style="color:#fff; font-size:12px; font-weight:600;"><i class="fas fa-eye"></i> 1000+</div>
+          <div class="rating" style="position:absolute; top:10px; right:10px; background:rgba(0,0,0,0.7); padding:8px 12px; border-radius:8px; text-align:center;">
+            <div style="color:#FFD700; font-size:18px; margin-bottom:4px;">★★★★★</div>
+            <div style="color:#fff; font-size:14px; font-weight:600;"><i class="fas fa-eye"></i> 1000+</div>
           </div>
         </div>
         <div style="padding:20px;">
@@ -2057,9 +2057,9 @@
       <div class="card" style="width:340px; background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 4px 15px rgba(0,0,0,0.1);">
         <div style="position:relative;">
           <img src="assets/images/coachs/coach4.jpg" alt="Coach" style="width:100%; height:200px; object-fit:cover;">
-          <div class="rating" style="position:absolute; top:10px; right:10px; background:rgba(0,0,0,0.7); padding:6px 10px; border-radius:8px; text-align:center;">
-            <div style="color:#FFD700; font-size:14px; margin-bottom:2px;">★★★★★</div>
-            <div style="color:#fff; font-size:12px; font-weight:600;"><i class="fas fa-eye"></i> 1000+</div>
+          <div class="rating" style="position:absolute; top:10px; right:10px; background:rgba(0,0,0,0.7); padding:8px 12px; border-radius:8px; text-align:center;">
+            <div style="color:#FFD700; font-size:18px; margin-bottom:4px;">★★★★★</div>
+            <div style="color:#fff; font-size:14px; font-weight:600;"><i class="fas fa-eye"></i> 1000+</div>
           </div>
         </div>
         <div style="padding:20px;">
@@ -2986,118 +2986,509 @@
     });
 </script>
 <!-- Testimonials Section Start -->
-<section class="testimonials-section bg-white py-5" style="padding: 80px 0 60px;">
+<section class="testimonials-section bg-white py-5" style="padding: 150px 0 120px; margin-bottom: 100px;">
     <div class="container">
+        <!-- Centered Main Heading -->
         <div class="row">
-            <div class="col-12 text-center mb-4">
-                <h2 style="font-size: 2.5rem; font-weight: 700; color: #2c3e50; margin-bottom: 15px;">
-                    What Our Clients Say
-                </h2>
-                <p style="font-size: 1.1rem; color: #666; max-width: 600px; margin: 0 auto;">
-                    Over 2500+ businesses transformed through proven coaching frameworks
+            <div class="col-12 text-center mb-5">
+                <h1 class="testimonials-main-heading"
+                    style="font-size: 3.5rem; font-weight: 700; color: #2c3e50; margin-bottom: 20px;">
+                    Testimonials
+                </h1>
+                <p style="font-size: 1.2rem; color: #666; max-width: 600px; margin: 0 auto;">
+                    Hear what our clients say about their transformation journey with us
                 </p>
             </div>
         </div>
 
-        <div class="row mt-4">
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="testimonial-card" style="background: #fff; border-radius: 12px; padding: 25px; box-shadow: 0 4px 15px rgba(0,121,107,0.1); border-left: 4px solid #00796b; height: 100%; transition: transform 0.3s ease;">
-                    <div class="d-flex align-items-center mb-3">
-                        <img src="assets/images/testimonials/testimonial-two2.jpg" alt="Rajesh Kumar"
-                            style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover; border: 2px solid #00796b;">
-                        <div class="ms-3">
-                            <h5 class="mb-0" style="color: #2c3e50; font-size: 1.1rem; font-weight: 600;">Rajesh Kumar</h5>
-                            <span style="color: #00796b; font-size: 0.9rem; font-weight: 500;">Manufacturing Business Owner</span>
-                            <div class="mt-1">
-                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.8rem;"></i>
-                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.8rem;"></i>
-                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.8rem;"></i>
-                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.8rem;"></i>
-                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.8rem;"></i>
-                            </div>
-                        </div>
+        <div class="row align-items-start justify-content-between">
+            <div class="col-lg-5">
+                <div class="testimonial-left-content mb-5">
+                    <div class="section-title">
+                        <span class="sub-title mb-3 d-inline-block px-3 py-1 rounded text-white"
+                            style="background-color: #147e7e; font-size: 14px; font-weight: 600; letter-spacing: 1px;">
+                            CLIENT SUCCESS STORIES
+                        </span>
+                        <h2 class="mb-4" style="font-size: 2.8rem; font-weight: 700; color: #2c3e50; line-height: 1.2;">
+                            What Our Clients Say About Malay's Coaching
+                        </h2>
                     </div>
-                    <p style="color: #666; line-height: 1.6; font-size: 0.95rem; margin: 0; font-style: italic;">
-                        "Business Mastery Program transformed my stagnant business. Revenue increased 40% in 6 months. Practical approach and financial insights were game-changers."
+                    <p class="mb-4" style="color: #666; line-height: 1.8; font-size: 1.15rem;">
+                        Over 30 years of experience helping businesses transform from stagnation to scalable
+                        growth. Our proven frameworks and actionable insights have empowered thousands of
+                        entrepreneurs across various industries.
                     </p>
+                    <h4 class="mb-4" style="color: #2c3e50; font-weight: 600; font-size: 1.3rem;">
+                        We Have <span style="color: #147e7e; font-weight: 700;">2500+</span> Satisfied Clients
+                    </h4>
+                    <div class="partner-images-wrap d-flex align-items-center gap-2 mb-4">
+                        <div class="partner-img"
+                            style="width: 45px; height: 45px; border-radius: 50%; overflow: hidden; border: 3px solid #147e7e;">
+                            <img src="assets/images/testimonials/partner1.jpg" alt="Partner"
+                                style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div class="partner-img"
+                            style="width: 45px; height: 45px; border-radius: 50%; overflow: hidden; border: 3px solid #147e7e;">
+                            <img src="assets/images/testimonials/partner2.jpg" alt="Partner"
+                                style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div class="partner-img"
+                            style="width: 45px; height: 45px; border-radius: 50%; overflow: hidden; border: 3px solid #147e7e;">
+                            <img src="assets/images/testimonials/partner3.jpg" alt="Partner"
+                                style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div class="partner-img"
+                            style="width: 45px; height: 45px; border-radius: 50%; overflow: hidden; border: 3px solid #147e7e;">
+                            <img src="assets/images/testimonials/partner4.jpg" alt="Partner"
+                                style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div class="partner-img"
+                            style="width: 45px; height: 45px; border-radius: 50%; overflow: hidden; border: 3px solid #147e7e;">
+                            <img src="assets/images/testimonials/partner5.jpg" alt="Partner"
+                                style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div class="partner-img"
+                            style="width: 45px; height: 45px; border-radius: 50%; overflow: hidden; border: 3px solid #147e7e;">
+                            <img src="assets/images/testimonials/partner6.jpg" alt="Partner"
+                                style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <span class="plus ms-2"
+                            style="background: #147e7e; color: white; width: 35px; height: 35px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 1rem;">+</span>
+                    </div>
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="testimonial-card" style="background: #fff; border-radius: 12px; padding: 25px; box-shadow: 0 4px 15px rgba(0,121,107,0.1); border-left: 4px solid #00796b; height: 100%; transition: transform 0.3s ease;">
-                    <div class="d-flex align-items-center mb-3">
-                        <img src="assets/images/testimonials/testimonial-two1.jpg" alt="Priya Sharma"
-                            style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover; border: 2px solid #00796b;">
-                        <div class="ms-3">
-                            <h5 class="mb-0" style="color: #2c3e50; font-size: 1.1rem; font-weight: 600;">Priya Sharma</h5>
-                            <span style="color: #00796b; font-size: 0.9rem; font-weight: 500;">Chartered Accountant</span>
-                            <div class="mt-1">
-                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.8rem;"></i>
-                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.8rem;"></i>
-                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.8rem;"></i>
-                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.8rem;"></i>
-                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.8rem;"></i>
+            <div class="col-lg-7">
+                <div class="testimonials-carousel-container"
+                    style="overflow: hidden; position: relative; height: 580px;">
+                    <div class="testimonials-carousel"
+                        style="display: flex; animation: scroll 30s linear infinite; gap: 50px; width: calc(100% * 2);">
+                        <!-- First set of testimonials -->
+                        <div class="testimonial-card"
+                            style="min-width: 450px; background: white; border-radius: 25px; padding: 35px; box-shadow: 0 20px 40px rgba(20,126,126,0.15); border: 2px solid #147e7e; position: relative; margin-right: 30px;">
+                            <div class="testimonial-header mb-4">
+                                <div class="testimonial-image mb-3"
+                                    style="width: 120px; height: 120px; border-radius: 20px; overflow: hidden; border: 3px solid #147e7e; margin: 0 auto;">
+                                    <img src="assets/images/testimonials/testimonial-two2.jpg" alt="Rajesh Kumar"
+                                        style="width: 100%; height: 100%; object-fit: cover;">
+                                </div>
+                                <div class="text-center">
+                                    <h4 class="mb-2" style="color: #2c3e50; font-size: 1.3rem; font-weight: 700;">Rajesh
+                                        Kumar</h4>
+                                    <span class="designation d-block mb-3"
+                                        style="color: #147e7e; font-weight: 600; font-size: 1rem;">Manufacturing
+                                        Business Owner</span>
+                                    <div class="rating">
+                                        <i class="fas fa-star"
+                                            style="color: #e5bd3a; font-size: 1rem; margin: 0 1px;"></i>
+                                        <i class="fas fa-star"
+                                            style="color: #e5bd3a; font-size: 1rem; margin: 0 1px;"></i>
+                                        <i class="fas fa-star"
+                                            style="color: #e5bd3a; font-size: 1rem; margin: 0 1px;"></i>
+                                        <i class="fas fa-star"
+                                            style="color: #e5bd3a; font-size: 1rem; margin: 0 1px;"></i>
+                                        <i class="fas fa-star"
+                                            style="color: #e5bd3a; font-size: 1rem; margin: 0 1px;"></i>
+                                    </div>
+                                </div>
                             </div>
+                            <p class="text-center"
+                                style="color: #666; line-height: 1.7; font-size: 1rem; font-style: italic; margin: 0;">
+                                "Malay's Business Mastery Program transformed my stagnant manufacturing business. Within
+                                6 months, we increased revenue by 40% and streamlined our operations completely. His
+                                practical approach and financial insights were game-changers for us."
+                            </p>
+                            <div
+                                style="position: absolute; top: 25px; right: 25px; font-size: 3rem; color: #147e7e; opacity: 0.1;">
+                                "</div>
                         </div>
-                    </div>
-                    <p style="color: #666; line-height: 1.6; font-size: 0.95rem; margin: 0; font-style: italic;">
-                        "CA Scale-Up Program broke my referral dependency. Practice revenue doubled in 8 months with a consistent client pipeline. Strategies are practical and results-driven."
-                    </p>
-                </div>
-            </div>
 
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="testimonial-card" style="background: #fff; border-radius: 12px; padding: 25px; box-shadow: 0 4px 15px rgba(0,121,107,0.1); border-left: 4px solid #00796b; height: 100%; transition: transform 0.3s ease;">
-                    <div class="d-flex align-items-center mb-3">
-                        <img src="assets/images/testimonials/testimonial-two3.jpg" alt="Amit Patel"
-                            style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover; border: 2px solid #00796b;">
-                        <div class="ms-3">
-                            <h5 class="mb-0" style="color: #2c3e50; font-size: 1.1rem; font-weight: 600;">Amit Patel</h5>
-                            <span style="color: #00796b; font-size: 0.9rem; font-weight: 500;">Restaurant Chain Owner</span>
-                            <div class="mt-1">
-                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.8rem;"></i>
-                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.8rem;"></i>
-                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.8rem;"></i>
-                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.8rem;"></i>
-                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.8rem;"></i>
+                        <div class="testimonial-card"
+                            style="min-width: 450px; background: white; border-radius: 25px; padding: 35px; box-shadow: 0 20px 40px rgba(20,126,126,0.15); border: 2px solid #147e7e; position: relative; margin-right: 30px;">
+                            <div class="testimonial-header mb-4">
+                                <div class="testimonial-image mb-3"
+                                    style="width: 100px; height: 100px; border-radius: 20px; overflow: hidden; border: 3px solid #147e7e; margin: 0 auto;">
+                                    <img src="assets/images/testimonials/testimonial-two1.jpg" alt="Priya Sharma"
+                                        style="width: 100%; height: 100%; object-fit: cover;">
+                                </div>
+                                <div class="text-center">
+                                    <h4 class="mb-2" style="color: #2c3e50; font-size: 1.3rem; font-weight: 700;">Priya
+                                        Sharma</h4>
+                                    <span class="designation d-block mb-3"
+                                        style="color: #147e7e; font-weight: 600; font-size: 1rem;">Chartered
+                                        Accountant</span>
+                                    <div class="rating">
+                                        <i class="fas fa-star"
+                                            style="color: #e5bd3a; font-size: 1rem; margin: 0 1px;"></i>
+                                        <i class="fas fa-star"
+                                            style="color: #e5bd3a; font-size: 1rem; margin: 0 1px;"></i>
+                                        <i class="fas fa-star"
+                                            style="color: #e5bd3a; font-size: 1rem; margin: 0 1px;"></i>
+                                        <i class="fas fa-star"
+                                            style="color: #e5bd3a; font-size: 1rem; margin: 0 1px;"></i>
+                                        <i class="fas fa-star"
+                                            style="color: #e5bd3a; font-size: 1rem; margin: 0 1px;"></i>
+                                    </div>
+                                </div>
                             </div>
+                            <p class="text-center"
+                                style="color: #666; line-height: 1.7; font-size: 1rem; font-style: italic; margin: 0;">
+                                "The CA Scale-Up Program helped me break free from referral dependency. I now have a
+                                consistent client pipeline and my practice revenue has doubled in just 8 months. Malay's
+                                strategies are practical and results-driven."
+                            </p>
+                            <div
+                                style="position: absolute; top: 25px; right: 25px; font-size: 3rem; color: #147e7e; opacity: 0.1;">
+                                "</div>
+                        </div>
+
+                        <div class="testimonial-card"
+                            style="min-width: 450px; background: white; border-radius: 25px; padding: 35px; box-shadow: 0 20px 40px rgba(20,126,126,0.15); border: 2px solid #147e7e; position: relative; margin-right: 30px;">
+                            <div class="testimonial-header mb-4">
+                                <div class="testimonial-image mb-3"
+                                    style="width: 100px; height: 100px; border-radius: 20px; overflow: hidden; border: 3px solid #147e7e; margin: 0 auto;">
+                                    <img src="assets/images/testimonials/testimonial-two2.jpg" alt="Amit Patel"
+                                        style="width: 100%; height: 100%; object-fit: cover;">
+                                </div>
+                                <div class="text-center">
+                                    <h4 class="mb-2" style="color: #2c3e50; font-size: 1.3rem; font-weight: 700;">Amit
+                                        Patel</h4>
+                                    <span class="designation d-block mb-3"
+                                        style="color: #147e7e; font-weight: 600; font-size: 1rem;">Restaurant Chain
+                                        Owner</span>
+                                    <div class="rating">
+                                        <i class="fas fa-star"
+                                            style="color: #e5bd3a; font-size: 1rem; margin: 0 1px;"></i>
+                                        <i class="fas fa-star"
+                                            style="color: #e5bd3a; font-size: 1rem; margin: 0 1px;"></i>
+                                        <i class="fas fa-star"
+                                            style="color: #e5bd3a; font-size: 1rem; margin: 0 1px;"></i>
+                                        <i class="fas fa-star"
+                                            style="color: #e5bd3a; font-size: 1rem; margin: 0 1px;"></i>
+                                        <i class="fas fa-star"
+                                            style="color: #e5bd3a; font-size: 1rem; margin: 0 1px;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="text-center"
+                                style="color: #666; line-height: 1.7; font-size: 1rem; font-style: italic; margin: 0;">
+                                "Our restaurant business was struggling with operations and profitability. Malay's
+                                Restaurant Growth Course provided clear frameworks for menu optimization and operational
+                                efficiency. Our profit margins improved by 25% within 4 months."
+                            </p>
+                            <div
+                                style="position: absolute; top: 25px; right: 25px; font-size: 3rem; color: #147e7e; opacity: 0.1;">
+                                "</div>
+                        </div>
+
+                        <div class="testimonial-card"
+                            style="min-width: 450px; background: white; border-radius: 25px; padding: 35px; box-shadow: 0 20px 40px rgba(20,126,126,0.15); border: 2px solid #147e7e; position: relative; margin-right: 30px;">
+                            <div class="testimonial-header mb-4">
+                                <div class="testimonial-image mb-3"
+                                    style="width: 100px; height: 100px; border-radius: 20px; overflow: hidden; border: 3px solid #147e7e; margin: 0 auto;">
+                                    <img src="assets/images/testimonials/testimonial-two1.jpg" alt="Sunita Agarwal"
+                                        style="width: 100%; height: 100%; object-fit: cover;">
+                                </div>
+                                <div class="text-center">
+                                    <h4 class="mb-2" style="color: #2c3e50; font-size: 1.3rem; font-weight: 700;">Sunita
+                                        Agarwal</h4>
+                                    <span class="designation d-block mb-3"
+                                        style="color: #147e7e; font-weight: 600; font-size: 1rem;">Tech Startup
+                                        Founder</span>
+                                    <div class="rating">
+                                        <i class="fas fa-star"
+                                            style="color: #e5bd3a; font-size: 1rem; margin: 0 1px;"></i>
+                                        <i class="fas fa-star"
+                                            style="color: #e5bd3a; font-size: 1rem; margin: 0 1px;"></i>
+                                        <i class="fas fa-star"
+                                            style="color: #e5bd3a; font-size: 1rem; margin: 0 1px;"></i>
+                                        <i class="fas fa-star"
+                                            style="color: #e5bd3a; font-size: 1rem; margin: 0 1px;"></i>
+                                        <i class="fas fa-star"
+                                            style="color: #e5bd3a; font-size: 1rem; margin: 0 1px;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="text-center"
+                                style="color: #666; line-height: 1.7; font-size: 1rem; font-style: italic; margin: 0;">
+                                "As a non-finance entrepreneur, I was making costly financial mistakes. The Finance for
+                                Non-Finance Program gave me the clarity I needed. Now I make informed decisions and have
+                                better control over cash flow and profitability."
+                            </p>
+                            <div
+                                style="position: absolute; top: 25px; right: 25px; font-size: 3rem; color: #147e7e; opacity: 0.1;">
+                                "</div>
+                        </div>
+
+                        <!-- Duplicate set for seamless loop -->
+                        <div class="testimonial-card"
+                            style="min-width: 450px; background: white; border-radius: 25px; padding: 35px; box-shadow: 0 20px 40px rgba(20,126,126,0.15); border: 2px solid #147e7e; position: relative; margin-right: 30px;">
+                            <div class="testimonial-header mb-4">
+                                <div class="testimonial-image mb-3"
+                                    style="width: 100px; height: 100px; border-radius: 20px; overflow: hidden; border: 3px solid #147e7e; margin: 0 auto;">
+                                    <img src="assets/images/testimonials/testimonial-two3.jpg" alt="Rajesh Kumar"
+                                        style="width: 100%; height: 100%; object-fit: cover;">
+                                </div>
+                                <div class="text-center">
+                                    <h4 class="mb-2" style="color: #2c3e50; font-size: 1.3rem; font-weight: 700;">Rajesh
+                                        Kumar</h4>
+                                    <span class="designation d-block mb-3"
+                                        style="color: #147e7e; font-weight: 600; font-size: 1rem;">Manufacturing
+                                        Business Owner</span>
+                                    <div class="rating">
+                                        <i class="fas fa-star"
+                                            style="color: #e5bd3a; font-size: 1rem; margin: 0 1px;"></i>
+                                        <i class="fas fa-star"
+                                            style="color: #e5bd3a; font-size: 1rem; margin: 0 1px;"></i>
+                                        <i class="fas fa-star"
+                                            style="color: #e5bd3a; font-size: 1rem; margin: 0 1px;"></i>
+                                        <i class="fas fa-star"
+                                            style="color: #e5bd3a; font-size: 1rem; margin: 0 1px;"></i>
+                                        <i class="fas fa-star"
+                                            style="color: #e5bd3a; font-size: 1rem; margin: 0 1px;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="text-center"
+                                style="color: #666; line-height: 1.7; font-size: 1rem; font-style: italic; margin: 0;">
+                                "Malay's Business Mastery Program transformed my stagnant manufacturing business. Within
+                                6 months, we increased revenue by 40% and streamlined our operations completely. His
+                                practical approach and financial insights were game-changers for us."
+                            </p>
+                            <div
+                                style="position: absolute; top: 25px; right: 25px; font-size: 3rem; color: #147e7e; opacity: 0.1;">
+                                "</div>
+                        </div>
+
+                        <div class="testimonial-card"
+                            style="min-width: 450px; background: white; border-radius: 25px; padding: 35px; box-shadow: 0 20px 40px rgba(20,126,126,0.15); border: 2px solid #147e7e; position: relative; margin-right: 30px;">
+                            <div class="testimonial-header mb-4">
+                                <div class="testimonial-image mb-3"
+                                    style="width: 100px; height: 100px; border-radius: 20px; overflow: hidden; border: 3px solid #147e7e; margin: 0 auto;">
+                                    <img src="assets/images/testimonials/testimonial-two1.jpg" alt="Priya Sharma"
+                                        style="width: 100%; height: 100%; object-fit: cover;">
+                                </div>
+                                <div class="text-center">
+                                    <h4 class="mb-2" style="color: #2c3e50; font-size: 1.3rem; font-weight: 700;">Priya
+                                        Sharma</h4>
+                                    <span class="designation d-block mb-3"
+                                        style="color: #147e7e; font-weight: 600; font-size: 1rem;">Chartered
+                                        Accountant</span>
+                                    <div class="rating">
+                                        <i class="fas fa-star"
+                                            style="color: #e5bd3a; font-size: 1rem; margin: 0 1px;"></i>
+                                        <i class="fas fa-star"
+                                            style="color: #e5bd3a; font-size: 1rem; margin: 0 1px;"></i>
+                                        <i class="fas fa-star"
+                                            style="color: #e5bd3a; font-size: 1rem; margin: 0 1px;"></i>
+                                        <i class="fas fa-star"
+                                            style="color: #e5bd3a; font-size: 1rem; margin: 0 1px;"></i>
+                                        <i class="fas fa-star"
+                                            style="color: #e5bd3a; font-size: 1rem; margin: 0 1px;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="text-center"
+                                style="color: #666; line-height: 1.7; font-size: 1rem; font-style: italic; margin: 0;">
+                                "The CA Scale-Up Program helped me break free from referral dependency. I now have a
+                                consistent client pipeline and my practice revenue has doubled in just 8 months. Malay's
+                                strategies are practical and results-driven."
+                            </p>
+                            <div
+                                style="position: absolute; top: 25px; right: 25px; font-size: 3rem; color: #147e7e; opacity: 0.1;">
+                                "</div>
                         </div>
                     </div>
-                    <p style="color: #666; line-height: 1.6; font-size: 0.95rem; margin: 0; font-style: italic;">
-                        "Restaurant Growth Course provided clear frameworks for menu optimization and efficiency. Profit margins improved 25% in 4 months. Practical and actionable."
-                    </p>
                 </div>
+
+                <!-- Pause animation on hover -->
+                <style>
+                    .testimonials-carousel-container:hover .testimonials-carousel {
+                        animation-play-state: paused;
+                    }
+                </style>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-12 text-center">
+                <a href="about.html" class="know-more-btn" style="display: inline-block; background: #e5bd3a; 
+                                  color: white; padding: 15px 40px; border-radius: 50px; text-decoration: none; 
+                                  font-size: 1.1rem; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; 
+                                  box-shadow: 0 10px 25px rgba(229,189,58,0.3); transition: all 0.3s ease;
+                                  border: none; cursor: pointer;">
+                    Know More About Our Success Stories
+                </a>
             </div>
         </div>
     </div>
     
+    <!-- Mobile Responsive Styles -->
     <style>
-        .testimonial-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 25px rgba(0,121,107,0.2) !important;
+        @media (max-width: 1199.98px) {
+            .testimonials-section {
+                padding: 100px 0 80px !important;
+                margin-bottom: 60px !important;
+            }
+            
+            .testimonials-main-heading {
+                font-size: 2.8rem !important;
+            }
+            
+            .section-title h2 {
+                font-size: 2.2rem !important;
+            }
         }
         
         @media (max-width: 991.98px) {
             .testimonials-section {
-                padding: 60px 0 40px !important;
+                padding: 80px 0 60px !important;
+                margin-bottom: 40px !important;
             }
-            .testimonials-section h2 {
+            
+            .testimonials-main-heading {
+                font-size: 2.5rem !important;
+            }
+            
+            .section-title h2 {
                 font-size: 2rem !important;
+            }
+            
+            .testimonial-left-content {
+                text-align: center;
+                margin-bottom: 40px !important;
+            }
+            
+            .partner-images-wrap {
+                justify-content: center;
             }
         }
         
         @media (max-width: 767.98px) {
             .testimonials-section {
-                padding: 50px 0 30px !important;
+                padding: 60px 0 40px !important;
+                margin-bottom: 30px !important;
             }
-            .testimonials-section h2 {
-                font-size: 1.8rem !important;
+            
+            .testimonials-main-heading {
+                font-size: 2rem !important;
+                margin-bottom: 15px !important;
             }
+            
             .testimonials-section p {
                 font-size: 1rem !important;
+                padding: 0 15px;
             }
+            
+            .section-title h2 {
+                font-size: 1.8rem !important;
+            }
+            
+            .testimonial-left-content p {
+                font-size: 1rem !important;
+            }
+            
+            .testimonial-left-content h4 {
+                font-size: 1.1rem !important;
+            }
+            
+            .testimonials-carousel-container {
+                height: 500px !important;
+            }
+            
             .testimonial-card {
-                margin-bottom: 20px !important;
+                min-width: 320px !important;
+                padding: 25px !important;
+                margin-right: 20px !important;
+            }
+            
+            .testimonial-image {
+                width: 80px !important;
+                height: 80px !important;
+            }
+            
+            .testimonial-header h4 {
+                font-size: 1.1rem !important;
+            }
+            
+            .testimonial-header .designation {
+                font-size: 0.9rem !important;
+            }
+            
+            .testimonial-card p {
+                font-size: 0.9rem !important;
+            }
+            
+            .know-more-btn {
+                padding: 12px 30px !important;
+                font-size: 1rem !important;
+            }
+        }
+        
+        @media (max-width: 575.98px) {
+            .testimonials-main-heading {
+                font-size: 1.8rem !important;
+            }
+            
+            .section-title h2 {
+                font-size: 1.6rem !important;
+            }
+            
+            .testimonials-carousel-container {
+                height: 450px !important;
+            }
+            
+            .testimonial-card {
+                min-width: 280px !important;
+                padding: 20px !important;
+                margin-right: 15px !important;
+            }
+            
+            .partner-img {
+                width: 35px !important;
+                height: 35px !important;
+            }
+            
+            .plus {
+                width: 30px !important;
+                height: 30px !important;
+                font-size: 0.9rem !important;
+            }
+            
+            .know-more-btn {
+                padding: 10px 25px !important;
+                font-size: 0.9rem !important;
+            }
+        }
+        
+        @keyframes scroll {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(calc(-450px * 3 - 50px * 3));
+            }
+        }
+        
+        @media (max-width: 767.98px) {
+            @keyframes scroll {
+                0% {
+                    transform: translateX(0);
+                }
+                100% {
+                    transform: translateX(calc(-320px * 3 - 20px * 3));
+                }
+            }
+        }
+        
+        @media (max-width: 575.98px) {
+            @keyframes scroll {
+                0% {
+                    transform: translateX(0);
+                }
+                100% {
+                    transform: translateX(calc(-280px * 3 - 15px * 3));
+                }
             }
         }
     </style>
@@ -3298,193 +3689,98 @@
 
 
 <!-- Footer Area Start -->
-<footer class="main-footer bg-blue text-white" style="padding: 50px 0 0;">
+<footer class="main-footer bg-blue text-white pt-75">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="footer-widget">
-                    <h5 style="font-size: 1.2rem; font-weight: 600; margin-bottom: 20px; color: #fff; border-bottom: 2px solid #00796b; padding-bottom: 10px; display: inline-block;">About Us</h5>
-                    <p style="font-size: 0.95rem; line-height: 1.6; color: rgba(255,255,255,0.8); margin-bottom: 20px;">
-                        With 30+ years of experience, Malay Damania transforms businesses through proven coaching frameworks and strategic mentorship.
-                    </p>
-                    <div class="social-style-one" style="display: flex; gap: 10px; margin-top: 15px;">
-                        <a href="contact.html" style="width: 36px; height: 36px; background: #00796b; border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
-                            <i class="fab fa-facebook-f" style="color: #fff; font-size: 14px;"></i>
-                        </a>
-                        <a href="contact.html" style="width: 36px; height: 36px; background: #00796b; border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
-                            <i class="fab fa-twitter" style="color: #fff; font-size: 14px;"></i>
-                        </a>
-                        <a href="contact.html" style="width: 36px; height: 36px; background: #00796b; border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
-                            <i class="fab fa-linkedin-in" style="color: #fff; font-size: 14px;"></i>
-                        </a>
-                        <a href="contact.html" style="width: 36px; height: 36px; background: #00796b; border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
-                            <i class="fab fa-youtube" style="color: #fff; font-size: 14px;"></i>
-                        </a>
+        <div class="row justify-content-between">
+            <div class="col-lg-3 col-sm-4">
+                <div class="footer-widget about-widget">
+                    <h5 class="footer-title">About Us</h5>
+                    <p>Ready to transform your business or have a query? Get in touch for coaching & mentoring
+                        inquiries, speaking engagements, or book purchase support. With 30+ years of experience, Malay
+                        Damania is here to help you scale new heights.</p>
+                    <h5 class="pt-5">Follow Us</h5>
+                    <div class="social-style-one">
+                        <a href="contact.html"><i class="fab fa-facebook-f"></i></a>
+                        <a href="contact.html"><i class="fab fa-twitter"></i></a>
+                        <a href="contact.html"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="contact.html"><i class="fab fa-youtube"></i></a>
                     </div>
                 </div>
             </div>
-
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="footer-widget">
-                    <h5 style="font-size: 1.2rem; font-weight: 600; margin-bottom: 20px; color: #fff; border-bottom: 2px solid #00796b; padding-bottom: 10px; display: inline-block;">Services</h5>
-                    <ul style="list-style: none; padding: 0; margin: 0;">
-                        <li style="margin-bottom: 10px;">
-                            <a href="course-grid.html" style="color: rgba(255,255,255,0.8); text-decoration: none; font-size: 0.95rem; transition: all 0.3s ease; display: flex; align-items: center;">
-                                <i class="fas fa-chevron-right" style="font-size: 10px; margin-right: 8px; color: #00796b;"></i>
-                                CA Scale-Up Program
-                            </a>
-                        </li>
-                        <li style="margin-bottom: 10px;">
-                            <a href="course-grid.html" style="color: rgba(255,255,255,0.8); text-decoration: none; font-size: 0.95rem; transition: all 0.3s ease; display: flex; align-items: center;">
-                                <i class="fas fa-chevron-right" style="font-size: 10px; margin-right: 8px; color: #00796b;"></i>
-                                Business Mastery
-                            </a>
-                        </li>
-                        <li style="margin-bottom: 10px;">
-                            <a href="course-grid.html" style="color: rgba(255,255,255,0.8); text-decoration: none; font-size: 0.95rem; transition: all 0.3s ease; display: flex; align-items: center;">
-                                <i class="fas fa-chevron-right" style="font-size: 10px; margin-right: 8px; color: #00796b;"></i>
-                                Finance for Non-Finance
-                            </a>
-                        </li>
-                        <li style="margin-bottom: 10px;">
-                            <a href="course-grid.html" style="color: rgba(255,255,255,0.8); text-decoration: none; font-size: 0.95rem; transition: all 0.3s ease; display: flex; align-items: center;">
-                                <i class="fas fa-chevron-right" style="font-size: 10px; margin-right: 8px; color: #00796b;"></i>
-                                Speaking Engagements
-                            </a>
-                        </li>
-                        <li style="margin-bottom: 10px;">
-                            <a href="course-grid.html" style="color: rgba(255,255,255,0.8); text-decoration: none; font-size: 0.95rem; transition: all 0.3s ease; display: flex; align-items: center;">
-                                <i class="fas fa-chevron-right" style="font-size: 10px; margin-right: 8px; color: #00796b;"></i>
-                                Business Consulting
-                            </a>
-                        </li>
+            <div class="col-lg-2 col-md-3 col-sm-4">
+                <div class="footer-widget menu-widget">
+                    <h5 class="footer-title">Services</h5>
+                    <ul>
+                        <li><a href="course-grid.html">Coaching Inquiries</a></li>
+                        <li><a href="course-grid.html">CA Scale-Up</a></li>
+                        <li><a href="course-grid.html">Finance for Non-Finance</a></li>
+                        <li><a href="course-grid.html">Business Mastery Programs</a></li>
+                        <li><a href="course-grid.html">Speaking Engagements</a></li>
+                        <li><a href="course-grid.html">Business Consulting</a></li>
                     </ul>
                 </div>
             </div>
-
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="footer-widget">
-                    <h5 style="font-size: 1.2rem; font-weight: 600; margin-bottom: 20px; color: #fff; border-bottom: 2px solid #00796b; padding-bottom: 10px; display: inline-block;">Resources</h5>
-                    <ul style="list-style: none; padding: 0; margin: 0;">
-                        <li style="margin-bottom: 10px;">
-                            <a href="contact.html" style="color: rgba(255,255,255,0.8); text-decoration: none; font-size: 0.95rem; transition: all 0.3s ease; display: flex; align-items: center;">
-                                <i class="fas fa-chevron-right" style="font-size: 10px; margin-right: 8px; color: #00796b;"></i>
-                                Business Champ Book
-                            </a>
-                        </li>
-                        <li style="margin-bottom: 10px;">
-                            <a href="contact.html" style="color: rgba(255,255,255,0.8); text-decoration: none; font-size: 0.95rem; transition: all 0.3s ease; display: flex; align-items: center;">
-                                <i class="fas fa-chevron-right" style="font-size: 10px; margin-right: 8px; color: #00796b;"></i>
-                                Business Veda Podcast
-                            </a>
-                        </li>
-                        <li style="margin-bottom: 10px;">
-                            <a href="contact.html" style="color: rgba(255,255,255,0.8); text-decoration: none; font-size: 0.95rem; transition: all 0.3s ease; display: flex; align-items: center;">
-                                <i class="fas fa-chevron-right" style="font-size: 10px; margin-right: 8px; color: #00796b;"></i>
-                                Voice of Books
-                            </a>
-                        </li>
-                        <li style="margin-bottom: 10px;">
-                            <a href="about.html" style="color: rgba(255,255,255,0.8); text-decoration: none; font-size: 0.95rem; transition: all 0.3s ease; display: flex; align-items: center;">
-                                <i class="fas fa-chevron-right" style="font-size: 10px; margin-right: 8px; color: #00796b;"></i>
-                                About Malay
-                            </a>
-                        </li>
-                        <li style="margin-bottom: 10px;">
-                            <a href="faqs.html" style="color: rgba(255,255,255,0.8); text-decoration: none; font-size: 0.95rem; transition: all 0.3s ease; display: flex; align-items: center;">
-                                <i class="fas fa-chevron-right" style="font-size: 10px; margin-right: 8px; color: #00796b;"></i>
-                                FAQs
-                            </a>
-                        </li>
+            <div class="col-lg-2 col-md-3 col-sm-4">
+                <div class="footer-widget menu-widget">
+                    <h5 class="footer-title">Resources</h5>
+                    <ul>
+                        <li><a href="contact.html">Business Champ Book</a></li>
+                        <li><a href="contact.html">Business Veda Podcast</a></li>
+                        <li><a href="contact.html">Voice of Books</a></li>
+                        <li><a href="contact.html">WhatsApp Support</a></li>
+                        <li><a href="contact.html">Video Guides</a></li>
+                        <li><a href="contact.html">Documentation</a></li>
                     </ul>
                 </div>
             </div>
-
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="footer-widget">
-                    <h5 style="font-size: 1.2rem; font-weight: 600; margin-bottom: 20px; color: #fff; border-bottom: 2px solid #00796b; padding-bottom: 10px; display: inline-block;">Contact</h5>
-                    <ul style="list-style: none; padding: 0; margin: 0;">
-                        <li style="margin-bottom: 12px; display: flex; align-items: start;">
-                            <i class="fas fa-map-marker-alt" style="color: #00796b; font-size: 14px; margin-right: 10px; margin-top: 3px;"></i>
-                            <span style="color: rgba(255,255,255,0.8); font-size: 0.9rem; line-height: 1.5;">
-                                D-8 Kalpana, Tilak Nagar, Mumbai - 400004
-                            </span>
-                        </li>
-                        <li style="margin-bottom: 12px; display: flex; align-items: center;">
-                            <i class="far fa-envelope" style="color: #00796b; font-size: 14px; margin-right: 10px;"></i>
-                            <a href="mailto:connect@malaydamania.co" style="color: rgba(255,255,255,0.8); text-decoration: none; font-size: 0.9rem; transition: all 0.3s ease;">
-                                connect@malaydamania.co
-                            </a>
-                        </li>
-                        <li style="margin-bottom: 12px; display: flex; align-items: center;">
-                            <i class="fas fa-phone" style="color: #00796b; font-size: 14px; margin-right: 10px;"></i>
-                            <a href="tel:+919967778484" style="color: rgba(255,255,255,0.8); text-decoration: none; font-size: 0.9rem; transition: all 0.3s ease;">
-                                +91 996777 8484
-                            </a>
-                        </li>
-                        <li style="margin-bottom: 12px; display: flex; align-items: center;">
-                            <i class="fab fa-whatsapp" style="color: #00796b; font-size: 14px; margin-right: 10px;"></i>
-                            <span style="color: rgba(255,255,255,0.8); font-size: 0.9rem;">WhatsApp Available</span>
-                        </li>
-                    </ul>
+            <div class="col-lg-5">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="footer-widget contact-info-widget">
+                            <h5 class="footer-title">Get In Touch</h5>
+                            <ul>
+                                <li><i class="fas fa-map-marker-alt"></i> D - 8 Kalpana, Tilak Nagar, S.V.P. Road,
+                                    Mumbai - 400004</li>
+                                <li><i class="far fa-envelope"></i> <a
+                                        href="mailto:connect@malaydamania.co">connect@malaydamania.co</a></li>
+                                <li><i class="fas fa-phone"></i> <a href="callto:+919967778484">+91 996777 8484</a></li>
+                                <li><i class="fab fa-whatsapp"></i> WhatsApp Support Available</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="footer-widget video-widget">
+                            <p>Leading a team of 70+ professionals, Malay has gathered deep insights into what drives
+                                business success through his coaching and mentoring programs.</p>
+                            <div class="video-widget overlay my-20">
+                                <img src="assets/images/footer/video.jpg" alt="Video">
+                                <a href="https://www.youtube.com/watch?v=9Y7ma241N8k" class="mfp-iframe video-play"><i
+                                        class="fas fa-play"></i></a>
+                            </div>
+                            <a href="about.html" class="read-more">view more <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    
-    <div class="copyright-area bg-dark-blue rel" style="margin-top: 30px; padding: 20px 0;">
+    <div class="copyright-area bg-dark-blue rel">
         <div class="container">
-            <div class="copyright-inner" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
-                <p style="margin: 0; font-size: 0.9rem; color: rgba(255,255,255,0.7);">
-                    © 2024 <a href="index.html" style="color: #00796b; text-decoration: none; font-weight: 600;">Malay Damania</a>. All rights reserved.
-                </p>
-                <ul class="footer-menu" style="list-style: none; display: flex; gap: 15px; margin: 0; padding: 0;">
-                    <li><a href="sitemap.html" style="color: rgba(255,255,255,0.7); text-decoration: none; font-size: 0.9rem; transition: all 0.3s ease;">Sitemap</a></li>
-                    <li><a href="faqs.html" style="color: rgba(255,255,255,0.7); text-decoration: none; font-size: 0.9rem; transition: all 0.3s ease;">FAQs</a></li>
-                    <li><a href="contact.html" style="color: rgba(255,255,255,0.7); text-decoration: none; font-size: 0.9rem; transition: all 0.3s ease;">Contact</a></li>
-                    <li><a href="privacy.html" style="color: rgba(255,255,255,0.7); text-decoration: none; font-size: 0.9rem; transition: all 0.3s ease;">Privacy</a></li>
+            <div class="copyright-inner">
+                <p>© 2024. <a href="index.html">Malay Damania</a> All rights reserved.</p>
+                <ul class="footer-menu">
+                    <li><a href="sitemap.html">Sitemap</a></li>
+                    <li><a href="faqs.html">FAQs</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
                 </ul>
             </div>
         </div>
+         <!-- Scroll Top Button -->
         <button class="scroll-top scroll-to-target" data-target="html"><span class="fas fa-angle-double-up"></span></button>
     </div>
 </footer>
-
-<style>
-    .footer-widget a:hover {
-        color: #fff !important;
-        padding-left: 5px;
-    }
-    
-    .social-style-one a:hover {
-        background: #006d5f !important;
-        transform: translateY(-3px);
-    }
-    
-    @media (max-width: 991.98px) {
-        .main-footer {
-            padding: 40px 0 0 !important;
-        }
-        .footer-widget {
-            margin-bottom: 20px;
-        }
-    }
-    
-    @media (max-width: 767.98px) {
-        .main-footer {
-            padding: 30px 0 0 !important;
-        }
-        .copyright-inner {
-            flex-direction: column !important;
-            text-align: center;
-            gap: 15px;
-        }
-        .footer-menu {
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-    }
-</style>
 <!-- Footer Area End -->
 
     </div>
