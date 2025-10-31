@@ -24,7 +24,7 @@ This is a static website served by a simple Node.js HTTP server on port 5000.
 
 ## Recent Changes
 - 2025-10-31: Initial Replit environment setup with HTTP server
-- 2025-10-31: UI/UX Enhancement Package:
+- 2025-10-31: First UI/UX Enhancement Package:
   - Increased logo size to 65px (desktop) and 50px (mobile) with responsive behavior
   - Optimized hero section to 90vh height (max 750px, min 600px) for single viewport display
   - Slowed hero image transitions to 2s fade with 15s interval for better visual experience
@@ -35,8 +35,20 @@ This is a static website served by a simple Node.js HTTP server on port 5000.
   - Removed "Filter By Price" and "Filter By Level" sections from course-grid.html
   - Fixed typo in counter section ("expreesss" → "experience")
 
+- 2025-10-31: Second UI/UX Enhancement Package:
+  - **Logo**: Replaced with transparent background version (logo-new.png) and increased to 95px (desktop), 60px (tablet), 45px (mobile)
+  - **Navigation**: Fixed "Book a Consult" icon from phone-alt to curved phone icon
+  - **Hero Slider**: Removed left/right arrow buttons, kept dots-only navigation
+  - **CTA Buttons**: Removed arrow icons from "Start Your Growth Journey" buttons
+  - **Detail Cards**: Reduced padding (18px → 12px-15px), improved icons (chart-line, book-open, lightbulb, user-tie), lighter shadows, more compact design
+  - **Rating Badges**: Made smaller (stars: 18px → 14px, text: 14px → 12px, padding reduced)
+  - **Testimonials**: Redesigned from carousel to clean 3-column responsive grid, simplified layout, removed complex animations
+  - **Footer**: Restructured into organized 4-column grid (About | Services | Resources | Contact), improved spacing and alignment
+
 ## Notes
 - Logo sizing and navigation updates applied to index.html and course-grid.html
 - Other HTML pages (about.html, contact.html, etc.) may benefit from similar header updates for consistency
 - Hero section uses viewport-based sizing to eliminate scrolling on first screen
 - Offerings cards use high-contrast design with dark background for better visibility
+- All new designs maintain #00796b (teal) as the brand accent color
+- Responsive breakpoints implemented for mobile (<768px), tablet (<992px), and desktop
