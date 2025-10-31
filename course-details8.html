@@ -74,13 +74,13 @@
 <!-- Header-Upper -->
 <!-- Header Section -->
 <header style="width:100%; background-color:#fff; box-shadow:0 2px 6px rgba(0,0,0,0.1); position:relative; z-index:1000; font-family:'Poppins', sans-serif;">
-  <div style="max-width:1200px; margin:0 auto; display:flex; align-items:center; justify-content:space-between; padding:10px 20px;">
+  <div style="max-width:1200px; margin:0 auto; display:flex; align-items:center; justify-content:space-between; padding:5px 20px;">
 
     <!-- Logo -->
     <div style="flex:0 0 auto; display:flex; align-items:center;">
       <a href="index.html" style="display:inline-block;">
-        <img id="logoImg" src="assets/images/logo.png" alt="Malay Damania Logo" title="Malay Damania Logo"
-             style="height:50px; width:auto; object-fit:contain; border:none; background:transparent; transition:0.3s;">
+        <img id="logoImg" src="assets/images/logo-new.png" alt="Malay Damania Logo" title="Malay Damania Logo"
+             style="height:95px; width:auto; object-fit:contain; border:none; background:transparent; transition:0.3s;">
       </a>
     </div>
 
@@ -100,7 +100,7 @@
              style="text-decoration:none; color:#111; font-weight:600; font-size:16px; position:relative; padding-bottom:4px; transition:0.3s;"
              onmouseover="this.style.color='#00796b'; this.style.borderBottom='2px solid #00796b';"
              onmouseout="this.style.color='#111'; this.style.borderBottom='2px solid transparent';">
-             Offerings
+             What I Offer
           </a>
         </li>
         <li>
@@ -117,10 +117,10 @@
     <!-- Desktop Button -->
     <div id="desktopBtn" style="flex:0 0 auto;">
       <a href="contact.html"
-         style="background-color:#00796b; color:#fff; font-weight:600; font-size:15px; text-decoration:none; padding:10px 18px; border-radius:8px; display:inline-flex; align-items:center; gap:8px; transition:0.3s;"
+         style="background-color:#00796b; color:#fff; font-weight:600; font-size:15px; text-decoration:none; padding:12px 28px; border-radius:50px; display:inline-flex; align-items:center; gap:8px; transition:0.3s;"
          onmouseover="this.style.backgroundColor='#00695c'; this.style.boxShadow='0 0 10px rgba(0,121,107,0.4)';"
          onmouseout="this.style.backgroundColor='#00796b'; this.style.boxShadow='none';">
-        <i class="fas fa-phone-alt" style="font-size:15px;"></i>
+        <i class="fas fa-phone" style="font-size:15px;"></i>
         Book a Consult
       </a>
     </div>
@@ -143,7 +143,7 @@
     <a href="course-grid.html" style="display:block; color:#111; text-decoration:none; font-weight:600; padding:10px;">What I Offer</a>
     <a href="course-details7.html" style="display:block; color:#111; text-decoration:none; font-weight:600; padding:10px;">MD’s Voice</a>
     <a href="contact.html"
-       style="display:inline-block; margin-top:10px; background-color:#00796b; color:#fff; text-decoration:none; font-weight:600; padding:10px 15px; border-radius:6px;">Book a Consult</a>
+       style="display:inline-block; margin-top:10px; background-color:#00796b; color:#fff; text-decoration:none; font-weight:600; padding:12px 24px; border-radius:50px;">Book a Consult</a>
   </div>
 
   <!-- Inline JS -->
@@ -161,17 +161,22 @@
       const desktopBtn = document.getElementById('desktopBtn');
       const logo = document.getElementById('logoImg');
 
-      if (width <= 768) {
+      if (width <= 480) {
         desktopNav.style.display = 'none';
         menuToggle.style.display = 'block';
-        desktopBtn.style.display = 'none'; // hide button on mobile
-        logo.style.height = '45px'; // smaller logo
+        desktopBtn.style.display = 'none';
+        logo.style.height = '45px';
+      } else if (width <= 992) {
+        desktopNav.style.display = 'none';
+        menuToggle.style.display = 'block';
+        desktopBtn.style.display = 'none';
+        logo.style.height = '60px';
       } else {
         desktopNav.style.display = 'block';
         menuToggle.style.display = 'none';
         mobileNav.style.display = 'none';
-        desktopBtn.style.display = 'block'; // show button on desktop
-        logo.style.height = '50px'; // normal logo
+        desktopBtn.style.display = 'block';
+        logo.style.height = '95px';
       }
     }
 
@@ -565,19 +570,6 @@
         <div class="row large-gap">
             <div class="col-lg-8">
                 <div class="course-details-content">
-                    <div class="course-header">
-                        <span class="category">Podcast</span>
-                        <!-- <img src="assets/images/shapes/line-shape.png" alt="Line"> -->
-                        <span class="off">Free Content</span>
-                        <div class="ratting">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <span>(4.9)</span>
-                        </div>
-                    </div>
                     <h2>Business Veda Podcast - Weekly Business Insights & Success Stories</h2>
                     <ul class="author-date-enroll">
                         <li>
@@ -887,10 +879,8 @@
                         </div>
                         <div class="price-off">
                             <span class="price">Free</span>
-                            <span class="off">Weekly Episodes</span>
                         </div>
                         <ul class="course-details-list mb-25">
-                            <li><i class="far fa-file-alt"></i> <span>Content Type</span> <b>Audio Podcast</b></li>
                             <li><i class="far fa-clock"></i> <span>Frequency</span> <b>Weekly Episodes</b></li>
                             <li><i class="far fa-play-circle"></i> <span>Episode Length</span> <b>15-25 minutes</b></li>
                             <li><i class="far fa-clipboard"></i> <span>Focus</span> <b>Business Growth</b></li>
@@ -1134,140 +1124,195 @@
 <!-- Recent Coach End -->
 
 
-        <!-- Footer Area Start -->
-        <footer class="main-footer bg-blue">
-            <div class="container">
-                <div class="footer-newsletter br-10 bg-lighter">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="newsletter-video bgs-cover overlay wow fadeInLeft delay-0-2s"
-                                style="background-image: url(assets/images/video/footer-video-bg.jpg);">
-                                <a href="https://www.youtube.com/watch?v=9Y7ma241N8k" class="mfp-iframe video-play"><i
-                                        class="fas fa-play"></i></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 align-self-center">
-                            <div class="newsletter-content wow fadeInRight delay-0-2s">
-                                <div class="section-title mb-20">
-                                    <span class="sub-title-two">Newsletters</span>
-                                    <h2>Get Our Every Single Notifications</h2>
-                                </div>
-                                <form class="newsletter-form mt-25" action="#">
-                                    <div class="newsletter-radios mb-25">
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input" id="hero-wekly"
-                                                name="example1" checked="">
-                                            <label class="custom-control-label" for="hero-wekly">Regular Updates</label>
-                                        </div>
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input" id="hero-monthly"
-                                                name="example1">
-                                            <label class="custom-control-label" for="hero-monthly">Weekly
-                                                Updates</label>
-                                        </div>
-                                    </div>
-                                    <div class="newsletter-email">
-                                        <label for="email"><i class="far fa-envelope"></i></label>
-                                        <input id="email" type="email" placeholder="Enter Email" required="">
-                                        <button type="submit" class="theme-btn style-two">sign up <i
-                                                class="fas fa-arrow-right"></i></button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row justify-content-between text-white pt-75">
-                    <div class="col-lg-3 col-sm-4">
-                        <div class="footer-widget about-widget">
-                            <h5 class="footer-title">About Us</h5>
-                            <p>Sit amet consectetur adipiscin seeiusmod tempor incididunt ut dolore magna aliqu asusp
-                                disse ultrices gravida commodo</p>
-                            <h5 class="pt-5">Follow Us</h5>
-                            <div class="social-style-one">
-                                <a href="contact.html"><i class="fab fa-facebook-f"></i></a>
-                                <a href="contact.html"><i class="fab fa-twitter"></i></a>
-                                <a href="contact.html"><i class="fab fa-linkedin-in"></i></a>
-                                <a href="contact.html"><i class="fab fa-youtube"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-3 col-sm-4">
-                        <div class="footer-widget menu-widget">
-                            <h5 class="footer-title">Courses</h5>
-                            <ul>
-                                <li><a href="course-details.html">Life Coach</a></li>
-                                <li><a href="course-details.html">Business Coach</a></li>
-                                <li><a href="course-details.html">Health Coach</a></li>
-                                <li><a href="course-details.html">Development</a></li>
-                                <li><a href="course-details.html">Web Design</a></li>
-                                <li><a href="course-details.html">SEO Optimize</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-3 col-sm-4">
-                        <div class="footer-widget menu-widget">
-                            <h5 class="footer-title">Resources</h5>
-                            <ul>
-                                <li><a href="contact.html">Community</a></li>
-                                <li><a href="contact.html">Support</a></li>
-                                <li><a href="contact.html">Video Guides</a></li>
-                                <li><a href="contact.html">Documentation</a></li>
-                                <li><a href="contact.html">Security</a></li>
-                                <li><a href="contact.html">Template</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-5">
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <div class="footer-widget contact-info-widget">
-                                    <h5 class="footer-title">Get In Touch</h5>
-                                    <ul>
-                                        <li><i class="fas fa-map-marker-alt"></i> 55 Main Street, 2nd Block, New York
-                                        </li>
-                                        <li><i class="far fa-envelope"></i> <a
-                                                href="mailto:support@gmail.com">support@gmail.com</a></li>
-                                        <li><i class="fas fa-phone"></i> <a href="callto:+0123456789">+012 (345) 67
-                                                89</a></li>
-                                        <li><i class="far fa-clock"></i> Sunday - Friday,<br> 08 am - 05 pm</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="footer-widget video-widget">
-                                    <p>Quis autem vel eum iure repre enderit voluptate</p>
-                                    <div class="video-widget overlay my-20">
-                                        <img src="assets/images/footer/video.jpg" alt="Video">
-                                        <a href="https://www.youtube.com/watch?v=9Y7ma241N8k"
-                                            class="mfp-iframe video-play"><i class="fas fa-play"></i></a>
-                                    </div>
-                                    <a href="about.html" class="read-more">view more <i
-                                            class="fas fa-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
+<!-- Footer Area Start -->
+<footer class="main-footer bg-blue text-white" style="padding: 30px 0 0;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="footer-widget">
+                    <h5 style="font-size: 1.2rem; font-weight: 600; margin-bottom: 20px; color: #fff; border-bottom: 2px solid #00796b; padding-bottom: 10px; display: inline-block;">About Us</h5>
+                    <p style="font-size: 0.95rem; line-height: 1.6; color: rgba(255,255,255,0.8); margin-bottom: 20px;">
+                        With 30+ years of experience, Malay Damania transforms businesses through proven coaching frameworks and strategic mentorship.
+                    </p>
+                    <div class="social-style-one" style="display: flex; gap: 10px; margin-top: 15px;">
+                        <a href="contact.html" style="width: 36px; height: 36px; background: #00796b; border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+                            <i class="fab fa-facebook-f" style="color: #fff; font-size: 14px;"></i>
+                        </a>
+                        <a href="contact.html" style="width: 36px; height: 36px; background: #00796b; border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+                            <i class="fab fa-twitter" style="color: #fff; font-size: 14px;"></i>
+                        </a>
+                        <a href="contact.html" style="width: 36px; height: 36px; background: #00796b; border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+                            <i class="fab fa-linkedin-in" style="color: #fff; font-size: 14px;"></i>
+                        </a>
+                        <a href="contact.html" style="width: 36px; height: 36px; background: #00796b; border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+                            <i class="fab fa-youtube" style="color: #fff; font-size: 14px;"></i>
+                        </a>
                     </div>
                 </div>
             </div>
-            <div class="copyright-area bg-dark-blue text-white rel">
-                <div class="container">
-                    <div class="copyright-inner">
-                        <p>© 2022. <a href="index.html">Wellern</a> All rights reserved.</p>
-                        <ul class="footer-menu">
-                            <li><a href="faqs.html">Faqs</a></li>
-                            <li><a href="contact.html">Links</a></li>
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="contact.html">Payments</a></li>
-                        </ul>
-                    </div>
+
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="footer-widget">
+                    <h5 style="font-size: 1.2rem; font-weight: 600; margin-bottom: 20px; color: #fff; border-bottom: 2px solid #00796b; padding-bottom: 10px; display: inline-block;">Services</h5>
+                    <ul style="list-style: none; padding: 0; margin: 0;">
+                        <li style="margin-bottom: 10px;">
+                            <a href="course-grid.html" style="color: rgba(255,255,255,0.8); text-decoration: none; font-size: 0.95rem; transition: all 0.3s ease; display: flex; align-items: center;">
+                                <i class="fas fa-chevron-right" style="font-size: 10px; margin-right: 8px; color: #00796b;"></i>
+                                CA Scale-Up Program
+                            </a>
+                        </li>
+                        <li style="margin-bottom: 10px;">
+                            <a href="course-grid.html" style="color: rgba(255,255,255,0.8); text-decoration: none; font-size: 0.95rem; transition: all 0.3s ease; display: flex; align-items: center;">
+                                <i class="fas fa-chevron-right" style="font-size: 10px; margin-right: 8px; color: #00796b;"></i>
+                                Business Mastery
+                            </a>
+                        </li>
+                        <li style="margin-bottom: 10px;">
+                            <a href="course-grid.html" style="color: rgba(255,255,255,0.8); text-decoration: none; font-size: 0.95rem; transition: all 0.3s ease; display: flex; align-items: center;">
+                                <i class="fas fa-chevron-right" style="font-size: 10px; margin-right: 8px; color: #00796b;"></i>
+                                Finance for Non-Finance
+                            </a>
+                        </li>
+                        <li style="margin-bottom: 10px;">
+                            <a href="course-grid.html" style="color: rgba(255,255,255,0.8); text-decoration: none; font-size: 0.95rem; transition: all 0.3s ease; display: flex; align-items: center;">
+                                <i class="fas fa-chevron-right" style="font-size: 10px; margin-right: 8px; color: #00796b;"></i>
+                                Speaking Engagements
+                            </a>
+                        </li>
+                        <li style="margin-bottom: 10px;">
+                            <a href="course-grid.html" style="color: rgba(255,255,255,0.8); text-decoration: none; font-size: 0.95rem; transition: all 0.3s ease; display: flex; align-items: center;">
+                                <i class="fas fa-chevron-right" style="font-size: 10px; margin-right: 8px; color: #00796b;"></i>
+                                Business Consulting
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-                <!-- Scroll Top Button -->
-                <button class="scroll-top scroll-to-target" data-target="html"><span
-                        class="fas fa-angle-double-up"></span></button>
             </div>
-        </footer>
-        <!-- Footer Area End -->
+
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="footer-widget">
+                    <h5 style="font-size: 1.2rem; font-weight: 600; margin-bottom: 20px; color: #fff; border-bottom: 2px solid #00796b; padding-bottom: 10px; display: inline-block;">Resources</h5>
+                    <ul style="list-style: none; padding: 0; margin: 0;">
+                        <li style="margin-bottom: 10px;">
+                            <a href="contact.html" style="color: rgba(255,255,255,0.8); text-decoration: none; font-size: 0.95rem; transition: all 0.3s ease; display: flex; align-items: center;">
+                                <i class="fas fa-chevron-right" style="font-size: 10px; margin-right: 8px; color: #00796b;"></i>
+                                Business Champ Book
+                            </a>
+                        </li>
+                        <li style="margin-bottom: 10px;">
+                            <a href="contact.html" style="color: rgba(255,255,255,0.8); text-decoration: none; font-size: 0.95rem; transition: all 0.3s ease; display: flex; align-items: center;">
+                                <i class="fas fa-chevron-right" style="font-size: 10px; margin-right: 8px; color: #00796b;"></i>
+                                Business Veda Podcast
+                            </a>
+                        </li>
+                        <li style="margin-bottom: 10px;">
+                            <a href="contact.html" style="color: rgba(255,255,255,0.8); text-decoration: none; font-size: 0.95rem; transition: all 0.3s ease; display: flex; align-items: center;">
+                                <i class="fas fa-chevron-right" style="font-size: 10px; margin-right: 8px; color: #00796b;"></i>
+                                Voice of Books
+                            </a>
+                        </li>
+                        <li style="margin-bottom: 10px;">
+                            <a href="about.html" style="color: rgba(255,255,255,0.8); text-decoration: none; font-size: 0.95rem; transition: all 0.3s ease; display: flex; align-items: center;">
+                                <i class="fas fa-chevron-right" style="font-size: 10px; margin-right: 8px; color: #00796b;"></i>
+                                About Malay
+                            </a>
+                        </li>
+                        <li style="margin-bottom: 10px;">
+                            <a href="faqs.html" style="color: rgba(255,255,255,0.8); text-decoration: none; font-size: 0.95rem; transition: all 0.3s ease; display: flex; align-items: center;">
+                                <i class="fas fa-chevron-right" style="font-size: 10px; margin-right: 8px; color: #00796b;"></i>
+                                FAQs
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="footer-widget">
+                    <h5 style="font-size: 1.2rem; font-weight: 600; margin-bottom: 20px; color: #fff; border-bottom: 2px solid #00796b; padding-bottom: 10px; display: inline-block;">Contact</h5>
+                    <ul style="list-style: none; padding: 0; margin: 0;">
+                        <li style="margin-bottom: 12px; display: flex; align-items: start;">
+                            <i class="fas fa-map-marker-alt" style="color: #00796b; font-size: 14px; margin-right: 10px; margin-top: 3px;"></i>
+                            <span style="color: rgba(255,255,255,0.8); font-size: 0.9rem; line-height: 1.5;">
+                                D-8 Kalpana, Tilak Nagar, Mumbai - 400004
+                            </span>
+                        </li>
+                        <li style="margin-bottom: 12px; display: flex; align-items: center;">
+                            <i class="far fa-envelope" style="color: #00796b; font-size: 14px; margin-right: 10px;"></i>
+                            <a href="mailto:connect@malaydamania.co" style="color: rgba(255,255,255,0.8); text-decoration: none; font-size: 0.9rem; transition: all 0.3s ease;">
+                                connect@malaydamania.co
+                            </a>
+                        </li>
+                        <li style="margin-bottom: 12px; display: flex; align-items: center;">
+                            <i class="fas fa-phone" style="color: #00796b; font-size: 14px; margin-right: 10px;"></i>
+                            <a href="tel:+919967778484" style="color: rgba(255,255,255,0.8); text-decoration: none; font-size: 0.9rem; transition: all 0.3s ease;">
+                                +91 996777 8484
+                            </a>
+                        </li>
+                        <li style="margin-bottom: 12px; display: flex; align-items: center;">
+                            <i class="fab fa-whatsapp" style="color: #00796b; font-size: 14px; margin-right: 10px;"></i>
+                            <span style="color: rgba(255,255,255,0.8); font-size: 0.9rem;">WhatsApp Available</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="copyright-area bg-dark-blue rel" style="margin-top: 20px; padding: 15px 0;">
+        <div class="container">
+            <div class="copyright-inner" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
+                <p style="margin: 0; font-size: 0.9rem; color: rgba(255,255,255,0.7);">
+                    © 2024 <a href="index.html" style="color: #00796b; text-decoration: none; font-weight: 600;">Malay Damania</a>. All rights reserved.
+                </p>
+                <ul class="footer-menu" style="list-style: none; display: flex; gap: 15px; margin: 0; padding: 0;">
+                    <li><a href="sitemap.html" style="color: rgba(255,255,255,0.7); text-decoration: none; font-size: 0.9rem; transition: all 0.3s ease;">Sitemap</a></li>
+                    <li><a href="faqs.html" style="color: rgba(255,255,255,0.7); text-decoration: none; font-size: 0.9rem; transition: all 0.3s ease;">FAQs</a></li>
+                    <li><a href="contact.html" style="color: rgba(255,255,255,0.7); text-decoration: none; font-size: 0.9rem; transition: all 0.3s ease;">Contact</a></li>
+                    <li><a href="privacy.html" style="color: rgba(255,255,255,0.7); text-decoration: none; font-size: 0.9rem; transition: all 0.3s ease;">Privacy</a></li>
+                </ul>
+            </div>
+        </div>
+        <button class="scroll-top scroll-to-target" data-target="html"><span class="fas fa-angle-double-up"></span></button>
+    </div>
+</footer>
+
+<style>
+    .footer-widget a:hover {
+        color: #fff !important;
+        padding-left: 5px;
+    }
+    
+    .social-style-one a:hover {
+        background: #006d5f !important;
+        transform: translateY(-3px);
+    }
+    
+    @media (max-width: 991.98px) {
+        .main-footer {
+            padding: 40px 0 0 !important;
+        }
+        .footer-widget {
+            margin-bottom: 20px;
+        }
+    }
+    
+    @media (max-width: 767.98px) {
+        .main-footer {
+            padding: 30px 0 0 !important;
+        }
+        .copyright-inner {
+            flex-direction: column !important;
+            text-align: center;
+            gap: 15px;
+        }
+        .footer-menu {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+</style>
+<!-- Footer Area End -->
 
     </div>
     <!--End pagewrapper-->
