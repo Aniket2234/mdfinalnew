@@ -129,7 +129,7 @@
     <div style="flex:0 0 auto; display:flex; align-items:center;">
       <a href="index.html" style="display:inline-block;">
         <img id="logoImg" src="assets/images/logo.png" alt="Malay Damania Logo" title="Malay Damania Logo"
-             style="height:50px; width:auto; object-fit:contain; border:none; background:transparent; transition:0.3s;">
+             style="height:65px; width:auto; object-fit:contain; border:none; background:transparent; transition:0.3s;">
       </a>
     </div>
 
@@ -149,7 +149,7 @@
              style="text-decoration:none; color:#111; font-weight:600; font-size:16px; position:relative; padding-bottom:4px; transition:0.3s;"
              onmouseover="this.style.color='#00796b'; this.style.borderBottom='2px solid #00796b';"
              onmouseout="this.style.color='#111'; this.style.borderBottom='2px solid transparent';">
-             Offerings
+             What I Offer
           </a>
         </li>
         <li>
@@ -214,13 +214,13 @@
         desktopNav.style.display = 'none';
         menuToggle.style.display = 'block';
         desktopBtn.style.display = 'none'; // hide button on mobile
-        logo.style.height = '45px'; // smaller logo
+        logo.style.height = '50px'; // smaller logo on mobile
       } else {
         desktopNav.style.display = 'block';
         menuToggle.style.display = 'none';
         mobileNav.style.display = 'none';
         desktopBtn.style.display = 'block'; // show button on desktop
-        logo.style.height = '50px'; // normal logo
+        logo.style.height = '65px'; // larger logo on desktop
       }
     }
 
@@ -712,8 +712,9 @@
 .hero-slider {
   position: relative;
   overflow: hidden;
-  height: 100vh;
-  min-height: 650px;
+  height: 90vh;
+  max-height: 750px;
+  min-height: 600px;
   width: 100%;
   font-family: 'Poppins', sans-serif;
 }
@@ -723,7 +724,7 @@
   width: 100%;
   height: 100%;
   opacity: 0;
-  transition: opacity 1s ease-in-out;
+  transition: opacity 2s ease-in-out;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -986,7 +987,7 @@
     dot.addEventListener('click', () => showSlide(parseInt(dot.getAttribute('data-slide'))));
   });
 
-  setInterval(nextSlide, 10000);
+  setInterval(nextSlide, 15000);
 })();
 </script>
 
@@ -1208,23 +1209,26 @@
 
     <!-- Right Image -->
     <div style="flex:1 1 400px; text-align:center; padding:20px;">
-      <img src="assets/images/about/man.JPG" alt="Malay Damania" style="width:100%; max-width:400px; border-radius:12px; border:8px solid #80cbc4; object-fit:cover;">
+      <img src="assets/images/about/malay-damania-photo.jpg" alt="Malay Damania" style="width:100%; max-width:400px; border-radius:12px; border:8px solid #80cbc4; object-fit:cover;">
     </div>
   </div>
 
   <!-- Counter Section -->
   <div style="margin-top:60px; background:linear-gradient(90deg,#00796b,#009688); color:#fff; display:flex; flex-wrap:wrap; justify-content:center; text-align:center; padding:40px 20px; border-radius:10px;">
     <div style="flex:1 1 250px; padding:10px;">
+      <div style="font-size:42px; margin-bottom:10px;"><i class="fas fa-calendar-alt"></i></div>
       <div class="counter" data-target="60" style="font-size:40px; font-weight:700;">0+</div>
-      <p style="font-size:16px; color:#fff;">years of expreesss</p>
+      <p style="font-size:16px; color:#fff;">years of experience</p>
     </div>
     <div style="flex:1 1 250px; padding:10px;">
+      <div style="font-size:42px; margin-bottom:10px;"><i class="fas fa-project-diagram"></i></div>
       <div class="counter" data-target="2000" style="font-size:40px; font-weight:700;">0+</div>
-      <p style="font-size:16px; color:#fff;">project delivered</p>
+      <p style="font-size:16px; color:#fff;">projects delivered</p>
     </div>
     <div style="flex:1 1 250px; padding:10px;">
+      <div style="font-size:42px; margin-bottom:10px;"><i class="fas fa-users"></i></div>
       <div class="counter" data-target="30" style="font-size:40px; font-weight:700;">0+</div>
-      <p style="font-size:16px; color:#fff;">architect</p>
+      <p style="font-size:16px; color:#fff;">team architects</p>
     </div>
   </div>
 
@@ -1981,8 +1985,9 @@
       <div class="card" style="width:340px; background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 4px 15px rgba(0,0,0,0.1);">
         <div style="position:relative;">
           <img src="assets/images/coachs/coach1.jpg" alt="Coach" style="width:100%; height:200px; object-fit:cover;">
-          <div class="rating" style="position:absolute; top:10px; right:10px; background:rgba(0,0,0,0.6); padding:5px 10px; border-radius:8px;">
-            <span class="stars">★★★★★</span>1000+
+          <div class="rating" style="position:absolute; top:10px; right:10px; background:rgba(0,0,0,0.7); padding:8px 12px; border-radius:8px; text-align:center;">
+            <div style="color:#FFD700; font-size:18px; margin-bottom:4px;">★★★★★</div>
+            <div style="color:#fff; font-size:14px; font-weight:600;"><i class="fas fa-eye"></i> 1000+</div>
           </div>
         </div>
         <div style="padding:20px;">
@@ -2003,8 +2008,9 @@
       <div class="card" style="width:340px; background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 4px 15px rgba(0,0,0,0.1);">
         <div style="position:relative;">
           <img src="assets/images/coachs/coach2.jpg" alt="Coach" style="width:100%; height:200px; object-fit:cover;">
-          <div class="rating" style="position:absolute; top:10px; right:10px; background:rgba(0,0,0,0.6); padding:5px 10px; border-radius:8px;">
-            <span class="stars">★★★★★</span>1000+
+          <div class="rating" style="position:absolute; top:10px; right:10px; background:rgba(0,0,0,0.7); padding:8px 12px; border-radius:8px; text-align:center;">
+            <div style="color:#FFD700; font-size:18px; margin-bottom:4px;">★★★★★</div>
+            <div style="color:#fff; font-size:14px; font-weight:600;"><i class="fas fa-eye"></i> 1000+</div>
           </div>
         </div>
         <div style="padding:20px;">
@@ -2025,8 +2031,9 @@
       <div class="card" style="width:340px; background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 4px 15px rgba(0,0,0,0.1);">
         <div style="position:relative;">
           <img src="assets/images/coachs/coach3.jpg" alt="Coach" style="width:100%; height:200px; object-fit:cover;">
-          <div class="rating" style="position:absolute; top:10px; right:10px; background:rgba(0,0,0,0.6); padding:5px 10px; border-radius:8px;">
-            <span class="stars">★★★★★</span>1000+
+          <div class="rating" style="position:absolute; top:10px; right:10px; background:rgba(0,0,0,0.7); padding:8px 12px; border-radius:8px; text-align:center;">
+            <div style="color:#FFD700; font-size:18px; margin-bottom:4px;">★★★★★</div>
+            <div style="color:#fff; font-size:14px; font-weight:600;"><i class="fas fa-eye"></i> 1000+</div>
           </div>
         </div>
         <div style="padding:20px;">
@@ -2047,8 +2054,9 @@
       <div class="card" style="width:340px; background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 4px 15px rgba(0,0,0,0.1);">
         <div style="position:relative;">
           <img src="assets/images/coachs/coach4.jpg" alt="Coach" style="width:100%; height:200px; object-fit:cover;">
-          <div class="rating" style="position:absolute; top:10px; right:10px; background:rgba(0,0,0,0.6); padding:5px 10px; border-radius:8px;">
-            <span class="stars">★★★★★</span>1000+
+          <div class="rating" style="position:absolute; top:10px; right:10px; background:rgba(0,0,0,0.7); padding:8px 12px; border-radius:8px; text-align:center;">
+            <div style="color:#FFD700; font-size:18px; margin-bottom:4px;">★★★★★</div>
+            <div style="color:#fff; font-size:14px; font-weight:600;"><i class="fas fa-eye"></i> 1000+</div>
           </div>
         </div>
         <div style="padding:20px;">
@@ -2069,8 +2077,9 @@
       <div class="card" style="width:340px; background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 4px 15px rgba(0,0,0,0.1);">
         <div style="position:relative;">
           <img src="assets/images/coachs/coach5.jpg" alt="Coach" style="width:100%; height:200px; object-fit:cover;">
-          <div class="rating" style="position:absolute; top:10px; right:10px; background:rgba(0,0,0,0.6); padding:5px 10px; border-radius:8px;">
-            <span class="stars">★★★★★</span>1000+
+          <div class="rating" style="position:absolute; top:10px; right:10px; background:rgba(0,0,0,0.7); padding:8px 12px; border-radius:8px; text-align:center;">
+            <div style="color:#FFD700; font-size:18px; margin-bottom:4px;">★★★★★</div>
+            <div style="color:#fff; font-size:14px; font-weight:600;"><i class="fas fa-eye"></i> 1000+</div>
           </div>
         </div>
         <div style="padding:20px;">
@@ -2091,8 +2100,9 @@
       <div class="card" style="width:340px; background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 4px 15px rgba(0,0,0,0.1);">
         <div style="position:relative;">
           <img src="assets/images/coachs/coach6.jpg" alt="Coach" style="width:100%; height:200px; object-fit:cover;">
-          <div class="rating" style="position:absolute; top:10px; right:10px; background:rgba(0,0,0,0.6); padding:5px 10px; border-radius:8px;">
-            <span class="stars">★★★★★</span>1000+
+          <div class="rating" style="position:absolute; top:10px; right:10px; background:rgba(0,0,0,0.7); padding:8px 12px; border-radius:8px; text-align:center;">
+            <div style="color:#FFD700; font-size:18px; margin-bottom:4px;">★★★★★</div>
+            <div style="color:#fff; font-size:14px; font-weight:600;"><i class="fas fa-eye"></i> 1000+</div>
           </div>
         </div>
         <div style="padding:20px;">
