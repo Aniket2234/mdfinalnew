@@ -8,8 +8,8 @@
 
     Note: This is Main Style CSS File. */
 /*----------------------------------------------------------------------
-	CSS INDEX
-	----------------------
+        CSS INDEX
+        ----------------------
 
     01. Default Style
     02. Common Classes
@@ -455,7 +455,7 @@ a.theme-btn {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
-  border-radius: 5px;
+  border-radius: 50px;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -486,13 +486,13 @@ a.theme-btn:hover i {
 a.theme-btn:hover,
 a.theme-btn:focus,
 a.theme-btn.style-two:not(:hover) {
-  background: #e5bd3a;
+  background: #d4a029;
 }
 .theme-btn:not(:hover),
 .theme-btn.style-two:hover,
 a.theme-btn:not(:hover),
 a.theme-btn.style-two:hover {
-  background: #147e7e;
+  background: #e5bd3a;
 }
 .theme-btn.style-three,
 a.theme-btn.style-three {
