@@ -53,6 +53,24 @@ This is a static website served by a simple Node.js HTTP server on port 5000.
   - **Testimonials**: Added 3 additional reviews (6 total), fixed alignment issue by changing to align-items-start, added flex-shrink: 0 to profile images
   - **Footer**: Removed vacant space by reducing padding (50px → 30px) and copyright margin (30px → 20px)
 
+- 2025-10-31: Fourth UI/UX Enhancement Package (Buttons, Typography & Animated Carousel):
+  - **Counter Section Text**: Capitalized labels properly ("Years of Experience", "Projects Delivered", "Team Architects") and increased font size from 14px to 16px with font-weight 600
+  - **Offerings Heading**: Replaced "Offerings" with "What Are Our Offerings" in both instances, changed font to Oswald 800 with 1px letter-spacing for bold, distinctive look
+  - **GET STARTED Button**: Made fully cylindrical (border-radius: 50px), increased padding to 15px 45px, added min-width 220px, changed text to uppercase
+  - **Book a Consult Button**: Made cylindrical (border-radius: 50px) with increased padding: 12px 28px (desktop), 12px 24px (mobile)
+  - **Testimonials Carousel**: Completely redesigned as animated scrolling carousel with:
+    - Two horizontal rows with opposing animations (Row 1: left-to-right, Row 2: right-to-left)
+    - 40s linear infinite scroll with pause-on-hover functionality
+    - Compact card design (380px min-width desktop, 280px mobile, 260px extra small)
+    - Added 2 new dummy reviews (Neha Kapoor - Digital Marketing, Arjun Verma - Real Estate)
+    - Duplicated cards for seamless infinite scroll effect
+  - **Mobile Responsiveness**: Added comprehensive media queries for tablets (<768px) and phones (<480px):
+    - Hero section minimum height adjusted to 500px on mobile
+    - Counter section stacks vertically on mobile
+    - Testimonial cards resize appropriately (380px → 280px → 260px)
+    - Footer columns stack vertically with centered copyright
+    - All typography scales down appropriately
+
 ## Notes
 - Logo sizing and navigation updates applied to index.html and course-grid.html
 - Other HTML pages (about.html, contact.html, etc.) may benefit from similar header updates for consistency
@@ -60,3 +78,7 @@ This is a static website served by a simple Node.js HTTP server on port 5000.
 - Offerings cards use high-contrast design with dark background for better visibility
 - All new designs maintain #00796b (teal) as the brand accent color
 - Responsive breakpoints implemented for mobile (<768px), tablet (<992px), and desktop
+- Cylindrical buttons (border-radius: 50px) are now the standard for all major CTAs
+- Testimonials carousel uses CSS animations with infinite scroll - duplicated cards ensure seamless looping
+- Mobile-first responsive design ensures proper layout on all devices from 320px to 1920px+ widths
+- Oswald font family used for key headings to create visual hierarchy and brand consistency
