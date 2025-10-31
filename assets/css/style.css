@@ -369,15 +369,15 @@ input[type="radio"] {
 }
 
 .sub-title {
-  color: white;
+  color: #ffffff !important;
   font-size: 15px;
   font-weight: 700;
-  border-radius: 5px;
-  padding: 3px 16px 1px;
+  border-radius: 50px;
+  padding: 8px 20px;
   display: inline-block;
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
-  background: #147e7e;
+  background: #e5bd3a;
 }
 .sub-title.style-two {
   color: #e5bd3a;
