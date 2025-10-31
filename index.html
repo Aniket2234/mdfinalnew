@@ -166,7 +166,7 @@
     <!-- Desktop Button -->
     <div id="desktopBtn" style="flex:0 0 auto;">
       <a href="contact.html"
-         style="background-color:#00796b; color:#fff; font-weight:600; font-size:15px; text-decoration:none; padding:10px 18px; border-radius:8px; display:inline-flex; align-items:center; gap:8px; transition:0.3s;"
+         style="background-color:#00796b; color:#fff; font-weight:600; font-size:15px; text-decoration:none; padding:12px 28px; border-radius:50px; display:inline-flex; align-items:center; gap:8px; transition:0.3s;"
          onmouseover="this.style.backgroundColor='#00695c'; this.style.boxShadow='0 0 10px rgba(0,121,107,0.4)';"
          onmouseout="this.style.backgroundColor='#00796b'; this.style.boxShadow='none';">
         <i class="fas fa-phone" style="font-size:15px;"></i>
@@ -192,7 +192,7 @@
     <a href="course-grid.html" style="display:block; color:#111; text-decoration:none; font-weight:600; padding:10px;">What I Offer</a>
     <a href="course-details7.html" style="display:block; color:#111; text-decoration:none; font-weight:600; padding:10px;">MD’s Voice</a>
     <a href="contact.html"
-       style="display:inline-block; margin-top:10px; background-color:#00796b; color:#fff; text-decoration:none; font-weight:600; padding:10px 15px; border-radius:6px;">Book a Consult</a>
+       style="display:inline-block; margin-top:10px; background-color:#00796b; color:#fff; text-decoration:none; font-weight:600; padding:12px 24px; border-radius:50px;">Book a Consult</a>
   </div>
 
   <!-- Inline JS -->
@@ -1221,17 +1221,17 @@
     <div style="flex:1 1 220px; padding:8px;">
       <div style="font-size:32px; margin-bottom:6px;"><i class="fas fa-briefcase"></i></div>
       <div class="counter" data-target="60" style="font-size:34px; font-weight:700;">0+</div>
-      <p style="font-size:14px; color:#fff;">years of experience</p>
+      <p style="font-size:16px; color:#fff; font-weight:600; text-transform:capitalize;">Years of Experience</p>
     </div>
     <div style="flex:1 1 220px; padding:8px;">
       <div style="font-size:32px; margin-bottom:6px;"><i class="fas fa-rocket"></i></div>
       <div class="counter" data-target="2000" style="font-size:34px; font-weight:700;">0+</div>
-      <p style="font-size:14px; color:#fff;">projects delivered</p>
+      <p style="font-size:16px; color:#fff; font-weight:600; text-transform:capitalize;">Projects Delivered</p>
     </div>
     <div style="flex:1 1 220px; padding:8px;">
       <div style="font-size:32px; margin-bottom:6px;"><i class="fas fa-user-tie"></i></div>
       <div class="counter" data-target="30" style="font-size:34px; font-weight:700;">0+</div>
-      <p style="font-size:14px; color:#fff;">team architects</p>
+      <p style="font-size:16px; color:#fff; font-weight:600; text-transform:capitalize;">Team Architects</p>
     </div>
   </div>
 
@@ -1738,7 +1738,7 @@
                 <div class="row justify-content-center">
                     <div class="col-xl-6 col-lg-7 col-md-8">
                         <div class="section-title text-center mb-40">
-                            <h2>Offerings</h2>
+                            <h2 style="font-family:'Oswald', sans-serif; font-weight:800; letter-spacing:1px;">What Are Our Offerings</h2>
                         </div>
                     </div>
                 </div>
@@ -1926,7 +1926,7 @@
     <!-- Heading -->
     <div class="row" style="display:flex; justify-content:center; margin-bottom:40px;">
       <div class="col" style="text-align:center;">
-        <h2 style="font-size:36px; font-weight:700; color:#111; margin-bottom:20px;">Offerings</h2>
+        <h2 style="font-size:40px; font-weight:800; color:#111; margin-bottom:20px; font-family:'Oswald', sans-serif; letter-spacing:1px;">What Are Our Offerings</h2>
         <p style="font-size:18px; color:#333; font-weight:500;">
           Empowering Entrepreneurs to Transform Businesses & Scale New Heights With Proven Courses Like -
         </p>
@@ -2874,8 +2874,8 @@
 
                     <!-- Buttons -->
                     <div class="engagement-btns text-center">
-                        <a href="contact.html" class="theme-btn style-two my-15">
-                            Get Started <i class="fas fa-arrow-right"></i>
+                        <a href="contact.html" class="theme-btn style-two my-15" style="border-radius:50px !important; padding:15px 45px !important; min-width:220px;">
+                            GET STARTED <i class="fas fa-arrow-right"></i>
                         </a>
                         <!-- <a href="services.html" class="read-more">
                             View All Services <i class="fas fa-arrow-right"></i>
@@ -2986,191 +2986,280 @@
     });
 </script>
 <!-- Testimonials Section Start -->
-<section class="testimonials-section bg-white py-5" style="padding: 50px 0 40px;">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 text-center mb-4">
-                <h2 style="font-size: 2.5rem; font-weight: 700; color: #2c3e50; margin-bottom: 15px;">
-                    What Our Clients Say
-                </h2>
-                <p style="font-size: 1.1rem; color: #666; max-width: 600px; margin: 0 auto;">
-                    Over 2500+ businesses transformed through proven coaching frameworks
-                </p>
+<section class="testimonials-carousel-section" style="padding: 50px 0; background: #f8f9fa; overflow: hidden;">
+    <div class="container" style="max-width: 1400px; margin: 0 auto; padding: 0 20px;">
+        <div class="text-center mb-5">
+            <h2 style="font-size: 2.5rem; font-weight: 700; color: #2c3e50; margin-bottom: 15px;">
+                What Our Clients Say
+            </h2>
+            <p style="font-size: 1.1rem; color: #666;">
+                Over 2500+ businesses transformed through proven coaching frameworks
+            </p>
+        </div>
+
+        <!-- Row 1: Scrolling Right -->
+        <div class="carousel-row mb-4" style="overflow: hidden; position: relative;">
+            <div class="carousel-track scroll-right" style="display: flex; gap: 20px; animation: scroll-right 40s linear infinite;">
+                <!-- Testimonial Cards - Duplicated for infinite scroll -->
+                <div class="testimonial-carousel-card">
+                    <div class="d-flex align-items-start mb-2">
+                        <img src="assets/images/testimonials/testimonial-two2.jpg" alt="Rajesh Kumar" style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover; border: 2px solid #00796b; flex-shrink: 0;">
+                        <div style="margin-left: 12px;">
+                            <h5 style="font-size: 1rem; font-weight: 600; color: #2c3e50; margin-bottom: 2px;">Rajesh Kumar</h5>
+                            <span style="font-size: 0.85rem; color: #00796b;">Manufacturing Business Owner</span>
+                            <div style="margin-top: 4px;">
+                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.7rem;"></i>
+                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.7rem;"></i>
+                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.7rem;"></i>
+                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.7rem;"></i>
+                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.7rem;"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p style="font-size: 0.9rem; color: #666; line-height: 1.5; font-style: italic; margin: 0;">"Business Mastery Program transformed my stagnant business. Revenue increased 40% in 6 months."</p>
+                </div>
+                <div class="testimonial-carousel-card">
+                    <div class="d-flex align-items-start mb-2">
+                        <img src="assets/images/testimonials/testimonial-two1.jpg" alt="Priya Sharma" style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover; border: 2px solid #00796b; flex-shrink: 0;">
+                        <div style="margin-left: 12px;">
+                            <h5 style="font-size: 1rem; font-weight: 600; color: #2c3e50; margin-bottom: 2px;">Priya Sharma</h5>
+                            <span style="font-size: 0.85rem; color: #00796b;">Chartered Accountant</span>
+                            <div style="margin-top: 4px;">
+                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.7rem;"></i>
+                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.7rem;"></i>
+                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.7rem;"></i>
+                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.7rem;"></i>
+                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.7rem;"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p style="font-size: 0.9rem; color: #666; line-height: 1.5; font-style: italic; margin: 0;">"CA Scale-Up Program broke my referral dependency. Practice revenue doubled in 8 months."</p>
+                </div>
+                <div class="testimonial-carousel-card">
+                    <div class="d-flex align-items-start mb-2">
+                        <img src="assets/images/testimonials/testimonial-two3.jpg" alt="Amit Patel" style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover; border: 2px solid #00796b; flex-shrink: 0;">
+                        <div style="margin-left: 12px;">
+                            <h5 style="font-size: 1rem; font-weight: 600; color: #2c3e50; margin-bottom: 2px;">Amit Patel</h5>
+                            <span style="font-size: 0.85rem; color: #00796b;">Restaurant Chain Owner</span>
+                            <div style="margin-top: 4px;">
+                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.7rem;"></i>
+                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.7rem;"></i>
+                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.7rem;"></i>
+                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.7rem;"></i>
+                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.7rem;"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p style="font-size: 0.9rem; color: #666; line-height: 1.5; font-style: italic; margin: 0;">"Restaurant Growth Course provided clear frameworks for menu optimization. Profit margins improved 25% in 4 months."</p>
+                </div>
+                <div class="testimonial-carousel-card">
+                    <div class="d-flex align-items-start mb-2">
+                        <img src="assets/images/testimonials/testimonial-two2.jpg" alt="Vik
+
+ram Mehta" style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover; border: 2px solid #00796b; flex-shrink: 0;">
+                        <div style="margin-left: 12px;">
+                            <h5 style="font-size: 1rem; font-weight: 600; color: #2c3e50; margin-bottom: 2px;">Vikram Mehta</h5>
+                            <span style="font-size: 0.85rem; color: #00796b;">Tech Startup Founder</span>
+                            <div style="margin-top: 4px;">
+                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.7rem;"></i>
+                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.7rem;"></i>
+                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.7rem;"></i>
+                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.7rem;"></i>
+                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.7rem;"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p style="font-size: 0.9rem; color: #666; line-height: 1.5; font-style: italic; margin: 0;">"Finance for Non-Finance program gave me clarity on cash flow. Helped secure Series A funding."</p>
+                </div>
+                <!-- Duplicate cards for infinite scroll -->
+                <div class="testimonial-carousel-card">
+                    <div class="d-flex align-items-start mb-2">
+                        <img src="assets/images/testimonials/testimonial-two2.jpg" alt="Rajesh Kumar" style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover; border: 2px solid #00796b; flex-shrink: 0;">
+                        <div style="margin-left: 12px;">
+                            <h5 style="font-size: 1rem; font-weight: 600; color: #2c3e50; margin-bottom: 2px;">Rajesh Kumar</h5>
+                            <span style="font-size: 0.85rem; color: #00796b;">Manufacturing Business Owner</span>
+                            <div style="margin-top: 4px;">
+                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.7rem;"></i>
+                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.7rem;"></i>
+                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.7rem;"></i>
+                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.7rem;"></i>
+                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.7rem;"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p style="font-size: 0.9rem; color: #666; line-height: 1.5; font-style: italic; margin: 0;">"Business Mastery Program transformed my stagnant business. Revenue increased 40% in 6 months."</p>
+                </div>
+                <div class="testimonial-carousel-card">
+                    <div class="d-flex align-items-start mb-2">
+                        <img src="assets/images/testimonials/testimonial-two1.jpg" alt="Priya Sharma" style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover; border: 2px solid #00796b; flex-shrink: 0;">
+                        <div style="margin-left: 12px;">
+                            <h5 style="font-size: 1rem; font-weight: 600; color: #2c3e50; margin-bottom: 2px;">Priya Sharma</h5>
+                            <span style="font-size: 0.85rem; color: #00796b;">Chartered Accountant</span>
+                            <div style="margin-top: 4px;">
+                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.7rem;"></i>
+                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.7rem;"></i>
+                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.7rem;"></i>
+                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.7rem;"></i>
+                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.7rem;"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p style="font-size: 0.9rem; color: #666; line-height: 1.5; font-style: italic; margin: 0;">"CA Scale-Up Program broke my referral dependency. Practice revenue doubled in 8 months."</p>
+                </div>
             </div>
         </div>
 
-        <div class="row mt-4">
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="testimonial-card" style="background: #fff; border-radius: 12px; padding: 25px; box-shadow: 0 4px 15px rgba(0,121,107,0.1); border-left: 4px solid #00796b; height: 100%; transition: transform 0.3s ease;">
-                    <div class="d-flex align-items-start mb-3">
-                        <img src="assets/images/testimonials/testimonial-two2.jpg" alt="Rajesh Kumar"
-                            style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover; border: 2px solid #00796b; flex-shrink: 0;">
-                        <div class="ms-3">
-                            <h5 class="mb-0" style="color: #2c3e50; font-size: 1.1rem; font-weight: 600;">Rajesh Kumar</h5>
-                            <span style="color: #00796b; font-size: 0.9rem; font-weight: 500;">Manufacturing Business Owner</span>
-                            <div class="mt-1">
-                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.8rem;"></i>
-                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.8rem;"></i>
-                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.8rem;"></i>
-                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.8rem;"></i>
-                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.8rem;"></i>
+        <!-- Row 2: Scrolling Left -->
+        <div class="carousel-row" style="overflow: hidden; position: relative;">
+            <div class="carousel-track scroll-left" style="display: flex; gap: 20px; animation: scroll-left 40s linear infinite;">
+                <div class="testimonial-carousel-card">
+                    <div class="d-flex align-items-start mb-2">
+                        <img src="assets/images/testimonials/testimonial-two1.jpg" alt="Sneha Desai" style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover; border: 2px solid #00796b; flex-shrink: 0;">
+                        <div style="margin-left: 12px;">
+                            <h5 style="font-size: 1rem; font-weight: 600; color: #2c3e50; margin-bottom: 2px;">Sneha Desai</h5>
+                            <span style="font-size: 0.85rem; color: #00796b;">E-commerce Business Owner</span>
+                            <div style="margin-top: 4px;">
+                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.7rem;"></i>
+                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.7rem;"></i>
+                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.7rem;"></i>
+                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.7rem;"></i>
+                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.7rem;"></i>
                             </div>
                         </div>
                     </div>
-                    <p style="color: #666; line-height: 1.6; font-size: 0.95rem; margin: 0; font-style: italic;">
-                        "Business Mastery Program transformed my stagnant business. Revenue increased 40% in 6 months. Practical approach and financial insights were game-changers."
-                    </p>
+                    <p style="font-size: 0.9rem; color: #666; line-height: 1.5; font-style: italic; margin: 0;">"The strategic coaching helped me scale from 50 to 500 daily orders. Customer retention improved by 60%."</p>
                 </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="testimonial-card" style="background: #fff; border-radius: 12px; padding: 25px; box-shadow: 0 4px 15px rgba(0,121,107,0.1); border-left: 4px solid #00796b; height: 100%; transition: transform 0.3s ease;">
-                    <div class="d-flex align-items-start mb-3">
-                        <img src="assets/images/testimonials/testimonial-two1.jpg" alt="Priya Sharma"
-                            style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover; border: 2px solid #00796b; flex-shrink: 0;">
-                        <div class="ms-3">
-                            <h5 class="mb-0" style="color: #2c3e50; font-size: 1.1rem; font-weight: 600;">Priya Sharma</h5>
-                            <span style="color: #00796b; font-size: 0.9rem; font-weight: 500;">Chartered Accountant</span>
-                            <div class="mt-1">
-                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.8rem;"></i>
-                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.8rem;"></i>
-                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.8rem;"></i>
-                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.8rem;"></i>
-                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.8rem;"></i>
+                <div class="testimonial-carousel-card">
+                    <div class="d-flex align-items-start mb-2">
+                        <img src="assets/images/testimonials/testimonial-two3.jpg" alt="Karan Singh" style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover; border: 2px solid #00796b; flex-shrink: 0;">
+                        <div style="margin-left: 12px;">
+                            <h5 style="font-size: 1rem; font-weight: 600; color: #2c3e50; margin-bottom: 2px;">Karan Singh</h5>
+                            <span style="font-size: 0.85rem; color: #00796b;">Consulting Firm Partner</span>
+                            <div style="margin-top: 4px;">
+                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.7rem;"></i>
+                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.7rem;"></i>
+                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.7rem;"></i>
+                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.7rem;"></i>
+                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.7rem;"></i>
                             </div>
                         </div>
                     </div>
-                    <p style="color: #666; line-height: 1.6; font-size: 0.95rem; margin: 0; font-style: italic;">
-                        "CA Scale-Up Program broke my referral dependency. Practice revenue doubled in 8 months with a consistent client pipeline. Strategies are practical and results-driven."
-                    </p>
+                    <p style="font-size: 0.9rem; color: #666; line-height: 1.5; font-style: italic; margin: 0;">"Malay's mentorship transformed our client acquisition strategy. Added 15 high-value clients in 5 months."</p>
                 </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="testimonial-card" style="background: #fff; border-radius: 12px; padding: 25px; box-shadow: 0 4px 15px rgba(0,121,107,0.1); border-left: 4px solid #00796b; height: 100%; transition: transform 0.3s ease;">
-                    <div class="d-flex align-items-start mb-3">
-                        <img src="assets/images/testimonials/testimonial-two3.jpg" alt="Amit Patel"
-                            style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover; border: 2px solid #00796b; flex-shrink: 0;">
-                        <div class="ms-3">
-                            <h5 class="mb-0" style="color: #2c3e50; font-size: 1.1rem; font-weight: 600;">Amit Patel</h5>
-                            <span style="color: #00796b; font-size: 0.9rem; font-weight: 500;">Restaurant Chain Owner</span>
-                            <div class="mt-1">
-                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.8rem;"></i>
-                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.8rem;"></i>
-                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.8rem;"></i>
-                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.8rem;"></i>
-                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.8rem;"></i>
+                <div class="testimonial-carousel-card">
+                    <div class="d-flex align-items-start mb-2">
+                        <img src="assets/images/testimonials/testimonial-two2.jpg" alt="Neha Kapoor" style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover; border: 2px solid #00796b; flex-shrink: 0;">
+                        <div style="margin-left: 12px;">
+                            <h5 style="font-size: 1rem; font-weight: 600; color: #2c3e50; margin-bottom: 2px;">Neha Kapoor</h5>
+                            <span style="font-size: 0.85rem; color: #00796b;">Digital Marketing Agency Owner</span>
+                            <div style="margin-top: 4px;">
+                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.7rem;"></i>
+                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.7rem;"></i>
+                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.7rem;"></i>
+                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.7rem;"></i>
+                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.7rem;"></i>
                             </div>
                         </div>
                     </div>
-                    <p style="color: #666; line-height: 1.6; font-size: 0.95rem; margin: 0; font-style: italic;">
-                        "Restaurant Growth Course provided clear frameworks for menu optimization and efficiency. Profit margins improved 25% in 4 months. Practical and actionable."
-                    </p>
+                    <p style="font-size: 0.9rem; color: #666; line-height: 1.5; font-style: italic; margin: 0;">"Business consulting helped us scale from 5 to 20 clients per month. Revenue tripled in 10 months."</p>
                 </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="testimonial-card" style="background: #fff; border-radius: 12px; padding: 25px; box-shadow: 0 4px 15px rgba(0,121,107,0.1); border-left: 4px solid #00796b; height: 100%; transition: transform 0.3s ease;">
-                    <div class="d-flex align-items-start mb-3">
-                        <img src="assets/images/testimonials/testimonial-two2.jpg" alt="Vikram Mehta"
-                            style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover; border: 2px solid #00796b; flex-shrink: 0;">
-                        <div class="ms-3">
-                            <h5 class="mb-0" style="color: #2c3e50; font-size: 1.1rem; font-weight: 600;">Vikram Mehta</h5>
-                            <span style="color: #00796b; font-size: 0.9rem; font-weight: 500;">Tech Startup Founder</span>
-                            <div class="mt-1">
-                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.8rem;"></i>
-                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.8rem;"></i>
-                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.8rem;"></i>
-                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.8rem;"></i>
-                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.8rem;"></i>
+                <div class="testimonial-carousel-card">
+                    <div class="d-flex align-items-start mb-2">
+                        <img src="assets/images/testimonials/testimonial-two1.jpg" alt="Arjun Verma" style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover; border: 2px solid #00796b; flex-shrink: 0;">
+                        <div style="margin-left: 12px;">
+                            <h5 style="font-size: 1rem; font-weight: 600; color: #2c3e50; margin-bottom: 2px;">Arjun Verma</h5>
+                            <span style="font-size: 0.85rem; color: #00796b;">Real Estate Developer</span>
+                            <div style="margin-top: 4px;">
+                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.7rem;"></i>
+                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.7rem;"></i>
+                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.7rem;"></i>
+                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.7rem;"></i>
+                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.7rem;"></i>
                             </div>
                         </div>
                     </div>
-                    <p style="color: #666; line-height: 1.6; font-size: 0.95rem; margin: 0; font-style: italic;">
-                        "Finance for Non-Finance program gave me clarity on cash flow and budgeting. Helped secure Series A funding by presenting solid financial projections. Highly recommend."
-                    </p>
+                    <p style="font-size: 0.9rem; color: #666; line-height: 1.5; font-style: italic; margin: 0;">"Strategic frameworks helped streamline operations and increase project delivery by 35%. ROI was immediate."</p>
                 </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="testimonial-card" style="background: #fff; border-radius: 12px; padding: 25px; box-shadow: 0 4px 15px rgba(0,121,107,0.1); border-left: 4px solid #00796b; height: 100%; transition: transform 0.3s ease;">
-                    <div class="d-flex align-items-start mb-3">
-                        <img src="assets/images/testimonials/testimonial-two1.jpg" alt="Sneha Desai"
-                            style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover; border: 2px solid #00796b; flex-shrink: 0;">
-                        <div class="ms-3">
-                            <h5 class="mb-0" style="color: #2c3e50; font-size: 1.1rem; font-weight: 600;">Sneha Desai</h5>
-                            <span style="color: #00796b; font-size: 0.9rem; font-weight: 500;">E-commerce Business Owner</span>
-                            <div class="mt-1">
-                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.8rem;"></i>
-                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.8rem;"></i>
-                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.8rem;"></i>
-                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.8rem;"></i>
-                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.8rem;"></i>
+                <!-- Duplicate cards for infinite scroll -->
+                <div class="testimonial-carousel-card">
+                    <div class="d-flex align-items-start mb-2">
+                        <img src="assets/images/testimonials/testimonial-two1.jpg" alt="Sneha Desai" style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover; border: 2px solid #00796b; flex-shrink: 0;">
+                        <div style="margin-left: 12px;">
+                            <h5 style="font-size: 1rem; font-weight: 600; color: #2c3e50; margin-bottom: 2px;">Sneha Desai</h5>
+                            <span style="font-size: 0.85rem; color: #00796b;">E-commerce Business Owner</span>
+                            <div style="margin-top: 4px;">
+                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.7rem;"></i>
+                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.7rem;"></i>
+                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.7rem;"></i>
+                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.7rem;"></i>
+                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.7rem;"></i>
                             </div>
                         </div>
                     </div>
-                    <p style="color: #666; line-height: 1.6; font-size: 0.95rem; margin: 0; font-style: italic;">
-                        "The strategic coaching helped me scale from 50 to 500 daily orders. Customer retention improved by 60%. Malay's frameworks are simple yet powerful."
-                    </p>
+                    <p style="font-size: 0.9rem; color: #666; line-height: 1.5; font-style: italic; margin: 0;">"The strategic coaching helped me scale from 50 to 500 daily orders. Customer retention improved by 60%."</p>
                 </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="testimonial-card" style="background: #fff; border-radius: 12px; padding: 25px; box-shadow: 0 4px 15px rgba(0,121,107,0.1); border-left: 4px solid #00796b; height: 100%; transition: transform 0.3s ease;">
-                    <div class="d-flex align-items-start mb-3">
-                        <img src="assets/images/testimonials/testimonial-two3.jpg" alt="Karan Singh"
-                            style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover; border: 2px solid #00796b; flex-shrink: 0;">
-                        <div class="ms-3">
-                            <h5 class="mb-0" style="color: #2c3e50; font-size: 1.1rem; font-weight: 600;">Karan Singh</h5>
-                            <span style="color: #00796b; font-size: 0.9rem; font-weight: 500;">Consulting Firm Partner</span>
-                            <div class="mt-1">
-                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.8rem;"></i>
-                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.8rem;"></i>
-                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.8rem;"></i>
-                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.8rem;"></i>
-                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.8rem;"></i>
+                <div class="testimonial-carousel-card">
+                    <div class="d-flex align-items-start mb-2">
+                        <img src="assets/images/testimonials/testimonial-two3.jpg" alt="Karan Singh" style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover; border: 2px solid #00796b; flex-shrink: 0;">
+                        <div style="margin-left: 12px;">
+                            <h5 style="font-size: 1rem; font-weight: 600; color: #2c3e50; margin-bottom: 2px;">Karan Singh</h5>
+                            <span style="font-size: 0.85rem; color: #00796b;">Consulting Firm Partner</span>
+                            <div style="margin-top: 4px;">
+                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.7rem;"></i>
+                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.7rem;"></i>
+                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.7rem;"></i>
+                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.7rem;"></i>
+                                <i class="fas fa-star" style="color: #ffc107; font-size: 0.7rem;"></i>
                             </div>
                         </div>
                     </div>
-                    <p style="color: #666; line-height: 1.6; font-size: 0.95rem; margin: 0; font-style: italic;">
-                        "Malay's mentorship transformed our client acquisition strategy. Added 15 high-value clients in 5 months. His insights on positioning were invaluable."
-                    </p>
+                    <p style="font-size: 0.9rem; color: #666; line-height: 1.5; font-style: italic; margin: 0;">"Malay's mentorship transformed our client acquisition strategy. Added 15 high-value clients in 5 months."</p>
                 </div>
             </div>
         </div>
     </div>
-    
-    <style>
-        .testimonial-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 25px rgba(0,121,107,0.2) !important;
-        }
-        
-        @media (max-width: 991.98px) {
-            .testimonials-section {
-                padding: 60px 0 40px !important;
-            }
-            .testimonials-section h2 {
-                font-size: 2rem !important;
-            }
-        }
-        
-        @media (max-width: 767.98px) {
-            .testimonials-section {
-                padding: 50px 0 30px !important;
-            }
-            .testimonials-section h2 {
-                font-size: 1.8rem !important;
-            }
-            .testimonials-section p {
-                font-size: 1rem !important;
-            }
-            .testimonial-card {
-                margin-bottom: 20px !important;
-            }
-        }
-    </style>
 </section>
+
+<style>
+    .testimonial-carousel-card {
+        background: #fff;
+        border-radius: 12px;
+        padding: 20px;
+        box-shadow: 0 4px 15px rgba(0,121,107,0.1);
+        border-left: 4px solid #00796b;
+        min-width: 380px;
+        flex-shrink: 0;
+    }
+
+    @keyframes scroll-right {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(-50%);
+        }
+    }
+
+    @keyframes scroll-left {
+        0% {
+            transform: translateX(-50%);
+        }
+        100% {
+            transform: translateX(0);
+        }
+    }
+
+    .carousel-track:hover {
+        animation-play-state: paused;
+    }
+
+    @media (max-width: 768px) {
+        .testimonial-carousel-card {
+            min-width: 300px;
+        }
+    }
+</style>
+<!-- Testimonials Section End -->
 <!-- Testimonials Section End -->
 
         <!-- Blog Section Start -->
@@ -3588,3 +3677,73 @@
 </body>
 
 </html>
+<!-- Mobile Responsive Styles -->
+<style>
+    @media (max-width: 768px) {
+        /* Header adjustments already handled inline */
+        
+        /* Hero section mobile */
+        .slider-section .hero-slider {
+            min-height: 500px !important;
+        }
+        
+        /* Who Am I section mobile */
+        section[style*="background-color:#fff"] h2 {
+            font-size: 24px !important;
+        }
+        
+        section[style*="background-color:#fff"] p {
+            font-size: 16px !important;
+        }
+        
+        /* Counter section mobile - stack vertically */
+        div[style*="linear-gradient(90deg,#00796b,#009688)"] {
+            padding: 20px 15px !important;
+        }
+        
+        div[style*="linear-gradient(90deg,#00796b,#009688)"] > div {
+            flex-basis: 100% !important;
+            margin-bottom: 15px;
+        }
+        
+        div[style*="linear-gradient(90deg,#00796b,#009688)"] > div:last-child {
+            margin-bottom: 0;
+        }
+        
+        /* Offerings section mobile */
+        h2[style*="font-family:'Oswald'"] {
+            font-size: 28px !important;
+        }
+        
+        /* Testimonials carousel mobile */
+        .testimonial-carousel-card {
+            min-width: 280px !important;
+        }
+        
+        /* Footer mobile - stack columns */
+        .main-footer .row > div {
+            margin-bottom: 25px;
+        }
+        
+        .main-footer .copyright-inner {
+            flex-direction: column !important;
+            text-align: center;
+        }
+        
+        .main-footer .footer-menu {
+            margin-top: 15px !important;
+        }
+    }
+    
+    @media (max-width: 480px) {
+        /* Extra small devices */
+        .testimonials-carousel-section h2 {
+            font-size: 1.8rem !important;
+        }
+        
+        .testimonial-carousel-card {
+            min-width: 260px !important;
+            padding: 15px !important;
+        }
+    }
+</style>
