@@ -1357,6 +1357,29 @@
 
         <!-- Related Programs Section Start -->
         <section style="padding: 80px 0; background: linear-gradient(135deg, #f8f9fa 0%, #fff 100%);">
+            <style>
+                .programs-grid {
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    gap: 30px;
+                    margin: 0 auto;
+                    max-width: 100%;
+                }
+                
+                @media (max-width: 991px) {
+                    .programs-grid {
+                        grid-template-columns: repeat(2, 1fr);
+                        gap: 25px;
+                    }
+                }
+                
+                @media (max-width: 576px) {
+                    .programs-grid {
+                        grid-template-columns: 1fr;
+                        gap: 20px;
+                    }
+                }
+            </style>
             <div class="container">
                 <!-- Section Header -->
                 <div style="text-align: center; margin-bottom: 50px;">
@@ -1369,9 +1392,9 @@
                 </div>
 
                 <!-- Programs Grid -->
-                <div class="row" style="display: flex; justify-content: center; gap: 30px; flex-wrap: wrap;">
+                <div class="programs-grid">
                     <!-- Program 1: Business Mastery Program -->
-                    <div class="col-lg-3 col-md-6 col-sm-12" style="max-width: 350px;">
+                    <div style="width: 100%;">
                         <a href="course-details1.html" style="text-decoration: none; display: block; height: 100%;">
                             <div style="background: #fff; border-radius: 15px; overflow: hidden; box-shadow: 0 5px 20px rgba(0,0,0,0.1); transition: all 0.3s ease; height: 100%; cursor: pointer;" 
                                  onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.15)';"
@@ -1420,7 +1443,7 @@
                     </div>
 
                     <!-- Program 2: CA Scale-Up Program -->
-                    <div class="col-lg-3 col-md-6 col-sm-12" style="max-width: 350px;">
+                    <div style="width: 100%;">
                         <a href="course-details2.html" style="text-decoration: none; display: block; height: 100%;">
                             <div style="background: #fff; border-radius: 15px; overflow: hidden; box-shadow: 0 5px 20px rgba(0,0,0,0.1); transition: all 0.3s ease; height: 100%; cursor: pointer;" 
                                  onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.15)';"
@@ -1469,7 +1492,7 @@
                     </div>
 
                     <!-- Program 3: Finance for Non-Finance Program -->
-                    <div class="col-lg-3 col-md-6 col-sm-12" style="max-width: 350px;">
+                    <div style="width: 100%;">
                         <a href="course-details3.html" style="text-decoration: none; display: block; height: 100%;">
                             <div style="background: #fff; border-radius: 15px; overflow: hidden; box-shadow: 0 5px 20px rgba(0,0,0,0.1); transition: all 0.3s ease; height: 100%; cursor: pointer;" 
                                  onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.15)';"
@@ -1518,7 +1541,7 @@
                     </div>
 
                     <!-- Program 4: Restaurant Growth Course -->
-                    <div class="col-lg-3 col-md-6 col-sm-12" style="max-width: 350px;">
+                    <div style="width: 100%;">
                         <a href="course-details4.html" style="text-decoration: none; display: block; height: 100%;">
                             <div style="background: #fff; border-radius: 15px; overflow: hidden; box-shadow: 0 5px 20px rgba(0,0,0,0.1); transition: all 0.3s ease; height: 100%; cursor: pointer;" 
                                  onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.15)';"
@@ -1567,7 +1590,7 @@
                     </div>
 
                     <!-- Program 5: Restaurant Menu Strategy -->
-                    <div class="col-lg-3 col-md-6 col-sm-12" style="max-width: 350px;">
+                    <div style="width: 100%;">
                         <a href="course-details5.html" style="text-decoration: none; display: block; height: 100%;">
                             <div style="background: #fff; border-radius: 15px; overflow: hidden; box-shadow: 0 5px 20px rgba(0,0,0,0.1); transition: all 0.3s ease; height: 100%; cursor: pointer;" 
                                  onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.15)';"
@@ -1616,7 +1639,7 @@
                     </div>
 
                     <!-- Program 6: Business Champ Book -->
-                    <div class="col-lg-3 col-md-6 col-sm-12" style="max-width: 350px;">
+                    <div style="width: 100%;">
                         <a href="course-details6.html" style="text-decoration: none; display: block; height: 100%;">
                             <div style="background: #fff; border-radius: 15px; overflow: hidden; box-shadow: 0 5px 20px rgba(0,0,0,0.1); transition: all 0.3s ease; height: 100%; cursor: pointer;" 
                                  onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.15)';"
@@ -1662,18 +1685,6 @@
                                 </div>
                             </div>
                         </a>
-                    </div>
-                </div>
-
-                <!-- Pagination Dots -->
-                <div style="text-align: center; margin-top: 40px;">
-                    <div style="display: inline-flex; gap: 10px; align-items: center;">
-                        <span style="width: 10px; height: 10px; background: #00796b; border-radius: 50%; display: inline-block;"></span>
-                        <span style="width: 8px; height: 8px; background: #ccc; border-radius: 50%; display: inline-block;"></span>
-                        <span style="width: 8px; height: 8px; background: #ccc; border-radius: 50%; display: inline-block;"></span>
-                        <span style="width: 8px; height: 8px; background: #ccc; border-radius: 50%; display: inline-block;"></span>
-                        <span style="width: 8px; height: 8px; background: #ccc; border-radius: 50%; display: inline-block;"></span>
-                        <span style="width: 8px; height: 8px; background: #ccc; border-radius: 50%; display: inline-block;"></span>
                     </div>
                 </div>
             </div>
