@@ -85,6 +85,14 @@
              MD’s Voice
           </a>
         </li>
+        <li>
+          <a href="contact.html"
+             style="text-decoration:none; color:#111; font-weight:600; font-size:16px; position:relative; padding-bottom:4px; transition:0.3s;"
+             onmouseover="this.style.color='#00796b'; this.style.borderBottom='2px solid #00796b';"
+             onmouseout="this.style.color='#111'; this.style.borderBottom='2px solid transparent';">
+             Contact Us
+          </a>
+        </li>
       </ul>
     </nav>
 
@@ -116,6 +124,7 @@
     <a href="about.html" style="display:block; color:#111; text-decoration:none; font-weight:600; padding:10px;">Who Am I</a>
     <a href="course-grid.html" style="display:block; color:#111; text-decoration:none; font-weight:600; padding:10px;">What I Offer</a>
     <a href="course-details7.html" style="display:block; color:#111; text-decoration:none; font-weight:600; padding:10px;">MD’s Voice</a>
+    <a href="contact.html" style="display:block; color:#111; text-decoration:none; font-weight:600; padding:10px;">Contact Us</a>
     <a href="contact.html"
        style="display:inline-block; margin-top:10px; background-color:#00796b; color:#fff; text-decoration:none; font-weight:600; padding:12px 24px; border-radius:50px;">Book a Consult</a>
   </div>
@@ -579,168 +588,205 @@
         </section> -->
         <!-- Page Banner End -->
 
-        <!-- Contact Info Start -->
-        <section class="contact-info-area rel z-1 py-130 rpt-90 rpb-100">
+        <!-- Contact Page Section Start -->
+        <section class="contact-page-section" style="padding: 80px 0; background: #f8f9fa;">
             <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-8">
-                        <div class="contact-info-wrap rmb-75 wow fadeInUp delay-0-2s">
-                            <div class="section-title mb-25">
-                                <span class="sub-title-two">Ready to Transform Your Business?</span>
-                                <h2>Let's Connect & Start Your Growth Journey</h2>
+                <div class="row">
+                    <!-- Left Side - Contact Form -->
+                    <div class="col-lg-7 col-md-12 mb-4">
+                        <div class="contact-form-wrapper" style="background: #fff; padding: 40px; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); border-top: 4px solid #e5bd3a;">
+                            <div class="section-title mb-4">
+                                <h2 style="color: #111; font-size: 32px; font-weight: 700; margin-bottom: 15px; position: relative; padding-bottom: 15px;">
+                                    Get in Touch
+                                    <span style="position: absolute; bottom: 0; left: 0; width: 80px; height: 3px; background: #e5bd3a;"></span>
+                                </h2>
+                                <p style="color: #666; font-size: 16px; line-height: 1.6; margin-bottom: 30px;">
+                                    Have questions about our courses or need assistance? Fill out the form below and we'll get back to you within 24 hours.
+                                </p>
                             </div>
-                            <p>Ready to transform your business or have a query? Get in touch for coaching & mentoring
-                                inquiries, speaking engagements, or book purchase support. With 30+ years of experience,
-                                Malay
-                                Damania is here to help you scale new heights.</p>
-                            <div class="row no-gap mt-50">
-                                <div class="col-md-4 col-sm-6">
-                                    <div class="contact-info-box">
-                                        <i class="fas fa-map-marker-alt"></i>
-                                        <h4>Office Location</h4>
-                                        <span>D - 8 Kalpana, Tilak Nagar, S.V.P. Road, Mumbai - 400004</span>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-sm-6">
-                                    <div class="contact-info-box">
-                                        <i class="far fa-envelope"></i>
-                                        <h4>Email Us</h4>
-                                        <span>
-                                            <a href="mailto:connect@malaydamania.com">connect@malaydamania.com</a><br>
-                                            <a href="mailto:connect@malaydamania.com">Business Inquiries</a>
-                                        </span>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-sm-6">
-                                    <div class="contact-info-box">
-                                        <i class="fas fa-phone-volume"></i>
-                                        <h4>Get In Touch</h4>
-                                        <span>
-                                            <a href="callto:+919967778484">+91 996777 8484</a><br>
-                                            <a href="https://wa.me/919967778484">WhatsApp Support</a>
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="contact-additional-info mt-40">
+                            
+                            <form id="contact-form" name="contact-form" action="#" method="post">
                                 <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="info-item">
-                                            <h5>🎯 Coaching Inquiries</h5>
-                                            <p>CA Scale-Up, Finance for Non-Finance, Business Mastery Programs</p>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="form-group">
+                                            <label style="color: #333; font-weight: 600; margin-bottom: 8px; display: block;">Your Name *</label>
+                                            <input type="text" name="name" class="form-control" 
+                                                   style="padding: 12px 15px; border: 2px solid #e0e0e0; border-radius: 8px; font-size: 15px; transition: all 0.3s;"
+                                                   placeholder="Enter your full name" required 
+                                                   onfocus="this.style.borderColor='#00796b'" 
+                                                   onblur="this.style.borderColor='#e0e0e0'">
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
-                                        <div class="info-item">
-                                            <h5>📚 Book & Resources</h5>
-                                            <p>"Business Champ" book, Business Veda Podcast, Voice of Books</p>
+                                    
+                                    <div class="col-md-6 mb-3">
+                                        <div class="form-group">
+                                            <label style="color: #333; font-weight: 600; margin-bottom: 8px; display: block;">Phone Number *</label>
+                                            <input type="tel" name="phone" class="form-control" 
+                                                   style="padding: 12px 15px; border: 2px solid #e0e0e0; border-radius: 8px; font-size: 15px; transition: all 0.3s;"
+                                                   placeholder="+91 98765 43210" required 
+                                                   onfocus="this.style.borderColor='#00796b'" 
+                                                   onblur="this.style.borderColor='#e0e0e0'">
                                         </div>
+                                    </div>
+                                    
+                                    <div class="col-md-12 mb-3">
+                                        <div class="form-group">
+                                            <label style="color: #333; font-weight: 600; margin-bottom: 8px; display: block;">Email Address *</label>
+                                            <input type="email" name="email" class="form-control" 
+                                                   style="padding: 12px 15px; border: 2px solid #e0e0e0; border-radius: 8px; font-size: 15px; transition: all 0.3s;"
+                                                   placeholder="your.email@example.com" required 
+                                                   onfocus="this.style.borderColor='#00796b'" 
+                                                   onblur="this.style.borderColor='#e0e0e0'">
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-md-12 mb-3">
+                                        <div class="form-group">
+                                            <label style="color: #333; font-weight: 600; margin-bottom: 8px; display: block;">Subject / Course Interest *</label>
+                                            <select name="subject" class="form-control" 
+                                                    style="padding: 12px 15px; border: 2px solid #e0e0e0; border-radius: 8px; font-size: 15px; transition: all 0.3s; cursor: pointer;"
+                                                    required 
+                                                    onfocus="this.style.borderColor='#00796b'" 
+                                                    onblur="this.style.borderColor='#e0e0e0'">
+                                                <option value="">Select a subject or course</option>
+                                                <option value="ca-scaleup">CA Scale-Up Program</option>
+                                                <option value="finance-nonfinance">Finance for Non-Finance</option>
+                                                <option value="business-mastery">Business Mastery Program</option>
+                                                <option value="restaurant-courses">Restaurant Management Courses</option>
+                                                <option value="business-champ">Business Champ Book</option>
+                                                <option value="voice-of-books">Voice of Books Membership</option>
+                                                <option value="speaking">Speaking Engagement</option>
+                                                <option value="consultation">One-on-One Consultation</option>
+                                                <option value="general">General Inquiry</option>
+                                                <option value="other">Other</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-md-12 mb-3">
+                                        <div class="form-group">
+                                            <label style="color: #333; font-weight: 600; margin-bottom: 8px; display: block;">Your Message *</label>
+                                            <textarea name="message" class="form-control" rows="5" 
+                                                      style="padding: 12px 15px; border: 2px solid #e0e0e0; border-radius: 8px; font-size: 15px; resize: vertical; transition: all 0.3s;"
+                                                      placeholder="Tell us more about your inquiry or questions..." required 
+                                                      onfocus="this.style.borderColor='#00796b'" 
+                                                      onblur="this.style.borderColor='#e0e0e0'"></textarea>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-md-12">
+                                        <button type="submit" class="theme-btn" 
+                                                style="background: linear-gradient(135deg, #e5bd3a 0%, #d4a929 100%); color: #111; padding: 14px 40px; border: none; border-radius: 50px; font-size: 16px; font-weight: 700; cursor: pointer; transition: all 0.3s; text-transform: uppercase; letter-spacing: 0.5px; box-shadow: 0 4px 15px rgba(229, 189, 58, 0.3);"
+                                                onmouseover="this.style.background='linear-gradient(135deg, #00796b 0%, #005a52 100%)'; this.style.color='#fff'; this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 20px rgba(0, 121, 107, 0.4)'"
+                                                onmouseout="this.style.background='linear-gradient(135deg, #e5bd3a 0%, #d4a929 100%)'; this.style.color='#111'; this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 15px rgba(229, 189, 58, 0.3)'">
+                                            Send Message <i class="fas fa-paper-plane" style="margin-left: 8px;"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    
+                    <!-- Right Side - Contact Information Card -->
+                    <div class="col-lg-5 col-md-12">
+                        <div class="contact-info-card" style="background: linear-gradient(135deg, #00796b 0%, #005a52 100%); padding: 40px; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,121,107,0.3); color: #fff; height: 100%;">
+                            <h3 style="font-size: 28px; font-weight: 700; margin-bottom: 10px; color: #fff;">Contact Details</h3>
+                            <p style="font-size: 15px; color: rgba(255,255,255,0.9); margin-bottom: 35px; line-height: 1.6;">
+                                We're here to help you grow your business. Reach out to us through any of these channels.
+                            </p>
+                            
+                            <div class="contact-info-item" style="margin-bottom: 30px; padding-bottom: 25px; border-bottom: 1px solid rgba(255,255,255,0.2);">
+                                <div style="display: flex; align-items: start; gap: 15px;">
+                                    <div style="flex-shrink: 0;">
+                                        <i class="fas fa-envelope" style="font-size: 24px; color: #e5bd3a;"></i>
+                                    </div>
+                                    <div>
+                                        <h5 style="font-size: 16px; font-weight: 600; margin-bottom: 8px; color: #fff;">Email</h5>
+                                        <a href="mailto:support@businesschamp.com" style="color: rgba(255,255,255,0.9); text-decoration: none; font-size: 15px; display: block; transition: all 0.3s;"
+                                           onmouseover="this.style.color='#e5bd3a'" 
+                                           onmouseout="this.style.color='rgba(255,255,255,0.9)'">
+                                            support@businesschamp.com
+                                        </a>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="contact-page-image wow fadeInUp delay-0-4s">
-                            <img src="assets/images/contact/contact-page.png" alt="Contact Malay Damania">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <span class="bg-text">Transform</span>
-        </section>
-        <!-- Contact Info End -->
-
-
-        <!-- Contact Form Start -->
-        <section class="contact-form-area wow fadeInUp delay-0-2s">
-            <div class="container">
-                <form id="contact-form" class="contact-form p-50 z-1 rel" name="contact-form" action="#" method="post">
-                    <div class="section-title text-center mb-50">
-                        <span class="sub-title-two">Start Your Transformation</span>
-                        <h2>Ready to Scale Your Business? Let's Talk!</h2>
-                    </div>
-                    <div class="row mt-25">
-                        <div class="col-md-4">
-                            <div class="form-group">
-                                <input type="text" id="full-name" name="full-name" class="form-control" value=""
-                                    placeholder="Your Full Name" required="">
+                            
+                            <div class="contact-info-item" style="margin-bottom: 30px; padding-bottom: 25px; border-bottom: 1px solid rgba(255,255,255,0.2);">
+                                <div style="display: flex; align-items: start; gap: 15px;">
+                                    <div style="flex-shrink: 0;">
+                                        <i class="fas fa-phone-alt" style="font-size: 24px; color: #e5bd3a;"></i>
+                                    </div>
+                                    <div>
+                                        <h5 style="font-size: 16px; font-weight: 600; margin-bottom: 8px; color: #fff;">Phone</h5>
+                                        <a href="tel:+919876543210" style="color: rgba(255,255,255,0.9); text-decoration: none; font-size: 15px; display: block; transition: all 0.3s;"
+                                           onmouseover="this.style.color='#e5bd3a'" 
+                                           onmouseout="this.style.color='rgba(255,255,255,0.9)'">
+                                            +91 98765 43210
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="form-group">
-                                <input type="email" id="email-address" name="email" class="form-control" value=""
-                                    placeholder="Business Email Address" required="">
+                            
+                            <div class="contact-info-item" style="margin-bottom: 35px; padding-bottom: 25px; border-bottom: 1px solid rgba(255,255,255,0.2);">
+                                <div style="display: flex; align-items: start; gap: 15px;">
+                                    <div style="flex-shrink: 0;">
+                                        <i class="fas fa-map-marker-alt" style="font-size: 24px; color: #e5bd3a;"></i>
+                                    </div>
+                                    <div>
+                                        <h5 style="font-size: 16px; font-weight: 600; margin-bottom: 8px; color: #fff;">Address</h5>
+                                        <p style="color: rgba(255,255,255,0.9); font-size: 15px; line-height: 1.7; margin: 0;">
+                                            Mumbai, Maharashtra, India
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="form-group">
-                                <input type="text" id="phone" name="phone" class="form-control" value=""
-                                    placeholder="WhatsApp Number" required="">
+                            
+                            <!-- Social Media Links -->
+                            <div class="social-links-section">
+                                <h5 style="font-size: 18px; font-weight: 600; margin-bottom: 20px; color: #fff;">Connect With Us</h5>
+                                <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+                                    <a href="https://www.linkedin.com/company/businesschamp" target="_blank" 
+                                       style="width: 45px; height: 45px; background: rgba(255,255,255,0.15); border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: all 0.3s; text-decoration: none;"
+                                       onmouseover="this.style.background='#e5bd3a'; this.style.transform='translateY(-3px)'"
+                                       onmouseout="this.style.background='rgba(255,255,255,0.15)'; this.style.transform='translateY(0)'">
+                                        <i class="fab fa-linkedin-in" style="color: #fff; font-size: 18px;"></i>
+                                    </a>
+                                    <a href="https://www.instagram.com/businesschamp" target="_blank" 
+                                       style="width: 45px; height: 45px; background: rgba(255,255,255,0.15); border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: all 0.3s; text-decoration: none;"
+                                       onmouseover="this.style.background='#e5bd3a'; this.style.transform='translateY(-3px)'"
+                                       onmouseout="this.style.background='rgba(255,255,255,0.15)'; this.style.transform='translateY(0)'">
+                                        <i class="fab fa-instagram" style="color: #fff; font-size: 18px;"></i>
+                                    </a>
+                                    <a href="https://www.facebook.com/businesschamp" target="_blank" 
+                                       style="width: 45px; height: 45px; background: rgba(255,255,255,0.15); border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: all 0.3s; text-decoration: none;"
+                                       onmouseover="this.style.background='#e5bd3a'; this.style.transform='translateY(-3px)'"
+                                       onmouseout="this.style.background='rgba(255,255,255,0.15)'; this.style.transform='translateY(0)'">
+                                        <i class="fab fa-facebook-f" style="color: #fff; font-size: 18px;"></i>
+                                    </a>
+                                    <a href="https://twitter.com/businesschamp" target="_blank" 
+                                       style="width: 45px; height: 45px; background: rgba(255,255,255,0.15); border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: all 0.3s; text-decoration: none;"
+                                       onmouseover="this.style.background='#e5bd3a'; this.style.transform='translateY(-3px)'"
+                                       onmouseout="this.style.background='rgba(255,255,255,0.15)'; this.style.transform='translateY(0)'">
+                                        <i class="fab fa-twitter" style="color: #fff; font-size: 18px;"></i>
+                                    </a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <select id="business-type" name="business-type" class="form-control" required="">
-                                    <option value="">Select Your Business Type</option>
-                                    <option value="ca-practice">CA/CS Practice</option>
-                                    <option value="restaurant">Restaurant/Hospitality</option>
-                                    <option value="manufacturing">Manufacturing</option>
-                                    <option value="services">Service Business</option>
-                                    <option value="startup">Startup</option>
-                                    <option value="other">Other</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <select id="interest" name="interest" class="form-control" required="">
-                                    <option value="">What Are You Interested In?</option>
-                                    <option value="ca-scaleup">CA Scale-Up Program (₹11,999)</option>
-                                    <option value="finance-nonfinance">Finance for Non-Finance (₹11,999)</option>
-                                    <option value="business-mastery">Business Mastery Program (₹14,999)</option>
-                                    <option value="restaurant-courses">Restaurant Courses</option>
-                                    <option value="business-champ">Business Champ Book (₹499)</option>
-                                    <option value="voice-of-books">Voice of Books Membership (₹4,999)</option>
-                                    <option value="speaking">Speaking Engagement</option>
-                                    <option value="consultation">One-on-One Consultation</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="form-group">
-                                <textarea name="message" id="message" class="form-control" rows="4"
-                                    placeholder="Tell us about your business challenges and goals. What specific areas do you want to transform?"
-                                    required=""></textarea>
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="form-group text-center mb-0">
-                                <button type="submit" class="theme-btn">Start My Business Transformation <i
-                                        class="fas fa-arrow-right"></i></button>
-                                <p class="mt-15 text-muted">
-                                    <small>📞 Prefer to talk? Call us at +91 996777 8484 or
-                                        <a href="https://wa.me/919967778484" target="_blank">WhatsApp
-                                            directly</a></small>
+                            
+                            <!-- Business Hours -->
+                            <div class="business-hours" style="margin-top: 30px; padding: 20px; background: rgba(0,0,0,0.2); border-radius: 8px;">
+                                <h5 style="font-size: 16px; font-weight: 600; margin-bottom: 12px; color: #fff;">Business Hours</h5>
+                                <p style="color: rgba(255,255,255,0.9); font-size: 14px; margin: 0; line-height: 1.8;">
+                                    Monday - Friday: 9:00 AM - 6:00 PM<br>
+                                    Saturday: 10:00 AM - 4:00 PM<br>
+                                    Sunday: Closed
                                 </p>
                             </div>
                         </div>
                     </div>
-                </form>
+                </div>
             </div>
         </section>
-        <!-- Contact Form End -->
-
-
-        <!-- Location Map Area Start -->
-        <div class="contact-page-map">
-            <div class="our-location">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3772.260155793893!2d72.8336!3d19.0368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cf26f4fea5d1%3A0x4e4b1f4e1f4e1f4e!2sTilak%20Nagar%2C%20Mumbai%2C%20Maharashtra%20400004%2C%20India!5e0!3m2!1sen!2sin!4v1639991650837!5m2!1sen!2sin"
-                    allowfullscreen="" loading="lazy"></iframe>
-            </div>
-        </div>
-        <!-- Location Map Area End -->
+        <!-- Contact Page Section End -->
 
 <!-- Footer Area Start -->
 <footer class="main-footer bg-blue text-white" style="padding: 30px 0 0;">
