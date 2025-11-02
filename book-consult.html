@@ -262,6 +262,18 @@
                                         </div>
                                     </div>
 
+                                    <!-- Business Assessment Questionnaire -->
+                                    <div class="col-md-12 mb-4 mt-4">
+                                        <div style="background: linear-gradient(135deg, #00796b 0%, #005a52 100%); padding: 20px 25px; border-radius: 12px; margin-bottom: 25px;">
+                                            <h4 style="color: #e5bd3a; font-size: 20px; font-weight: 700; margin: 0; display: flex; align-items: center; gap: 10px;">
+                                                <i class="fas fa-clipboard-list"></i> Business Assessment Questionnaire
+                                            </h4>
+                                            <p style="color: rgba(255,255,255,0.9); margin: 8px 0 0; font-size: 14px;">
+                                                Help us understand your needs better so we can provide tailored guidance during your consultation
+                                            </p>
+                                        </div>
+                                    </div>
+
                                     <div class="col-md-12 mb-3">
                                         <div class="form-group">
                                             <label style="color: #333; font-weight: 600; margin-bottom: 10px; display: block; font-size: 15px;">
@@ -277,11 +289,166 @@
                                                 <option value="startup">Startup Founder</option>
                                                 <option value="ca-cs">CA / CS Professional</option>
                                                 <option value="restaurant">Restaurant / Food Business</option>
+                                                <option value="manufacturing">Manufacturing</option>
                                                 <option value="ecommerce">E-Commerce</option>
                                                 <option value="retail">Retail Business</option>
                                                 <option value="services">Service-based Business</option>
+                                                <option value="hospitality">Hospitality</option>
                                                 <option value="aspiring">Aspiring Entrepreneur</option>
                                                 <option value="other">Other</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6 mb-3">
+                                        <div class="form-group">
+                                            <label style="color: #333; font-weight: 600; margin-bottom: 10px; display: block; font-size: 15px;">
+                                                <i class="fas fa-chart-line" style="color: #00796b; margin-right: 5px;"></i> Current Business Stage *
+                                            </label>
+                                            <select name="business_stage" class="form-control" 
+                                                    style="padding: 14px 18px; border: 2px solid #e0e0e0; border-radius: 10px; font-size: 15px; transition: all 0.3s; cursor: pointer;"
+                                                    required 
+                                                    onfocus="this.style.borderColor='#00796b'; this.style.boxShadow='0 0 0 3px rgba(0,121,107,0.1)'" 
+                                                    onblur="this.style.borderColor='#e0e0e0'; this.style.boxShadow='none'">
+                                                <option value="">Select stage</option>
+                                                <option value="idea">Idea / Planning Stage</option>
+                                                <option value="startup">Startup (0-2 years)</option>
+                                                <option value="growth">Growth Stage (2-5 years)</option>
+                                                <option value="established">Established (5+ years)</option>
+                                                <option value="scaling">Actively Scaling</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6 mb-3">
+                                        <div class="form-group">
+                                            <label style="color: #333; font-weight: 600; margin-bottom: 10px; display: block; font-size: 15px;">
+                                                <i class="fas fa-users" style="color: #00796b; margin-right: 5px;"></i> Team Size *
+                                            </label>
+                                            <select name="team_size" class="form-control" 
+                                                    style="padding: 14px 18px; border: 2px solid #e0e0e0; border-radius: 10px; font-size: 15px; transition: all 0.3s; cursor: pointer;"
+                                                    required 
+                                                    onfocus="this.style.borderColor='#00796b'; this.style.boxShadow='0 0 0 3px rgba(0,121,107,0.1)'" 
+                                                    onblur="this.style.borderColor='#e0e0e0'; this.style.boxShadow='none'">
+                                                <option value="">Select team size</option>
+                                                <option value="solo">Solo / Just Me</option>
+                                                <option value="2-10">2-10 employees</option>
+                                                <option value="11-50">11-50 employees</option>
+                                                <option value="51-100">51-100 employees</option>
+                                                <option value="100+">100+ employees</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12 mb-3">
+                                        <div class="form-group">
+                                            <label style="color: #333; font-weight: 600; margin-bottom: 10px; display: block; font-size: 15px;">
+                                                <i class="fas fa-rupee-sign" style="color: #00796b; margin-right: 5px;"></i> Annual Revenue Range *
+                                            </label>
+                                            <select name="revenue_range" class="form-control" 
+                                                    style="padding: 14px 18px; border: 2px solid #e0e0e0; border-radius: 10px; font-size: 15px; transition: all 0.3s; cursor: pointer;"
+                                                    required 
+                                                    onfocus="this.style.borderColor='#00796b'; this.style.boxShadow='0 0 0 3px rgba(0,121,107,0.1)'" 
+                                                    onblur="this.style.borderColor='#e0e0e0'; this.style.boxShadow='none'">
+                                                <option value="">Select revenue range</option>
+                                                <option value="pre-revenue">Pre-revenue / Not Started</option>
+                                                <option value="0-10L">₹0 - ₹10 Lakhs</option>
+                                                <option value="10L-50L">₹10 Lakhs - ₹50 Lakhs</option>
+                                                <option value="50L-1Cr">₹50 Lakhs - ₹1 Crore</option>
+                                                <option value="1Cr-5Cr">₹1 Crore - ₹5 Crores</option>
+                                                <option value="5Cr-10Cr">₹5 Crores - ₹10 Crores</option>
+                                                <option value="10Cr+">₹10 Crores+</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12 mb-3">
+                                        <div class="form-group">
+                                            <label style="color: #333; font-weight: 600; margin-bottom: 10px; display: block; font-size: 15px;">
+                                                <i class="fas fa-star" style="color: #00796b; margin-right: 5px;"></i> Which Program/Service Interests You Most? *
+                                            </label>
+                                            <select name="program_interest" class="form-control" 
+                                                    style="padding: 14px 18px; border: 2px solid #e0e0e0; border-radius: 10px; font-size: 15px; transition: all 0.3s; cursor: pointer;"
+                                                    required 
+                                                    onfocus="this.style.borderColor='#00796b'; this.style.boxShadow='0 0 0 3px rgba(0,121,107,0.1)'" 
+                                                    onblur="this.style.borderColor='#e0e0e0'; this.style.boxShadow='none'">
+                                                <option value="">Select your area of interest</option>
+                                                <option value="ca-scale-up">CA Scale-Up Program</option>
+                                                <option value="business-mastery">Business Mastery</option>
+                                                <option value="finance-non-finance">Finance for Non-Finance</option>
+                                                <option value="growth-strategy">Business Growth Strategy</option>
+                                                <option value="operations-systems">Operations & Systems</option>
+                                                <option value="leadership">Leadership Development</option>
+                                                <option value="personal-coaching">1-on-1 Personal Coaching</option>
+                                                <option value="speaking">Speaking Engagement</option>
+                                                <option value="consulting">Business Consulting</option>
+                                                <option value="not-sure">Not Sure / Need Guidance</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12 mb-3">
+                                        <div class="form-group">
+                                            <label style="color: #333; font-weight: 600; margin-bottom: 15px; display: block; font-size: 15px;">
+                                                <i class="fas fa-bullseye" style="color: #00796b; margin-right: 5px;"></i> Primary Business Goals (Select all that apply) *
+                                            </label>
+                                            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 12px;">
+                                                <label style="display: flex; align-items: center; padding: 12px 15px; border: 2px solid #e0e0e0; border-radius: 10px; cursor: pointer; transition: all 0.3s;"
+                                                       onmouseover="this.style.borderColor='#00796b'; this.style.backgroundColor='#f0f9f8'"
+                                                       onmouseout="this.style.borderColor='#e0e0e0'; this.style.backgroundColor='transparent'">
+                                                    <input type="checkbox" name="goals[]" value="increase-revenue" style="margin-right: 10px; width: 18px; height: 18px; cursor: pointer;">
+                                                    <span style="font-size: 14px; color: #333;">Increase Revenue & Profitability</span>
+                                                </label>
+                                                <label style="display: flex; align-items: center; padding: 12px 15px; border: 2px solid #e0e0e0; border-radius: 10px; cursor: pointer; transition: all 0.3s;"
+                                                       onmouseover="this.style.borderColor='#00796b'; this.style.backgroundColor='#f0f9f8'"
+                                                       onmouseout="this.style.borderColor='#e0e0e0'; this.style.backgroundColor='transparent'">
+                                                    <input type="checkbox" name="goals[]" value="scale-business" style="margin-right: 10px; width: 18px; height: 18px; cursor: pointer;">
+                                                    <span style="font-size: 14px; color: #333;">Scale & Grow My Business</span>
+                                                </label>
+                                                <label style="display: flex; align-items: center; padding: 12px 15px; border: 2px solid #e0e0e0; border-radius: 10px; cursor: pointer; transition: all 0.3s;"
+                                                       onmouseover="this.style.borderColor='#00796b'; this.style.backgroundColor='#f0f9f8'"
+                                                       onmouseout="this.style.borderColor='#e0e0e0'; this.style.backgroundColor='transparent'">
+                                                    <input type="checkbox" name="goals[]" value="improve-systems" style="margin-right: 10px; width: 18px; height: 18px; cursor: pointer;">
+                                                    <span style="font-size: 14px; color: #333;">Build Better Systems & Processes</span>
+                                                </label>
+                                                <label style="display: flex; align-items: center; padding: 12px 15px; border: 2px solid #e0e0e0; border-radius: 10px; cursor: pointer; transition: all 0.3s;"
+                                                       onmouseover="this.style.borderColor='#00796b'; this.style.backgroundColor='#f0f9f8'"
+                                                       onmouseout="this.style.borderColor='#e0e0e0'; this.style.backgroundColor='transparent'">
+                                                    <input type="checkbox" name="goals[]" value="team-leadership" style="margin-right: 10px; width: 18px; height: 18px; cursor: pointer;">
+                                                    <span style="font-size: 14px; color: #333;">Develop Leadership Skills</span>
+                                                </label>
+                                                <label style="display: flex; align-items: center; padding: 12px 15px; border: 2px solid #e0e0e0; border-radius: 10px; cursor: pointer; transition: all 0.3s;"
+                                                       onmouseover="this.style.borderColor='#00796b'; this.style.backgroundColor='#f0f9f8'"
+                                                       onmouseout="this.style.borderColor='#e0e0e0'; this.style.backgroundColor='transparent'">
+                                                    <input type="checkbox" name="goals[]" value="financial-management" style="margin-right: 10px; width: 18px; height: 18px; cursor: pointer;">
+                                                    <span style="font-size: 14px; color: #333;">Improve Financial Management</span>
+                                                </label>
+                                                <label style="display: flex; align-items: center; padding: 12px 15px; border: 2px solid #e0e0e0; border-radius: 10px; cursor: pointer; transition: all 0.3s;"
+                                                       onmouseover="this.style.borderColor='#00796b'; this.style.backgroundColor='#f0f9f8'"
+                                                       onmouseout="this.style.borderColor='#e0e0e0'; this.style.backgroundColor='transparent'">
+                                                    <input type="checkbox" name="goals[]" value="marketing-sales" style="margin-right: 10px; width: 18px; height: 18px; cursor: pointer;">
+                                                    <span style="font-size: 14px; color: #333;">Enhance Marketing & Sales</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12 mb-3">
+                                        <div class="form-group">
+                                            <label style="color: #333; font-weight: 600; margin-bottom: 10px; display: block; font-size: 15px;">
+                                                <i class="fas fa-hourglass-half" style="color: #00796b; margin-right: 5px;"></i> How Soon Do You Need Help? *
+                                            </label>
+                                            <select name="urgency" class="form-control" 
+                                                    style="padding: 14px 18px; border: 2px solid #e0e0e0; border-radius: 10px; font-size: 15px; transition: all 0.3s; cursor: pointer;"
+                                                    required 
+                                                    onfocus="this.style.borderColor='#00796b'; this.style.boxShadow='0 0 0 3px rgba(0,121,107,0.1)'" 
+                                                    onblur="this.style.borderColor='#e0e0e0'; this.style.boxShadow='none'">
+                                                <option value="">Select timeline</option>
+                                                <option value="urgent">Urgent - Need help immediately</option>
+                                                <option value="1-month">Within 1 month</option>
+                                                <option value="1-3-months">1-3 months</option>
+                                                <option value="3-6-months">3-6 months</option>
+                                                <option value="exploring">Just exploring options</option>
                                             </select>
                                         </div>
                                     </div>
