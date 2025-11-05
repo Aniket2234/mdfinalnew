@@ -1,0 +1,12 @@
+{
+  "name": "malay-damania-platform",
+  "version": "1.0.0",
+  "description": "Educational platform for Malay Damania - coaching and educational resources",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["education", "coaching", "static-website"],
+  "author": "Malay Damania",
+  "license": "ISC"
+}
