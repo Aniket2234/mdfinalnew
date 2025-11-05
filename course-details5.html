@@ -807,6 +807,33 @@
                         </div>
                     </div>
                 </div>
+                <style>
+                    .coach-slider {
+                        display: flex;
+                        flex-wrap: wrap;
+                        gap: 30px;
+                        align-items: stretch;
+                    }
+                    .coach-slider .coach-item {
+                        display: flex;
+                        flex-direction: column;
+                        height: 100%;
+                    }
+                    .coach-slider .coach-item .coach-image {
+                        height: 250px;
+                        overflow: hidden;
+                    }
+                    .coach-slider .coach-item .coach-image img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                    .coach-slider .coach-item .coach-content {
+                        flex: 1;
+                        display: flex;
+                        flex-direction: column;
+                    }
+                </style>
                 <div class="coach-slider">
                     <div class="coach-item style-two wow fadeInUp delay-0-2s">
                         <div class="coach-image">
