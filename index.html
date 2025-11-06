@@ -736,6 +736,7 @@
 
 <!-- Hero Section CSS -->
 <style>
+/* Remove any padding/margin around hero slider */
 .hero-slider {
   position: relative;
   overflow: hidden;
@@ -743,7 +744,18 @@
   max-height: 750px;
   min-height: 500px;
   width: 100%;
+  margin: 0;
+  padding: 0;
   font-family: 'Poppins', sans-serif;
+}
+
+/* Ensure page wrapper doesn't add padding */
+.page-wrapper {
+  padding: 0 !important;
+}
+
+.hero-slider ~ * {
+  margin-top: 0;
 }
 
 .slide {
@@ -1192,11 +1204,11 @@
 
 
 
-<section style="background-color:#fff; padding:60px 20px; font-family:'Poppins',sans-serif;">
-  <div style="max-width:1200px; margin:0 auto; display:flex; flex-wrap:wrap; align-items:flex-start; gap:40px; justify-content:space-between;">
+<section style="background-color:#fff; padding:60px 0; font-family:'Poppins',sans-serif;">
+  <div style="max-width:1200px; margin:0 auto; padding:0 20px; display:flex; flex-wrap:wrap; align-items:flex-start; gap:40px; justify-content:space-between;">
     
     <!-- Left Content -->
-    <div id="whoAmILeft" style="flex:1 1 550px; padding:20px;">
+    <div id="whoAmILeft" style="flex:1 1 550px; padding:0 20px;">
       
       <!-- Who Am I Button -->
       <div style="display:inline-block; background-color:#e5bd3a; color:#fff; padding:8px 18px; border-radius:50px; font-weight:600; font-size:15px; margin-bottom:20px;">
@@ -1272,10 +1284,10 @@
     </div>
 
     <!-- Right Column: Image, Stats, and Buttons -->
-    <div id="whoAmIRight" style="flex:1 1 450px; padding:20px; display:flex; flex-direction:column; align-items:center;">
+    <div id="whoAmIRight" style="flex:1 1 450px; padding:0 20px; display:flex; flex-direction:column; align-items:center;">
       
       <!-- Image with Gradient Border -->
-      <div style="padding:4px; background:linear-gradient(135deg, #00796b 0%, #e5bd3a 50%, #00796b 100%); border-radius:16px; display:inline-block; margin:70px auto 0;">
+      <div id="imageWrapper" style="padding:4px; background:linear-gradient(135deg, #00796b 0%, #e5bd3a 50%, #00796b 100%); border-radius:16px; display:inline-block; margin:70px auto 0; max-width:100%;">
         <img src="assets/images/about/malay-damania-photo.jpg" alt="Malay Damania" 
              style="width:100%; max-width:340px; border-radius:12px; box-shadow:0 8px 24px rgba(0,0,0,0.15); object-fit:cover; display:block;">
       </div>
@@ -3953,12 +3965,30 @@ ram Mehta" style="width: 50px; height: 50px; border-radius: 50%; object-fit: cov
         
         /* Who Am I section */
         section[style*="background-color:#fff"] {
-            padding: 40px 20px !important;
+            padding: 30px 0 !important;
+        }
+        
+        section[style*="background-color:#fff"] > div {
+            padding: 0 15px !important;
+        }
+        
+        #whoAmILeft, #whoAmIRight {
+            flex: 1 1 100% !important;
+            padding: 0 !important;
+        }
+        
+        #imageWrapper {
+            margin: 30px auto 0 !important;
+            max-width: 280px !important;
+        }
+        
+        #imageWrapper img {
+            max-width: 100% !important;
         }
         
         section[style*="background-color:#fff"] h2 {
-            font-size: 28px !important;
-            margin-bottom: 20px !important;
+            font-size: 24px !important;
+            margin-bottom: 15px !important;
         }
         
         section[style*="background-color:#fff"] p {
@@ -3966,10 +3996,32 @@ ram Mehta" style="width: 50px; height: 50px; border-radius: 50%; object-fit: cov
             line-height: 1.7 !important;
         }
         
-        section[style*="background-color:#fff"] img {
-            max-width: 100% !important;
+        /* Social icons - wrap on mobile */
+        #whoAmIRight > div:last-child {
+            flex-wrap: wrap !important;
+            gap: 15px !important;
+        }
+        
+        /* Engagement Models - Fix card overflow */
+        .accordion-content .content-inner > div:first-child {
+            flex-direction: column !important;
+            align-items: flex-start !important;
+        }
+        
+        .youtube-thumbnail-link {
+            margin-left: 0 !important;
+            margin-top: 15px !important;
+            width: 100% !important;
+            max-width: 280px !important;
+        }
+        
+        .youtube-thumbnail-link img {
+            width: 100% !important;
             height: auto !important;
-            margin-bottom: 25px !important;
+        }
+        
+        .engagement-features {
+            grid-template-columns: 1fr !important;
         }
         
         /* Counter section */
