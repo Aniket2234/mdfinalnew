@@ -860,19 +860,37 @@
         </div>
         <style>
             .coach-slider {
-                display: flex;
-                flex-wrap: wrap;
-                gap: 30px;
+                display: block !important;
+            }
+            .coach-slider .slick-dots {
+                justify-content: center !important;
+                text-align: center;
+                display: flex !important;
+                margin-left: 0 !important;
+                margin-right: 0 !important;
+            }
+            .coach-slider .slick-track {
+                display: flex !important;
                 align-items: stretch;
             }
+            .coach-slider .slick-slide {
+                height: auto;
+                display: flex !important;
+            }
+            .coach-slider .slick-slide > div {
+                height: 100%;
+                width: 100%;
+            }
             .coach-slider .coach-item {
-                display: flex;
+                display: flex !important;
                 flex-direction: column;
                 height: 100%;
+                margin: 0 15px;
             }
             .coach-slider .coach-item .coach-image {
                 height: 250px;
                 overflow: hidden;
+                flex-shrink: 0;
             }
             .coach-slider .coach-item .coach-image img {
                 width: 100%;
@@ -883,6 +901,12 @@
                 flex: 1;
                 display: flex;
                 flex-direction: column;
+            }
+            .coach-slider .coach-item .coach-content .coach-footer {
+                flex-grow: 1;
+            }
+            .coach-slider .coach-item .coach-content .ratting-price {
+                margin-top: auto;
             }
         </style>
         <div class="coach-slider">
