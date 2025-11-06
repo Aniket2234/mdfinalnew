@@ -709,11 +709,26 @@
     </div>
   </div>
 
+  <!-- Slide 3 - Text on LEFT, person on right -->
+  <div class="slide" style="background-image: url('assets/images/slide2.png');">
+    <div class="slide-inner">
+      <div class="slide-text">
+        <span class="sub-title">Coaching & Mentorship for Entrepreneurs</span>
+        <h1>Your <span style="color: #e5bd3a;">Business</span> Has <span style="color: #e5bd3a;">Potential.</span> But No Plan?</h1>
+        <p>Turn your vision into scalable growth with proven frameworks and hands-on mentorship.</p>
+        <a href="about.html" class="theme-btn">
+          Start Your Growth Journey
+        </a>
+      </div>
+    </div>
+  </div>
+
   <!-- Navigation Dots Only -->
   <div class="slider-nav">
     <div class="slider-dots">
       <span class="dot active" data-slide="0"></span>
       <span class="dot" data-slide="1"></span>
+      <span class="dot" data-slide="2"></span>
     </div>
   </div>
 </section>
@@ -881,21 +896,30 @@
   transition: all 0.3s ease;
 }
 
-.slider-dots .dot:first-child {
+.slider-dots .dot:nth-child(1) {
   background: #e5bd3a;
 }
 
-.slider-dots .dot:first-child.active {
+.slider-dots .dot:nth-child(1).active {
   background: #e5bd3a;
   width: 40px;
 }
 
-.slider-dots .dot:last-child {
-  background: rgba(0, 121, 107, 0.7);
+.slider-dots .dot:nth-child(2) {
+  background: rgba(0, 121, 107, 0.5);
 }
 
-.slider-dots .dot:last-child.active {
+.slider-dots .dot:nth-child(2).active {
   background: #00796b;
+  width: 40px;
+}
+
+.slider-dots .dot:nth-child(3) {
+  background: rgba(229, 189, 58, 0.5);
+}
+
+.slider-dots .dot:nth-child(3).active {
+  background: #e5bd3a;
   width: 40px;
 }
 
