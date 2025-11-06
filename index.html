@@ -3816,71 +3816,332 @@ ram Mehta" style="width: 50px; height: 50px; border-radius: 50%; object-fit: cov
 </html>
 <!-- Mobile Responsive Styles -->
 <style>
-    @media (max-width: 768px) {
-        /* Header adjustments already handled inline */
-        
-        /* Hero section mobile */
-        .slider-section .hero-slider {
-            min-height: 500px !important;
+    /* Global mobile improvements */
+    * {
+        box-sizing: border-box;
+    }
+    
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    /* Tablet & Mobile - 992px and below */
+    @media (max-width: 992px) {
+        body {
+            font-size: 15px;
         }
         
-        /* Who Am I section mobile */
-        section[style*="background-color:#fff"] h2 {
+        /* Sections padding */
+        section {
+            padding: 40px 20px !important;
+        }
+        
+        /* All containers */
+        .container, .container-fluid {
+            padding-left: 20px !important;
+            padding-right: 20px !important;
+        }
+        
+        /* Row spacing */
+        .row {
+            margin-left: -10px !important;
+            margin-right: -10px !important;
+        }
+        
+        .row > * {
+            padding-left: 10px !important;
+            padding-right: 10px !important;
+        }
+    }
+    
+    /* Mobile - 768px and below */
+    @media (max-width: 768px) {
+        /* Typography */
+        h1 {
+            font-size: 32px !important;
+            line-height: 1.3 !important;
+        }
+        
+        h2 {
+            font-size: 28px !important;
+            line-height: 1.3 !important;
+        }
+        
+        h3 {
             font-size: 24px !important;
         }
         
-        section[style*="background-color:#fff"] p {
-            font-size: 16px !important;
+        h4 {
+            font-size: 20px !important;
         }
         
-        /* Counter section mobile - stack vertically */
+        h5, h6 {
+            font-size: 18px !important;
+        }
+        
+        p {
+            font-size: 15px !important;
+            line-height: 1.6 !important;
+        }
+        
+        /* Hero section mobile */
+        .hero-slider {
+            min-height: 500px !important;
+            height: auto !important;
+        }
+        
+        .slide-text {
+            max-width: 100% !important;
+            padding: 20px !important;
+        }
+        
+        .slide-text h1 {
+            font-size: 32px !important;
+            margin-bottom: 15px !important;
+        }
+        
+        .slide-text p {
+            font-size: 15px !important;
+            margin-bottom: 20px !important;
+        }
+        
+        .sub-title {
+            font-size: 11px !important;
+            padding: 6px 14px !important;
+            margin-bottom: 15px !important;
+        }
+        
+        .theme-btn {
+            padding: 12px 24px !important;
+            font-size: 13px !important;
+        }
+        
+        .slider-nav {
+            bottom: 20px !important;
+        }
+        
+        /* All sections */
+        section {
+            padding: 30px 15px !important;
+        }
+        
+        /* Who Am I section */
+        section[style*="background-color:#fff"] {
+            padding: 40px 20px !important;
+        }
+        
+        section[style*="background-color:#fff"] h2 {
+            font-size: 28px !important;
+            margin-bottom: 20px !important;
+        }
+        
+        section[style*="background-color:#fff"] p {
+            font-size: 15px !important;
+            line-height: 1.7 !important;
+        }
+        
+        section[style*="background-color:#fff"] img {
+            max-width: 100% !important;
+            height: auto !important;
+            margin-bottom: 25px !important;
+        }
+        
+        /* Counter section */
         div[style*="linear-gradient(90deg,#00796b,#009688)"] {
-            padding: 20px 15px !important;
+            padding: 30px 20px !important;
         }
         
         div[style*="linear-gradient(90deg,#00796b,#009688)"] > div {
             flex-basis: 100% !important;
-            margin-bottom: 15px;
+            margin-bottom: 20px !important;
+            text-align: center !important;
         }
         
         div[style*="linear-gradient(90deg,#00796b,#009688)"] > div:last-child {
-            margin-bottom: 0;
+            margin-bottom: 0 !important;
         }
         
-        /* Offerings section mobile */
+        div[style*="linear-gradient(90deg,#00796b,#009688)"] h3 {
+            font-size: 36px !important;
+        }
+        
+        div[style*="linear-gradient(90deg,#00796b,#009688)"] p {
+            font-size: 14px !important;
+        }
+        
+        /* Offerings section */
         h2[style*="font-family:'Oswald'"] {
             font-size: 28px !important;
+            line-height: 1.3 !important;
         }
         
-        /* Testimonials carousel mobile */
-        .testimonial-carousel-card {
-            min-width: 280px !important;
-        }
-        
-        /* Footer mobile - stack columns */
-        .main-footer .row > div {
+        /* Cards & Grid items */
+        .row > div[class*="col-"] {
             margin-bottom: 25px;
         }
         
-        .main-footer .copyright-inner {
-            flex-direction: column !important;
-            text-align: center;
+        /* Buttons */
+        a[class*="btn"], button[class*="btn"] {
+            padding: 12px 24px !important;
+            font-size: 14px !important;
         }
         
-        .main-footer .footer-menu {
-            margin-top: 15px !important;
+        /* Testimonials carousel */
+        .testimonial-carousel-card {
+            min-width: 280px !important;
+            padding: 20px !important;
+        }
+        
+        /* Footer */
+        .main-footer {
+            padding: 40px 20px 20px !important;
+        }
+        
+        .main-footer .row > div {
+            margin-bottom: 30px;
+        }
+        
+        .main-footer h4 {
+            font-size: 20px !important;
+            margin-bottom: 20px !important;
+        }
+        
+        .footer-widget ul li {
+            margin-bottom: 10px !important;
+        }
+        
+        .copyright-inner {
+            flex-direction: column !important;
+            text-align: center !important;
+            gap: 15px;
+        }
+        
+        .footer-menu {
+            flex-wrap: wrap;
+            justify-content: center !important;
+            gap: 10px !important;
         }
     }
     
-    @media (max-width: 480px) {
-        /* Extra small devices */
-        .testimonials-carousel-section h2 {
-            font-size: 1.8rem !important;
+    /* Small Mobile - 576px and below */
+    @media (max-width: 576px) {
+        /* Reduce padding further */
+        section {
+            padding: 25px 15px !important;
         }
         
+        .container, .container-fluid {
+            padding-left: 15px !important;
+            padding-right: 15px !important;
+        }
+        
+        /* Hero section */
+        .hero-slider {
+            min-height: 450px !important;
+        }
+        
+        .slide-inner {
+            padding: 0 15px !important;
+        }
+        
+        .slide-text h1 {
+            font-size: 26px !important;
+            margin-bottom: 12px !important;
+        }
+        
+        .slide-text p {
+            font-size: 14px !important;
+            margin-bottom: 18px !important;
+        }
+        
+        .sub-title {
+            font-size: 10px !important;
+            padding: 5px 12px !important;
+        }
+        
+        .theme-btn {
+            padding: 10px 20px !important;
+            font-size: 12px !important;
+        }
+        
+        /* Typography */
+        h1 {
+            font-size: 26px !important;
+        }
+        
+        h2 {
+            font-size: 24px !important;
+        }
+        
+        h3 {
+            font-size: 20px !important;
+        }
+        
+        h4 {
+            font-size: 18px !important;
+        }
+        
+        p {
+            font-size: 14px !important;
+        }
+        
+        /* Testimonials */
         .testimonial-carousel-card {
             min-width: 260px !important;
             padding: 15px !important;
+        }
+        
+        .testimonials-carousel-section h2 {
+            font-size: 22px !important;
+        }
+        
+        /* Counter section */
+        div[style*="linear-gradient(90deg,#00796b,#009688)"] h3 {
+            font-size: 30px !important;
+        }
+        
+        div[style*="linear-gradient(90deg,#00796b,#009688)"] p {
+            font-size: 13px !important;
+        }
+    }
+    
+    /* Extra Small Mobile - 480px and below */
+    @media (max-width: 480px) {
+        .hero-slider {
+            min-height: 400px !important;
+        }
+        
+        .slide-text h1 {
+            font-size: 22px !important;
+        }
+        
+        .slide-text p {
+            font-size: 13px !important;
+        }
+        
+        .slider-dots .dot {
+            width: 10px !important;
+            height: 10px !important;
+        }
+        
+        .slider-dots .dot.active {
+            width: 28px !important;
+        }
+        
+        h2 {
+            font-size: 20px !important;
+        }
+        
+        .footer-menu {
+            font-size: 13px !important;
+        }
+    }
+    
+    /* Landscape mobile fix */
+    @media (max-height: 500px) and (orientation: landscape) {
+        .hero-slider {
+            min-height: 100vh !important;
         }
     }
 </style>
