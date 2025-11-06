@@ -486,13 +486,13 @@ a.theme-btn:hover i {
 a.theme-btn:hover,
 a.theme-btn:focus,
 a.theme-btn.style-two:not(:hover) {
-  background: #e5bd3a;
+  background: #d4ab2f;
 }
 .theme-btn:not(:hover),
 .theme-btn.style-two:hover,
 a.theme-btn:not(:hover),
 a.theme-btn.style-two:hover {
-  background: #147e7e;
+  background: #e5bd3a;
 }
 .theme-btn.style-three,
 a.theme-btn.style-three {
