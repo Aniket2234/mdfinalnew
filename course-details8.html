@@ -35,6 +35,79 @@
     <link rel="stylesheet" href="assets/css/slick.min.css">
     <!--====== Main Style ======-->
     <link rel="stylesheet" href="assets/css/style.css">
+    
+    <style>
+        /* Mobile Responsive Styles for Course Detail Pages */
+        @media (max-width: 768px) {
+            .course-details-section,
+            .course-content-section {
+                padding: 30px 15px !important;
+            }
+            
+            h1, .course-title {
+                font-size: 1.5rem !important;
+            }
+            
+            h2 {
+                font-size: 1.3rem !important;
+            }
+            
+            h3 {
+                font-size: 1.1rem !important;
+            }
+            
+            p, li {
+                font-size: 0.95rem !important;
+            }
+            
+            .course-image img {
+                max-width: 100%;
+                height: auto;
+            }
+            
+            .btn, .enroll-btn, .cta-button {
+                padding: 12px 25px !important;
+                font-size: 15px !important;
+                width: 100%;
+            }
+            
+            .course-info-box,
+            .module-box,
+            .feature-box {
+                padding: 20px !important;
+                margin-bottom: 15px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .course-details-section,
+            .course-content-section {
+                padding: 20px 10px !important;
+            }
+            
+            h1, .course-title {
+                font-size: 1.3rem !important;
+            }
+            
+            h2 {
+                font-size: 1.1rem !important;
+            }
+            
+            h3 {
+                font-size: 1rem !important;
+            }
+            
+            p, li {
+                font-size: 0.85rem !important;
+            }
+            
+            .course-info-box,
+            .module-box,
+            .feature-box {
+                padding: 15px !important;
+            }
+        }
+    </style>
 
 </head>
 
@@ -74,7 +147,7 @@
 <!-- Header-Upper -->
 <!-- Header Section -->
 <header style="width:100%; background-color:#fff; box-shadow:0 2px 6px rgba(0,0,0,0.1); position:relative; z-index:1000; font-family:'Poppins', sans-serif;">
-  <div style="max-width:1200px; margin:0 auto; display:flex; align-items:center; justify-content:space-between; padding:5px 20px;">
+  <div style="max-width:1200px; margin:0 auto; display:flex; align-items:center; justify-content:space-between; padding:5px 20px; position:relative;">
 
     <!-- Logo -->
     <div style="flex:0 0 auto; display:flex; align-items:center;">
@@ -135,13 +208,14 @@
   </div>
 
   <!-- Mobile Menu Toggle -->
-  <div id="menuToggle" style="display:none; position:absolute; top:18px; right:20px;">
-    <button onclick="toggleMenu()"
-            style="background:none; border:none; cursor:pointer; display:flex; flex-direction:column; justify-content:space-between; width:25px; height:18px;">
-      <span style="display:block; height:3px; background:#111; border-radius:3px;"></span>
-      <span style="display:block; height:3px; background:#111; border-radius:3px;"></span>
-      <span style="display:block; height:3px; background:#111; border-radius:3px;"></span>
-    </button>
+  <!-- Mobile Menu Toggle - Fixed positioning within flex container -->
+    <div id="menuToggle" style="display:none; flex:0 0 auto; background-color:#00796b; padding:10px 12px; border-radius:8px; cursor:pointer;" onclick="toggleMenu()">
+      <div style="display:flex; flex-direction:column; justify-content:space-between; width:24px; height:18px;">
+        <span style="display:block; height:3px; background:#fff; border-radius:3px;"></span>
+        <span style="display:block; height:3px; background:#fff; border-radius:3px;"></span>
+        <span style="display:block; height:3px; background:#fff; border-radius:3px;"></span>
+      </div>
+    </div>
   </div>
 
   <!-- Mobile Navigation -->
@@ -172,12 +246,12 @@
 
       if (width <= 480) {
         desktopNav.style.display = 'none';
-        menuToggle.style.display = 'block';
+        menuToggle.style.display = 'flex';
         desktopBtn.style.display = 'none';
         logo.style.height = '45px';
       } else if (width <= 992) {
         desktopNav.style.display = 'none';
-        menuToggle.style.display = 'block';
+        menuToggle.style.display = 'flex';
         desktopBtn.style.display = 'none';
         logo.style.height = '60px';
       } else {
