@@ -36,6 +36,88 @@
     <!--====== Main Style ======-->
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <style>
+        /* Mobile Responsive Styles */
+        @media (max-width: 768px) {
+            .trial-consultation-section {
+                padding: 30px 0 40px !important;
+            }
+            
+            .trial-hero {
+                padding: 30px 20px !important;
+                border-radius: 12px !important;
+            }
+            
+            .trial-hero h1 {
+                font-size: 28px !important;
+            }
+            
+            .trial-hero p {
+                font-size: 16px !important;
+            }
+            
+            .trial-hero .icon-wrapper {
+                gap: 30px !important;
+            }
+            
+            .booking-form-wrapper {
+                padding: 25px !important;
+            }
+            
+            .section-title h2 {
+                font-size: 24px !important;
+            }
+            
+            .section-title p {
+                font-size: 14px !important;
+            }
+            
+            .form-group label {
+                font-size: 14px !important;
+            }
+            
+            .form-control {
+                padding: 12px 14px !important;
+                font-size: 14px !important;
+            }
+            
+            .info-cards .info-card {
+                padding: 20px !important;
+            }
+            
+            .info-card h4 {
+                font-size: 18px !important;
+            }
+            
+            .info-card p {
+                font-size: 13px !important;
+            }
+            
+            .btn-submit {
+                padding: 14px 30px !important;
+                font-size: 15px !important;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .trial-hero h1 {
+                font-size: 24px !important;
+            }
+            
+            .trial-hero p {
+                font-size: 14px !important;
+            }
+            
+            .booking-form-wrapper {
+                padding: 20px !important;
+            }
+            
+            .section-title h2 {
+                font-size: 20px !important;
+            }
+        }
+    </style>
+
 </head>
 
 <body>
@@ -47,7 +129,7 @@
 
         <!-- Header Section -->
 <header style="width:100%; background-color:#fff; box-shadow:0 2px 6px rgba(0,0,0,0.1); position:relative; z-index:1000; font-family:'Poppins', sans-serif;">
-  <div style="max-width:1200px; margin:0 auto; display:flex; align-items:center; justify-content:space-between; padding:5px 20px;">
+  <div style="max-width:1200px; margin:0 auto; display:flex; align-items:center; justify-content:space-between; padding:5px 20px; position:relative;">
 
     <!-- Logo -->
     <div style="flex:0 0 auto; display:flex; align-items:center;">
@@ -105,16 +187,15 @@
         Book a Consult
       </a>
     </div>
-  </div>
 
-  <!-- Mobile Menu Toggle -->
-  <div id="menuToggle" style="display:none; position:absolute; top:18px; right:20px;">
-    <button onclick="toggleMenu()"
-            style="background:none; border:none; cursor:pointer; display:flex; flex-direction:column; justify-content:space-between; width:25px; height:18px;">
-      <span style="display:block; height:3px; background:#111; border-radius:3px;"></span>
-      <span style="display:block; height:3px; background:#111; border-radius:3px;"></span>
-      <span style="display:block; height:3px; background:#111; border-radius:3px;"></span>
-    </button>
+    <!-- Mobile Menu Toggle - Fixed positioning within flex container -->
+    <div id="menuToggle" style="display:none; flex:0 0 auto; background-color:#00796b; padding:10px 12px; border-radius:8px; cursor:pointer;" onclick="toggleMenu()">
+      <div style="display:flex; flex-direction:column; justify-content:space-between; width:24px; height:18px;">
+        <span style="display:block; height:3px; background:#fff; border-radius:3px;"></span>
+        <span style="display:block; height:3px; background:#fff; border-radius:3px;"></span>
+        <span style="display:block; height:3px; background:#fff; border-radius:3px;"></span>
+      </div>
+    </div>
   </div>
 
   <!-- Mobile Navigation -->
@@ -145,12 +226,12 @@
 
       if (width <= 480) {
         desktopNav.style.display = 'none';
-        menuToggle.style.display = 'block';
+        menuToggle.style.display = 'flex';
         desktopBtn.style.display = 'none';
         logo.style.height = '45px';
       } else if (width <= 992) {
         desktopNav.style.display = 'none';
-        menuToggle.style.display = 'block';
+        menuToggle.style.display = 'flex';
         desktopBtn.style.display = 'none';
         logo.style.height = '60px';
       } else {
