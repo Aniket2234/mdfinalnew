@@ -12037,6 +12037,8 @@ blockquote .blockquote-footer:before {
 /*******************************************************/
 .footer-title {
   margin-bottom: 25px;
+  color: #ffffff;
+  font-weight: 600;
 }
 
 .footer-widget {
@@ -12044,6 +12046,7 @@ blockquote .blockquote-footer:before {
 }
 .footer-widget p {
   color: #ffffff;
+  font-weight: 500;
 }
 
 .menu-widget ul li {
@@ -12051,6 +12054,7 @@ blockquote .blockquote-footer:before {
 }
 .menu-widget ul li a {
   color: #ffffff;
+  font-weight: 500;
   position: relative;
   padding-left: 20px;
 }
@@ -12081,6 +12085,8 @@ blockquote .blockquote-footer:before {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  color: #ffffff;
+  font-weight: 500;
 }
 .contact-info-widget ul li:not(:last-child) {
   margin-bottom: 10px;
@@ -12136,9 +12142,13 @@ blockquote .blockquote-footer:before {
 .copyright-inner p {
   margin-right: 25px;
   margin-bottom: 6px;
+  color: #ffffff;
+  font-weight: 500;
 }
 .copyright-inner p a {
   text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 600;
 }
 .copyright-inner .footer-menu {
   display: -webkit-box;
@@ -12154,10 +12164,12 @@ blockquote .blockquote-footer:before {
 }
 .copyright-inner .footer-menu li a {
   color: #ffffff;
+  font-weight: 500;
 }
 .copyright-inner .footer-menu li a:hover {
-  color: white;
+  color: #ffffff;
   text-decoration: underline;
+  font-weight: 600;
 }
 .copyright-inner .footer-menu li:not(:last-child) {
   margin-right: 25px;
