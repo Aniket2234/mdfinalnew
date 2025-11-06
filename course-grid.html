@@ -36,6 +36,95 @@
     <!--====== Main Style ======-->
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <style>
+        /* Mobile Responsive Styles for What I Offer Page */
+        @media (max-width: 768px) {
+            section {
+                padding: 40px 15px !important;
+            }
+            
+            h1 {
+                font-size: 1.5rem !important;
+            }
+            
+            p {
+                font-size: 0.95rem !important;
+            }
+            
+            /* Search Bar */
+            input[type="text"] {
+                padding: 14px 50px 14px 20px !important;
+                font-size: 14px !important;
+            }
+            
+            /* Course Count and Buttons */
+            .course-count-section {
+                flex-direction: column;
+                align-items: flex-start !important;
+            }
+            
+            /* Grid View Buttons */
+            button {
+                padding: 8px 15px !important;
+                font-size: 14px !important;
+            }
+            
+            /* Course Grid - Switch to 1 column on mobile */
+            .course-grid-3,
+            .course-grid-2 {
+                grid-template-columns: 1fr !important;
+                gap: 20px !important;
+            }
+            
+            /* Course Cards */
+            .course-card {
+                margin-bottom: 20px;
+            }
+            
+            .course-card img {
+                max-width: 100%;
+                height: auto;
+            }
+            
+            .course-card h3 {
+                font-size: 1.1rem !important;
+            }
+            
+            .course-card p {
+                font-size: 0.9rem !important;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            section {
+                padding: 30px 10px !important;
+            }
+            
+            h1 {
+                font-size: 1.3rem !important;
+            }
+            
+            p {
+                font-size: 0.85rem !important;
+            }
+            
+            input[type="text"] {
+                padding: 12px 45px 12px 18px !important;
+                font-size: 13px !important;
+            }
+            
+            button {
+                padding: 7px 12px !important;
+                font-size: 13px !important;
+            }
+            
+            .course-grid-3,
+            .course-grid-2 {
+                gap: 15px !important;
+            }
+        }
+    </style>
+
 </head>
 
 <body>
@@ -46,7 +135,7 @@
 
 <!-- Header Section -->
 <header style="width:100%; background-color:#fff; box-shadow:0 2px 6px rgba(0,0,0,0.1); position:relative; z-index:1000; font-family:'Poppins', sans-serif;">
-  <div style="max-width:1200px; margin:0 auto; display:flex; align-items:center; justify-content:space-between; padding:5px 20px;">
+  <div style="max-width:1200px; margin:0 auto; display:flex; align-items:center; justify-content:space-between; padding:5px 20px; position:relative;">
 
     <!-- Logo -->
     <div style="flex:0 0 auto; display:flex; align-items:center;">
@@ -104,16 +193,15 @@
         Book a Consult
       </a>
     </div>
-  </div>
 
-  <!-- Mobile Menu Toggle -->
-  <div id="menuToggle" style="display:none; position:absolute; top:18px; right:20px;">
-    <button onclick="toggleMenu()"
-            style="background:none; border:none; cursor:pointer; display:flex; flex-direction:column; justify-content:space-between; width:25px; height:18px;">
-      <span style="display:block; height:3px; background:#111; border-radius:3px;"></span>
-      <span style="display:block; height:3px; background:#111; border-radius:3px;"></span>
-      <span style="display:block; height:3px; background:#111; border-radius:3px;"></span>
-    </button>
+    <!-- Mobile Menu Toggle - Fixed positioning within flex container -->
+    <div id="menuToggle" style="display:none; flex:0 0 auto; background-color:#00796b; padding:10px 12px; border-radius:8px; cursor:pointer;" onclick="toggleMenu()">
+      <div style="display:flex; flex-direction:column; justify-content:space-between; width:24px; height:18px;">
+        <span style="display:block; height:3px; background:#fff; border-radius:3px;"></span>
+        <span style="display:block; height:3px; background:#fff; border-radius:3px;"></span>
+        <span style="display:block; height:3px; background:#fff; border-radius:3px;"></span>
+      </div>
+    </div>
   </div>
 
   <!-- Mobile Navigation -->
@@ -144,20 +232,20 @@
 
       if (width <= 480) {
         desktopNav.style.display = 'none';
-        menuToggle.style.display = 'block';
+        menuToggle.style.display = 'flex';
         desktopBtn.style.display = 'none';
-        logo.style.height = '45px'; // mobile
+        logo.style.height = '45px';
       } else if (width <= 992) {
         desktopNav.style.display = 'none';
-        menuToggle.style.display = 'block';
+        menuToggle.style.display = 'flex';
         desktopBtn.style.display = 'none';
-        logo.style.height = '60px'; // tablet
+        logo.style.height = '60px';
       } else {
         desktopNav.style.display = 'block';
         menuToggle.style.display = 'none';
         mobileNav.style.display = 'none';
         desktopBtn.style.display = 'block';
-        logo.style.height = '95px'; // desktop
+        logo.style.height = '95px';
       }
     }
 
